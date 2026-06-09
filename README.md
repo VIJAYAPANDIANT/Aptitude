@@ -70,6 +70,7 @@ This module strengthens analytical skills, critical thinking, deduction, and pat
 | **Puzzles & Scheduling** | Multi-variable puzzles, floor-based, and day/month scheduling. | 10 | [View Note](./Puzzles_Scheduling.md) |
 | **Syllogism** | Venn diagram analysis, statements, and logical deductions. | 10 | [View Note](./Syllogism.md) |
 | **Input & Output** | Step-by-step alphanumeric sequence sorting and rearrangement patterns. | 10 | [View Note](./Input_Output.md) |
+| **Clocks & Calendars** | Clock hands angular distance, clock gains/losses, leap years, odd days, and calendar references. | 10 | [View Note](./Clocks_Calendars.md) |
 
 ---
 
