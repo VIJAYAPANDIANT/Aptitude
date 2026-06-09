@@ -55,6 +55,65 @@ Decide which of the conclusions follow logically from the statements.
 
 Decide which of the conclusions follow logically from the statements.
 
+### Problem 3
+**Statements**:
+- All keys are locks.
+- All locks are doors.
+- Some doors are windows.
+
+**Conclusions**:
+1. Some locks are windows.
+2. All keys are doors.
+
+Decide which of the conclusions follow logically from the statements.
+
+### Problem 4
+**Statements**:
+- Some actors are singers.
+- All singers are dancers.
+- Some dancers are directors.
+
+**Conclusions**:
+1. Some actors are dancers.
+2. Some singers are directors.
+
+Decide which of the conclusions follow logically from the statements.
+
+### Problem 5
+**Statements**:
+- All apples are bananas.
+- No banana is a cherry.
+- Some cherries are dates.
+
+**Conclusions**:
+1. Some dates being bananas is a possibility.
+2. All apples being cherries is a possibility.
+
+Decide which of the conclusions follow logically from the statements.
+
+### Problem 6
+**Statements**:
+- Some laptops are keyboards.
+- No keyboard is a mouse.
+
+**Conclusions**:
+1. All laptops are mice.
+2. Some laptops are not mice.
+
+Decide which of the conclusions follow logically from the statements.
+
+### Problem 7
+**Statements**:
+- All cups are saucers.
+- No saucer is a spoon.
+- All spoons are forks.
+
+**Conclusions**:
+1. No cup is a spoon.
+2. Some forks are spoons.
+
+Decide which of the conclusions follow logically from the statements.
+
 ---
 
 ## 4. Step-by-Step Solutions
@@ -88,3 +147,62 @@ Decide which of the conclusions follow logically from the statements.
    - **Conclusion 2**: "No animal is a cat"
      - In the basic diagram, `Animal` and `Cat` do not touch. However, we can easily draw an alternative diagram where `Animal` intersects `Cat` without letting `Dog` touch `Cat`. Thus, this is not definitely true.
 4. **Answer**: **Only Conclusion 1 follows**.
+
+### Solution 3
+1. **Draw the Venn Diagram**:
+   - "All keys are locks" $\to$ Circle `Key` is inside `Lock`.
+   - "All locks are doors" $\to$ Circle `Lock` (and thus `Key`) is inside `Door`.
+   - "Some doors are windows" $\to$ Circle `Door` overlaps with `Window`.
+2. **Evaluate Conclusions**:
+   - **Conclusion 1**: "Some locks are windows"
+     - In the basic representation, `Window` only overlaps with `Door` but not `Lock`. Hence, this is not definitely true.
+   - **Conclusion 2**: "All keys are doors"
+     - Since `Key` is inside `Lock` and `Lock` is inside `Door`, all keys must be inside `Door`. This is definitely true.
+3. **Answer**: **Only Conclusion 2 follows**.
+
+### Solution 4
+1. **Draw the Venn Diagram**:
+   - "Some actors are singers" $\to$ Circle `Actor` overlaps with `Singer`.
+   - "All singers are dancers" $\to$ Circle `Singer` is entirely inside `Dancer`.
+   - "Some dancers are directors" $\to$ Circle `Dancer` overlaps with `Director`.
+2. **Evaluate Conclusions**:
+   - **Conclusion 1**: "Some actors are dancers"
+     - Since the intersection of `Actor` and `Singer` lies within `Singer`, and all of `Singer` is inside `Dancer`, that intersection must also be inside `Dancer`. Hence, some actors are definitely dancers. (True)
+   - **Conclusion 2**: "Some singers are directors"
+     - In the basic diagram, `Director` overlaps with `Dancer` but does not touch `Singer`. Hence, this is not definitely true.
+3. **Answer**: **Only Conclusion 1 follows**.
+
+### Solution 5
+1. **Draw the Venn Diagram**:
+   - "All apples are bananas" $\to$ Circle `Apple` is inside `Banana`.
+   - "No banana is a cherry" $\to$ `Banana` and `Cherry` circles are disjoint. Thus, `Apple` and `Cherry` are also disjoint.
+   - "Some cherries are dates" $\to$ Circle `Cherry` overlaps with `Date`.
+2. **Evaluate Conclusions**:
+   - **Conclusion 1**: "Some dates being bananas is a possibility"
+     - Although the part of `Date` that overlaps with `Cherry` cannot overlap with `Banana` (since no cherry is a banana), the remaining part of the `Date` circle is free to overlap with `Banana`. Thus, this is a valid possibility. (True)
+   - **Conclusion 2**: "All apples being cherries is a possibility"
+     - Since all apples are inside `Banana` and no banana can touch `Cherry`, no apple can ever touch `Cherry`. Thus, this is impossible. (False)
+3. **Answer**: **Only Conclusion 1 follows**.
+
+### Solution 6
+1. **Draw the Venn Diagram**:
+   - "Some laptops are keyboards" $\to$ Circle `Laptop` overlaps with `Keyboard`.
+   - "No keyboard is a mouse" $\to$ `Keyboard` and `Mouse` circles are disjoint.
+2. **Evaluate Conclusions**:
+   - **Conclusion 1**: "All laptops are mice"
+     - Since some laptops are keyboards, and no keyboard can be a mouse, those laptops that are keyboards can never be mice. Thus, all laptops can never be mice. (False)
+   - **Conclusion 2**: "Some laptops are not mice"
+     - The portion of `Laptop` that overlaps with `Keyboard` cannot overlap with `Mouse`. Thus, there is definitely a portion of laptops that is not mice. (True)
+3. **Answer**: **Only Conclusion 2 follows**.
+
+### Solution 7
+1. **Draw the Venn Diagram**:
+   - "All cups are saucers" $\to$ Circle `Cup` is inside `Saucer`.
+   - "No saucer is a spoon" $\to$ `Saucer` and `Spoon` circles are disjoint. Thus, `Cup` and `Spoon` are also disjoint.
+   - "All spoons are forks" $\to$ Circle `Spoon` is inside `Fork`.
+2. **Evaluate Conclusions**:
+   - **Conclusion 1**: "No cup is a spoon"
+     - Since all cups are inside `Saucer`, and `Saucer` is completely disjoint from `Spoon`, no cup can touch `Spoon`. This is definitely true.
+   - **Conclusion 2**: "Some forks are spoons"
+     - Since all spoons are inside `Fork`, the area occupied by spoons belongs to forks as well. Hence, some forks are definitely spoons. (True)
+3. **Answer**: **Both Conclusion 1 and Conclusion 2 follow**.

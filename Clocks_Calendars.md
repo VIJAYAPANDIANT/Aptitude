@@ -65,6 +65,21 @@ What was the day of the week on 15th August 1947?
 ### Problem 3
 If 9th June 2026 is a Tuesday, what day of the week will 9th June 2030 be?
 
+### Problem 4
+At what time between 4 and 5 o'clock will the hands of a clock be together (coincide)?
+
+### Problem 5
+A clock is set right at 5 a.m. The clock loses 16 minutes in 24 hours. What will be the true time when the clock indicates 10 p.m. on the 4th day?
+
+### Problem 6
+If the 1st of January 2001 was a Monday, what day of the week was the 1st of January 2002?
+
+### Problem 7
+How many times do the hands of a clock stand at right angles to each other in a day (24 hours)?
+
+### Problem 8
+What is the number of odd days in 400 years?
+
 ---
 
 ## 4. Step-by-Step Solutions
@@ -117,3 +132,63 @@ If 9th June 2026 is a Tuesday, what day of the week will 9th June 2030 be?
    - Add 5 days to Tuesday:
      - Tuesday + 5 days = Sunday.
 5. **Answer**: 9th June 2030 will be a **Sunday**.
+
+### Solution 4
+1. **Understand hand coincidence conditions**:
+   - Hands coincide when the angle $\theta = 0$.
+   - The time is between 4 and 5, so $H = 4$. Let the minute be $M$.
+2. **Apply the Clock Angle formula**:
+   - $\theta = \left| 30H - \frac{11}{2}M \right| \implies 0 = 30(4) - \frac{11}{2}M$
+   - $\frac{11}{2}M = 120 \implies M = \frac{240}{11} = 21\frac{9}{11}$ minutes.
+3. **Answer**: The hands will coincide at **$21\frac{9}{11}$ minutes past 4**.
+
+### Solution 5
+1. **Calculate total elapsed time indicated by the clock**:
+   - Start: 5 a.m. Day 1.
+   - End: 10 p.m. Day 4.
+   - Day 1 (5 a.m.) to Day 4 (5 a.m.) $= 3 \text{ days} = 72 \text{ hours}$.
+   - Day 4 (5 a.m.) to Day 4 (10 p.m.) $= 17 \text{ hours}$.
+   - Total indicated time $= 72 + 17 = 89$ hours.
+2. **Determine the relation between incorrect and correct time**:
+   - The clock loses 16 minutes in 24 hours.
+   - Indicated time in 24 hours $= 23 \text{ hours } 44 \text{ minutes} = 23\frac{44}{60} \text{ hours} = 23\frac{11}{15} \text{ hours} = \frac{356}{15}$ hours.
+   - Thus, $\frac{356}{15}$ hours of incorrect clock $= 24$ hours of correct clock.
+3. **Calculate the correct time for 89 indicated hours**:
+   - $\text{True time} = 89 \times \frac{24}{356/15} = 89 \times \frac{24 \times 15}{356} = 89 \times \frac{360}{356}$.
+   - Note that $356 = 4 \times 89$.
+   - $\text{True time} = \frac{360}{4} = 90$ hours.
+4. **Determine the true end time**:
+   - The correct elapsed time is 90 hours (which is 1 hour more than the indicated 89 hours).
+   - Therefore, the true time is 1 hour ahead of 10 p.m.
+   - True time $= 11$ p.m.
+5. **Answer**: The true time is **11 p.m.**.
+
+### Solution 6
+1. **Analyze year differences**:
+   - 2001 is an ordinary year (not divisible by 4).
+   - Therefore, 2001 has 365 days.
+2. **Calculate odd days**:
+   - 365 days $= 52 \text{ weeks} + 1 \text{ odd day}$.
+3. **Determine the new day**:
+   - Monday + 1 odd day = Tuesday.
+4. **Answer**: 1st of January 2002 was a **Tuesday**.
+
+### Solution 7
+1. **Analyze clock right angle occurrences**:
+   - In 1 hour, the hands are at right angles twice (except between 2-3 and 8-9, where they are at right angle only once each, or rather, the transitions at 3:00 and 9:00 are shared).
+   - Specifically:
+     - In a 12-hour period, right angles occur 22 times.
+2. **Calculate for a full day (24 hours)**:
+   - In 24 hours, they will be at right angles $22 \times 2 = 44$ times.
+3. **Answer**: The hands are at right angles **44 times** in a day.
+
+### Solution 8
+1. **Break down 400 years**:
+   - 100 years $= 5$ odd days.
+   - 200 years $= 3$ odd days.
+   - 300 years $= 1$ odd day.
+2. **Calculate for 400 years**:
+   - 400 years $= 4 \times (\text{odd days in 100 years}) + 1 \text{ leap day (since the 400th year is a leap year)}$.
+   - Odd days $= 4 \times 5 + 1 = 21$ days.
+   - $21 \div 7 = 3$ weeks with remainder $0$ odd days.
+3. **Answer**: The number of odd days in 400 years is **0**.

@@ -54,6 +54,25 @@ $$3^{x-1} + 3^{x+1} = 90$$
 Simplify by rationalizing:
 $$\frac{5 + \sqrt{3}}{5 - \sqrt{3}}$$
 
+### Problem 4
+Evaluate using VBODMAS:
+$$36 - [18 - \{14 - (15 - 4 \div 2 \times 2)\}]$$
+
+### Problem 5
+If $5^{a+b} = 3125$ and $5^{a-b} = 5$, find the value of $a^2 - b^2$.
+
+### Problem 6
+Simplify the expression:
+$$\sqrt{5 + 2\sqrt{6}} + \sqrt{5 - 2\sqrt{6}}$$
+
+### Problem 7
+Evaluate the expression:
+$$\frac{(2.3)^3 - 0.027}{(2.3)^2 + 0.69 + 0.09}$$
+
+### Problem 8
+Find the value of $x$ if:
+$$\sqrt{2^x} = 64$$
+
 ---
 
 ## 4. Step-by-Step Solutions
@@ -100,3 +119,69 @@ $$\frac{5 + \sqrt{3}}{5 - \sqrt{3}}$$
 4. **Simplify the fraction**:
    $$\frac{28 + 10\sqrt{3}}{22} = \frac{2(14 + 5\sqrt{3})}{22} = \frac{14 + 5\sqrt{3}}{11}$$
 5. **Answer**: The simplified value is **$\frac{14 + 5\sqrt{3}}{11}$**.
+
+### Solution 4
+1. **Identify order of operations (VBODMAS)**:
+   - Expression: $36 - [18 - \{14 - (15 - 4 \div 2 \times 2)\}]$.
+2. **Solve the innermost parentheses `()`**:
+   - Inside: $15 - 4 \div 2 \times 2$.
+   - Perform Division first: $4 \div 2 = 2 \implies 15 - 2 \times 2$.
+   - Perform Multiplication next: $2 \times 2 = 4 \implies 15 - 4 = 11$.
+3. **Solve the braces `{}`**:
+   - Inside: $14 - 11 = 3$.
+4. **Solve the square brackets `[]`**:
+   - Inside: $18 - 3 = 15$.
+5. **Solve the final subtraction**:
+   - $36 - 15 = 21$.
+6. **Answer**: The value of the expression is **21**.
+
+### Solution 5
+1. **Analyze indices**:
+   - We are given:
+     - $5^{a+b} = 3125$. Since $3125 = 5^5$, we get $a + b = 5$.
+     - $5^{a-b} = 5 = 5^1$, we get $a - b = 1$.
+2. **Apply algebraic identity**:
+   - We need to find $a^2 - b^2$.
+   - Recall the identity: $a^2 - b^2 = (a + b)(a - b)$.
+3. **Substitute the values**:
+   - $a^2 - b^2 = 5 \times 1 = 5$.
+4. **Answer**: The value of $a^2 - b^2$ is **5**.
+
+### Solution 6
+1. **Simplify each square root term**:
+   - Let's express the terms inside the square root as perfect squares.
+   - For $\sqrt{5 + 2\sqrt{6}}$:
+     - We want to write $5 + 2\sqrt{6}$ in the form $(p + q)^2 = p^2 + q^2 + 2pq$.
+     - Let $p = \sqrt{3}$ and $q = \sqrt{2}$.
+     - Then $p^2 + q^2 = 3 + 2 = 5$, and $2pq = 2\sqrt{6}$.
+     - Thus, $5 + 2\sqrt{6} = (\sqrt{3} + \sqrt{2})^2$.
+     - So, $\sqrt{5 + 2\sqrt{6}} = \sqrt{3} + \sqrt{2}$.
+   - Similarly, for $\sqrt{5 - 2\sqrt{6}}$:
+     - $5 - 2\sqrt{6} = (\sqrt{3} - \sqrt{2})^2$.
+     - So, $\sqrt{5 - 2\sqrt{6}} = \sqrt{3} - \sqrt{2}$ (since $\sqrt{3} > \sqrt{2}$).
+2. **Add the simplified terms**:
+   - $(\sqrt{3} + \sqrt{2}) + (\sqrt{3} - \sqrt{2}) = 2\sqrt{3}$.
+3. **Answer**: The simplified value is **$2\sqrt{3}$**.
+
+### Solution 7
+1. **Identify algebraic pattern**:
+   - Look at the numerator: $(2.3)^3 - 0.027$.
+   - Since $0.027 = (0.3)^3$, the numerator is of the form $x^3 - y^3$, where $x = 2.3$ and $y = 0.3$.
+   - Use identity: $x^3 - y^3 = (x - y)(x^2 + xy + y^2)$.
+2. **Expand the terms**:
+   - $(2.3)^3 - (0.3)^3 = (2.3 - 0.3)((2.3)^2 + 2.3 \times 0.3 + (0.3)^2)$.
+   - Summing terms: $2.3 \times 0.3 = 0.69$, and $(0.3)^2 = 0.09$.
+   - So the numerator $= 2.0 \times ((2.3)^2 + 0.69 + 0.09)$.
+3. **Divide by the denominator**:
+   - The expression is:
+     $$\frac{2.0 \times ((2.3)^2 + 0.69 + 0.09)}{(2.3)^2 + 0.69 + 0.09} = 2.0$$
+4. **Answer**: The value is **2** (or **2.0**).
+
+### Solution 8
+1. **Write with exponent notation**:
+   - $\sqrt{2^x} = (2^x)^{1/2} = 2^{x/2}$.
+2. **Convert the RHS to base 2**:
+   - $64 = 2^6$.
+3. **Equate the exponents**:
+   - $2^{x/2} = 2^6 \implies \frac{x}{2} = 6 \implies x = 12$.
+4. **Answer**: The value of $x$ is **12**.

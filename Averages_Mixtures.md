@@ -52,6 +52,21 @@ In what ratio must a grocer mix tea costing Rs. 180 per kg with tea costing Rs. 
 ### Problem 3
 A container contains 80 liters of pure milk. From this container, 8 liters of milk was taken out and replaced with water. This process was repeated two more times. How much pure milk is left in the container now?
 
+### Problem 4
+The average of 11 numbers is 60. If the average of the first six numbers is 58 and that of the last six numbers is 63, find the sixth number.
+
+### Problem 5
+A batsman has a certain average of runs for 11 innings. In the 12th inning, he makes a score of 90 runs and thereby increases his average by 5. Find his average after the 12th inning.
+
+### Problem 6
+A vessel contains 60 liters of a mixture of milk and water in the ratio $3 : 2$. How much water (in liters) must be added to this mixture so that the ratio of milk to water becomes $1 : 1$?
+
+### Problem 7
+In what ratio must water be mixed with milk to gain $16\frac{2}{3}\%$ by selling the mixture at cost price?
+
+### Problem 8
+A merchant has 1000 kg of sugar, part of which he sells at 8% profit and the rest at 18% profit. He gains 14% on the whole. Find the quantity sold at 18% profit.
+
 ---
 
 ## 4. Step-by-Step Solutions
@@ -87,3 +102,70 @@ A container contains 80 liters of pure milk. From this container, 8 liters of mi
    $$\text{Remaining Milk} = 80 \left( 1 - \frac{8}{80} \right)^3 = 80 \left( 1 - 0.1 \right)^3 = 80 \left( 0.9 \right)^3$$
    $$\text{Remaining Milk} = 80 \times 0.729 = 58.32 \text{ liters}$$
 3. **Answer**: There are **58.32 liters** of pure milk left.
+
+### Solution 4
+1. **Understand the terms**:
+   - Total sum of 11 numbers $= 11 \times 60 = 660$.
+   - Sum of first 6 numbers $= 6 \times 58 = 348$.
+   - Sum of last 6 numbers $= 6 \times 63 = 378$.
+2. **Find the overlap**:
+   - In the sum of the first six and last six numbers, the sixth number is counted twice.
+   - Sum of (first 6 + last 6) $= 348 + 378 = 726$.
+   - Sixth number $= \text{Sum of 12 numbers} - \text{Sum of 11 numbers} = 726 - 660 = 66$.
+3. **Answer**: The sixth number is **66**.
+
+### Solution 5
+1. **Set up the variables**:
+   - Let the average for 11 innings be $x$.
+   - Total runs in 11 innings $= 11x$.
+2. **Formulate equation with 12th inning**:
+   - Score in 12th inning $= 90$ runs.
+   - Total runs after 12 innings $= 11x + 90$.
+   - New average after 12 innings $= x + 5$.
+   - Total runs after 12 innings can also be written as $= 12(x + 5)$.
+   - Therefore, $11x + 90 = 12(x + 5)$.
+3. **Solve for $x$**:
+   - $11x + 90 = 12x + 60$
+   - $x = 30$ (average of 11 innings).
+4. **Calculate new average**:
+   - Average after 12th inning $= 30 + 5 = 35$ runs.
+5. **Answer**: His average after the 12th inning is **35**.
+
+### Solution 6
+1. **Find initial quantities**:
+   - Total mixture $= 60$ liters.
+   - Ratio of milk to water $= 3 : 2$.
+   - Quantity of milk $= 60 \times \frac{3}{5} = 36$ liters.
+   - Quantity of water $= 60 \times \frac{2}{5} = 24$ liters.
+2. **Formulate the target ratio**:
+   - Let $w$ liters of water be added.
+   - New quantity of water $= 24 + w$.
+   - New ratio of milk to water $= 1 : 1$.
+   - Therefore, $\frac{36}{24 + w} = \frac{1}{1} \implies 36 = 24 + w \implies w = 12$ liters.
+3. **Answer**: The amount of water to be added is **12 liters**.
+
+### Solution 7
+1. **Understand CP and Selling Price**:
+   - Let the Cost Price (CP) of 1 liter of pure milk be Rs. 1.
+   - To gain $16\frac{2}{3}\%$ ($=\frac{50}{3}\% = \frac{1}{6}$ of CP) by selling at CP (Rs. 1 per liter):
+     - The Selling Price (SP) of the mixture is Rs. 1 per liter.
+     - Therefore, the CP of the mixture must be $\frac{\text{SP}}{1 + \text{Gain}\%} = \frac{1}{1 + 1/6} = \text{Rs. } \frac{6}{7}$ per liter.
+2. **Use alligation or ratio**:
+   - Cost of water $= 0$.
+   - Cost of milk $= 1$.
+   - Mean price $= \frac{6}{7}$.
+   - Using Alligation:
+     - Quantity of Water : Quantity of Milk $= (1 - 6/7) : (6/7 - 0) = \frac{1}{7} : \frac{6}{7} = 1 : 6$.
+3. **Answer**: Water and milk must be mixed in the ratio **$1 : 6$**.
+
+### Solution 8
+1. **Identify the variables and apply Alligation**:
+   - Profit on part 1 ($C$) $= 8\%$
+   - Profit on part 2 ($D$) $= 18\%$
+   - Average profit ($M$) $= 14\%$
+   - Ratio of quantity sold at 8% to quantity sold at 18%:
+     $$\frac{\text{Quantity at 8\%}}{\text{Quantity at 18\%}} = \frac{18 - 14}{14 - 8} = \frac{4}{6} = \frac{2}{3}$$
+2. **Calculate the quantity sold at 18% profit**:
+   - Total sugar $= 1000$ kg.
+   - Quantity at 18% profit $= 1000 \times \frac{3}{2+3} = 1000 \times \frac{3}{5} = 600$ kg.
+3. **Answer**: The quantity sold at 18% profit is **600 kg**.

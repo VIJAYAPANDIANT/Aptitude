@@ -55,6 +55,21 @@ A sum of money doubles itself in 5 years at a certain rate of compound interest.
 ### Problem 3
 A loan of Rs. 10,250 is to be paid back in two equal annual installments at 5% per annum compound interest. Calculate the value of each installment.
 
+### Problem 4
+A sum of money at simple interest amounts to Rs. 815 in 3 years and to Rs. 854 in 4 years. Find the principal sum.
+
+### Problem 5
+At what rate percent per annum compound interest will a sum of Rs. 1,000 amount to Rs. 1,331 in 3 years?
+
+### Problem 6
+Find the compound interest on Rs. 10,000 for 1 year at 20% per annum compounding half-yearly.
+
+### Problem 7
+A sum of Rs. 12,000 is deposited at simple interest of 10% per annum. Another sum of Rs. 15,000 is deposited at simple interest of 12% per annum. Find the total interest earned after 3 years.
+
+### Problem 8
+A sum of money triples itself in 10 years at simple interest. Find the rate of interest per annum.
+
 ---
 
 ## 4. Step-by-Step Solutions
@@ -99,3 +114,67 @@ A loan of Rs. 10,250 is to be paid back in two equal annual installments at 5% p
    - Simplify: $\frac{10,250}{820} = 12.5$.
    $$x = 12.5 \times 441 = 5,512.50$$
 4. **Answer**: Each installment is **Rs. 5,512.50**.
+
+### Solution 4
+1. **Analyze simple interest behavior**:
+   - Simple interest is constant every year.
+   - Sum in 3 years $= \text{Principal} + \text{SI for 3 years} = 815$.
+   - Sum in 4 years $= \text{Principal} + \text{SI for 4 years} = 854$.
+2. **Calculate interest for 1 year**:
+   - Interest for 1 year $= 854 - 815 = \text{Rs. } 39$.
+3. **Calculate Principal ($P$)**:
+   - Interest for 3 years $= 39 \times 3 = \text{Rs. } 117$.
+   - Principal $= \text{Amount in 3 years} - \text{SI for 3 years}$
+     $$P = 815 - 117 = \text{Rs. } 698$$
+4. **Answer**: The principal sum is **Rs. 698**.
+
+### Solution 5
+1. **Set up the variables**:
+   - Principal $P = 1,000$.
+   - Amount $A = 1,331$.
+   - Time $n = 3$ years.
+2. **Use the compound interest amount formula**:
+   $$A = P \left(1 + \frac{R}{100}\right)^n$$
+   $$1331 = 1000 \left(1 + \frac{R}{100}\right)^3$$
+   $$\frac{1331}{1000} = \left(1 + \frac{R}{100}\right)^3$$
+3. **Solve for $R$**:
+   - Note that $\frac{1331}{1000} = \left(\frac{11}{10}\right)^3$.
+   - Taking cube root on both sides:
+     $$\frac{11}{10} = 1 + \frac{R}{100} \implies 1.1 = 1 + \frac{R}{100}$$
+     $$\frac{R}{100} = 0.1 \implies R = 10\%$$
+4. **Answer**: The rate of interest is **10% per annum**.
+
+### Solution 6
+1. **Identify the parameters for semi-annual compounding**:
+   - Principal $P = 10,000$.
+   - Annual Rate $R = 20\%$, so rate per half-year $R' = \frac{20}{2} = 10\%$.
+   - Time $n = 1$ year, which contains $t = 2$ half-years.
+2. **Calculate the final amount**:
+   $$A = P \left(1 + \frac{R'}{100}\right)^t = 10,000 \left(1 + \frac{10}{100}\right)^2$$
+   $$A = 10,000 \times (1.1)^2 = 10,000 \times 1.21 = 12,100$$
+3. **Calculate compound interest**:
+   $$\text{CI} = A - P = 12,100 - 10,000 = 2,100$$
+4. **Answer**: The compound interest is **Rs. 2,100**.
+
+### Solution 7
+1. **Find interest from first deposit**:
+   - $P_1 = 12,000, R_1 = 10\%, T_1 = 3$.
+   - $\text{SI}_1 = \frac{12,000 \times 10 \times 3}{100} = 3,600$.
+2. **Find interest from second deposit**:
+   - $P_2 = 15,000, R_2 = 12\%, T_2 = 3$.
+   - $\text{SI}_2 = \frac{15,000 \times 12 \times 3}{100} = 5,400$.
+3. **Sum the interests**:
+   - $\text{Total Interest} = \text{SI}_1 + \text{SI}_2 = 3,600 + 5,400 = 9,000$.
+4. **Answer**: The total interest earned is **Rs. 9,000**.
+
+### Solution 8
+1. **Set up the variables**:
+   - Let principal be $P$.
+   - Since the money triples, Amount $A = 3P$.
+   - Simple Interest $\text{SI} = A - P = 3P - P = 2P$.
+2. **Apply the SI formula**:
+   - Time $T = 10$ years.
+   - $\text{SI} = \frac{P \times R \times T}{100}$
+     $$2P = \frac{P \times R \times 10}{100}$$
+     $$2 = \frac{R}{10} \implies R = 20\%$$
+3. **Answer**: The rate of interest is **20% per annum**.

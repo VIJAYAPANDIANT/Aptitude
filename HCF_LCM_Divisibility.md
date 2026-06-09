@@ -51,6 +51,21 @@ Find the smallest 4-digit number which when divided by 12, 15, 18, and 27 leaves
 ### Problem 3
 If the number $5432Y7$ is divisible by 9, find the digit $Y$.
 
+### Problem 4
+Three bells toll together at intervals of 9, 12, and 15 minutes respectively. If they toll together now, after how many hours will they toll together next?
+
+### Problem 5
+Find the greatest number that will divide 148, 246, and 623 leaving remainders 4, 6, and 11 respectively.
+
+### Problem 6
+What is the least number of square tiles required to pave the floor of a room of length 15 m 17 cm and breadth 9 m 2 cm?
+
+### Problem 7
+If a number $34X68Y$ is divisible by 90, find the values of $X$ and $Y$.
+
+### Problem 8
+The HCF and LCM of two numbers are 12 and 720 respectively. If one of the numbers is 144, find the other number.
+
 ---
 
 ## 4. Step-by-Step Solutions
@@ -94,3 +109,67 @@ If the number $5432Y7$ is divisible by 9, find the digit $Y$.
    - For $(21 + Y)$ to be divisible by 9, the closest multiple of 9 greater than or equal to 21 is 27.
    - $21 + Y = 27 \implies Y = 6$.
 3. **Answer**: The digit $Y$ is **6**.
+
+### Solution 4
+1. **Find the LCM of the toll intervals**:
+   - The intervals are 9, 12, and 15 minutes.
+   - Prime Factorization:
+     - $9 = 3^2$
+     - $12 = 2^2 \times 3$
+     - $15 = 3 \times 5$
+   - $\text{LCM} = 2^2 \times 3^2 \times 5 = 4 \times 9 \times 5 = 180$ minutes.
+2. **Convert minutes to hours**:
+   - $180 \div 60 = 3$ hours.
+3. **Answer**: The bells will toll together next after **3 hours**.
+
+### Solution 5
+1. **Formulate the target values**:
+   - The greatest divisor must divide $148, 246, 623$ leaving remainders $4, 6, 11$.
+   - Thus, the divisor exactly divides $(148 - 4) = 144$, $(246 - 6) = 240$, and $(623 - 11) = 612$.
+2. **Find the HCF of the differences**:
+   - $\text{HCF}(144, 240, 612)$
+   - Prime factorizations:
+     - $144 = 2^4 \times 3^2$
+     - $240 = 2^4 \times 3^1 \times 5$
+     - $612 = 2^2 \times 3^2 \times 17$
+   - Common factors are $2^2 \times 3^1 = 12$.
+3. **Answer**: The greatest number is **12**.
+
+### Solution 6
+1. **Convert units to centimeters**:
+   - $\text{Length} = 15 \text{ m } 17 \text{ cm} = 1517$ cm.
+   - $\text{Breadth} = 9 \text{ m } 2 \text{ cm} = 902$ cm.
+2. **Find the largest square tile size (HCF)**:
+   - Use Euclidean Algorithm for $\text{HCF}(1517, 902)$:
+     - $1517 = 902 \times 1 + 615$
+     - $902 = 615 \times 1 + 287$
+     - $615 = 287 \times 2 + 41$
+     - $287 = 41 \times 7 + 0$
+   - $\text{HCF} = 41$ cm. So, the side of the largest possible square tile is 41 cm.
+3. **Calculate total number of tiles**:
+   - $\text{Number of tiles} = \frac{\text{Area of Floor}}{\text{Area of 1 Tile}} = \frac{1517 \times 902}{41 \times 41}$
+   - Simplify: $\frac{1517}{41} = 37$ and $\frac{902}{41} = 22$.
+   - $\text{Tiles} = 37 \times 22 = 814$.
+4. **Answer**: The least number of square tiles required is **814**.
+
+### Solution 7
+1. **Analyze Divisibility by 90**:
+   - A number is divisible by 90 if it is divisible by both 9 and 10 (since 9 and 10 are co-prime).
+2. **Apply Divisibility by 10**:
+   - For $34X68Y$ to be divisible by 10, the unit digit $Y$ must be $0$.
+3. **Apply Divisibility by 9**:
+   - For $34X680$ to be divisible by 9, the sum of the digits must be divisible by 9:
+     $$\text{Sum} = 3 + 4 + X + 6 + 8 + 0 = 21 + X$$
+   - The closest multiple of 9 greater than or equal to 21 is 27.
+     $$21 + X = 27 \implies X = 6$$
+4. **Answer**: $X = 6$ and $Y = 0$.
+
+### Solution 8
+1. **Apply the fundamental property of numbers**:
+   $$\text{First Number} \times \text{Second Number} = \text{HCF} \times \text{LCM}$$
+2. **Substitute given values**:
+   - Let the second number be $N$.
+     $$144 \times N = 12 \times 720$$
+3. **Solve for $N$**:
+     $$N = \frac{12 \times 720}{144} = \frac{720}{12} = 60$$
+4. **Answer**: The other number is **60**.

@@ -55,6 +55,21 @@ Find the sum of the infinite geometric series: $9 - 3 + 1 - \frac{1}{3} + \dots$
 ### Problem 3
 The arithmetic mean of two numbers is 10 and their geometric mean is 8. Find the numbers.
 
+### Problem 4
+How many terms are there in the Arithmetic Progression: $20, 25, 30, \dots, 135$?
+
+### Problem 5
+Find the sum of all natural numbers between 100 and 300 which are exactly divisible by 4.
+
+### Problem 6
+If the 3rd and 6th terms of a Geometric Progression are 12 and 96 respectively, find the first term and the common ratio.
+
+### Problem 7
+Insert three arithmetic means between 3 and 19.
+
+### Problem 8
+Find the sum of the first 10 terms of the geometric series: $2, 6, 18, 54, \dots$
+
 ---
 
 ## 4. Step-by-Step Solutions
@@ -97,3 +112,66 @@ The arithmetic mean of two numbers is 10 and their geometric mean is 8. Find the
    $$(x - 16)(x - 4) = 0 \implies x = 16 \text{ or } x = 4$$
    - If $x=16$, then $y=4$. If $x=4$, then $y=16$.
 4. **Answer**: The two numbers are **16 and 4**.
+
+### Solution 4
+1. **Identify the progression variables**:
+   - First term $a = 20$.
+   - Common difference $d = 25 - 20 = 5$.
+   - Last term $t_n = 135$.
+2. **Apply the $n^{\text{th}}$ term formula**:
+   - $t_n = a + (n - 1)d$
+   - $135 = 20 + (n - 1)5$
+   - $115 = (n - 1)5 \implies n - 1 = 23 \implies n = 24$.
+3. **Answer**: There are **24** terms in the progression.
+
+### Solution 5
+1. **Find the first and last term in the range**:
+   - The natural numbers between 100 and 300 divisible by 4 are $104, 108, 112, \dots, 296$.
+   - First term $a = 104$.
+   - Common difference $d = 4$.
+   - Last term $l = 296$.
+2. **Find the number of terms ($n$)**:
+   - $l = a + (n - 1)d \implies 296 = 104 + (n - 1)4$
+   - $192 = 4(n - 1) \implies n - 1 = 48 \implies n = 49$.
+3. **Calculate the sum ($S_n$)**:
+   - $S_n = \frac{n}{2}(a + l) = \frac{49}{2}(104 + 296) = \frac{49}{2}(400) = 49 \times 200 = 9800$.
+4. **Answer**: The sum of the numbers is **9,800**.
+
+### Solution 6
+1. **Set up the GP term equations**:
+   - $t_n = a \cdot r^{n-1}$.
+   - $t_3 = a \cdot r^2 = 12$.
+   - $t_6 = a \cdot r^5 = 96$.
+2. **Find common ratio $r$ by dividing the equations**:
+   - $\frac{a \cdot r^5}{a \cdot r^2} = \frac{96}{12}$
+   - $r^3 = 8 \implies r = 2$.
+3. **Find the first term $a$**:
+   - $a \cdot (2)^2 = 12 \implies 4a = 12 \implies a = 3$.
+4. **Answer**: The first term is **3** and the common ratio is **2**.
+
+### Solution 7
+1. **Understand insertion of AMs**:
+   - Let the three arithmetic means be $A_1, A_2, A_3$ between 3 and 19.
+   - The sequence $3, A_1, A_2, A_3, 19$ forms an Arithmetic Progression.
+2. **Find the common difference $d$**:
+   - Total terms $n = 5$.
+   - First term $a = 3$, last term $t_5 = 19$.
+   - $t_5 = a + 4d \implies 19 = 3 + 4d \implies 16 = 4d \implies d = 4$.
+3. **Calculate the means**:
+   - $A_1 = a + d = 3 + 4 = 7$
+   - $A_2 = a + 2d = 3 + 8 = 11$
+   - $A_3 = a + 3d = 3 + 12 = 15$
+4. **Answer**: The three arithmetic means are **7, 11, and 15**.
+
+### Solution 8
+1. **Identify the GP parameters**:
+   - First term $a = 2$.
+   - Common ratio $r = \frac{6}{2} = 3$.
+   - Number of terms $n = 10$.
+2. **Apply GP sum formula (since $r > 1$)**:
+   - $S_n = \frac{a(r^n - 1)}{r - 1}$
+   - $S_{10} = \frac{2(3^{10} - 1)}{3 - 1} = \frac{2(3^{10} - 1)}{2} = 3^{10} - 1$.
+3. **Calculate $3^{10}$**:
+   - $3^{10} = 59049$.
+   - $S_{10} = 59049 - 1 = 59048$.
+4. **Answer**: The sum of the first 10 terms is **59,048**.

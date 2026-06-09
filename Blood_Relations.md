@@ -49,6 +49,36 @@ Which of the following expressions means "A is the uncle of C"?
 3. $A - B \times C$
 4. $A \times B - C$
 
+### Problem 3 (Family Tree Puzzle)
+In a family of six people (A, B, C, D, E, F), there are two married couples.
+- D is the grandmother of A and mother of B.
+- C is the wife of B and mother of F.
+- F is the granddaughter of E.
+How is F related to A? How is E related to C?
+
+### Problem 4 (Narrative)
+Pointing to a woman, a man says, "Her mother is the only daughter of my mother-in-law." How is the man related to the woman?
+
+### Problem 5 (Coded Relations)
+If:
+- $P @ Q$ means "P is the wife of Q"
+- $P \# Q$ means "P is the son of Q"
+- $P \$ Q$ means "P is the sister of Q"
+- $P \% Q$ means "P is the father of Q"
+In the expression $A @ B \# C \$ D \% E$, how is C related to E?
+
+### Problem 6 (Family Tree Puzzle)
+There are seven members in a family: K, L, M, N, O, P, and Q.
+- K is the father-in-law of M.
+- L is the only sibling of M.
+- Q is the niece of L.
+- P is the daughter of N.
+- O is the maternal grandmother of Q.
+How is P related to M?
+
+### Problem 7 (Narrative)
+Pointing to a woman, Rajan said, "She is the daughter of the only sister of my father." How is that woman related to Rajan?
+
 ---
 
 ## 4. Step-by-Step Solutions
@@ -79,3 +109,61 @@ Which of the following expressions means "A is the uncle of C"?
    - **Option 3**: $A - B \times C$
      - $A - B \implies A$ is the sister of $B$ (Female $\to$ Aunt. Incorrect).
 3. **Answer**: Option **2** ($A \times B + C$) is the correct expression.
+
+### Solution 3
+1. **Identify the relations and genders**:
+   - D is the grandmother of A and mother of B $\implies$ D is Female (Generation 1). B is her son (Generation 2).
+   - C is the wife of B $\implies$ B is Male, C is Female (Generation 2).
+   - C is the mother of F $\implies$ F is child of B and C (Generation 3).
+   - D is the grandmother of A $\implies$ A is child of B and C (Generation 3).
+   - F is the granddaughter of E. Since D (grandmother) is married to E (grandfather), E is Male (Generation 1).
+2. **Draw the family tree**:
+   - Generation 1: E (husband) = D (wife).
+   - Generation 2: B (son) = C (daughter-in-law).
+   - Generation 3: A (child) and F (daughter, since she is granddaughter).
+3. **Determine the relations**:
+   - F is the sister of A.
+   - E is the father-in-law of C (husband's father).
+4. **Answer**: F is the **Sister** of A, and E is the **Father-in-law** of C.
+
+### Solution 4
+1. **Analyze the man's statement from the back**:
+   - "my mother-in-law" $\to$ The mother of the man's wife.
+   - "the only daughter of my mother-in-law" $\to$ The man's wife.
+   - "Her mother is [the only daughter of my mother-in-law]" $\to$ The woman's mother is the man's wife.
+2. **Determine the relation**:
+   - Since the woman's mother is the man's wife, the man is the woman's father.
+3. **Answer**: The man is the **Father** of the woman.
+
+### Solution 5
+1. **Decode the expression term-by-term**:
+   - $A @ B \implies A$ is the wife of $B$. ($A$ is Female, $B$ is Male).
+   - $B \# C \implies B$ is the son of $C$.
+   - $C \$ D \implies C$ is the sister of $D$. ($C$ is Female).
+   - $D \% E \implies D$ is the father of $E$. ($D$ is Male).
+2. **Trace the relationship between C and E**:
+   - $D$ is the father of $E$.
+   - $C$ is the sister of $D$.
+   - Therefore, $C$ is the sister of $E$'s father.
+3. **Answer**: C is the **Paternal Aunt** of E.
+
+### Solution 6
+1. **Break down the clues**:
+   - L is the only sibling of M.
+   - Q is the niece of L. Since L's only sibling is M, Q must be M's daughter. (Q is Female).
+   - O is the maternal grandmother of Q. Since Q's mother is M, O must be the mother of M. (O and M are Female).
+   - K is the father-in-law of M. Since M is Female, K must be the father of M's husband.
+   - P is the daughter of N. Since M is married to N, N is M's husband (Male, K's son).
+2. **Trace the relationships**:
+   - K (father of N) = O (mother of M) are the parents/in-laws.
+   - N (husband) = M (wife) are married.
+   - Their children are P and Q (both daughters).
+3. **Answer**: P is the **Daughter** of M.
+
+### Solution 7
+1. **Analyze Rajan's statement**:
+   - "the only sister of my father" $\to$ Rajan's paternal aunt.
+   - "daughter of the only sister of my father" $\to$ daughter of Rajan's paternal aunt.
+2. **Determine the relation**:
+   - The daughter of one's aunt or uncle is their cousin.
+3. **Answer**: The woman is Rajan's **Cousin**.

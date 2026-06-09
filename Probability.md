@@ -46,6 +46,21 @@ One card is drawn at random from a pack of 52 cards. What is the probability tha
 ### Problem 3
 A bag contains 5 red, 4 blue, and 3 green balls. If three balls are drawn at random, what is the probability that 2 are red and 1 is blue?
 
+### Problem 4
+What is the probability of getting a sum of 9 from two throws of a single die?
+
+### Problem 5
+Three unbiased coins are tossed. What is the probability of getting at least two heads?
+
+### Problem 6
+Two cards are drawn together from a pack of 52 cards. What is the probability that both the cards are kings?
+
+### Problem 7
+The probability that A can solve a problem is $\frac{2}{3}$ and that B can solve it is $\frac{3}{5}$. If both try, what is the probability that the problem is solved?
+
+### Problem 8
+A card is drawn from a pack of 52 cards. What is the probability that the card drawn is a spade or an ace?
+
 ---
 
 ## 4. Step-by-Step Solutions
@@ -87,3 +102,61 @@ A bag contains 5 red, 4 blue, and 3 green balls. If three balls are drawn at ran
 3. **Calculate Probability**:
    $$P(E) = \frac{n(E)}{n(S)} = \frac{40}{220} = \frac{2}{11}$$
 4. **Answer**: The probability is **$\frac{2}{11}$**.
+
+### Solution 4
+1. **Find size of Sample Space ($n(S)$)**:
+   - Rolling a die twice gives $n(S) = 6 \times 6 = 36$ outcomes.
+2. **Find Favorable Outcomes ($n(E)$)**:
+   - Pairs whose sum is 9:
+     $$E = \{(3,6), (4,5), (5,4), (6,3)\}$$
+   - $n(E) = 4$.
+3. **Calculate Probability**:
+   - $P(E) = \frac{4}{36} = \frac{1}{9}$.
+4. **Answer**: The probability is **$\frac{1}{9}$**.
+
+### Solution 5
+1. **Find Sample Space ($n(S)$)**:
+   - Tossing 3 coins: $n(S) = 2^3 = 8$.
+   - $S = \{HHH, HHT, HTH, HTT, THH, THT, TTH, TTT\}$.
+2. **Find Favorable Outcomes ($n(E)$) for "at least 2 heads"**:
+   - Out of the 8 outcomes, those containing 2 or 3 heads:
+     $$E = \{HHH, HHT, HTH, THH\}$$
+   - $n(E) = 4$.
+3. **Calculate Probability**:
+   - $P(E) = \frac{4}{8} = \frac{1}{2}$.
+4. **Answer**: The probability is **$\frac{1}{2}$**.
+
+### Solution 6
+1. **Find Sample Space ($n(S)$)**:
+   - Choosing 2 cards from 52:
+     $$n(S) = 52C_2 = \frac{52 \times 51}{2 \times 1} = 1326$$
+2. **Find Favorable Outcomes ($n(E)$)**:
+   - Choosing 2 kings from 4 kings in the deck:
+     $$n(E) = 4C_2 = \frac{4 \times 3}{2 \times 1} = 6$$
+3. **Calculate Probability**:
+   - $P(E) = \frac{6}{1326} = \frac{1}{221}$.
+4. **Answer**: The probability is **$\frac{1}{221}$**.
+
+### Solution 7
+1. **Understand "problem is solved"**:
+   - The problem is solved if at least one of them solves it.
+   - It is easier to calculate the probability of the complementary event: "neither of them solves the problem".
+2. **Find individual complement probabilities**:
+   - Probability that A does not solve it: $P(A') = 1 - \frac{2}{3} = \frac{1}{3}$.
+   - Probability that B does not solve it: $P(B') = 1 - \frac{3}{5} = \frac{2}{5}$.
+3. **Find probability that neither solves the problem**:
+   - Since A and B work independently:
+     $$P(A' \cap B') = P(A') \times P(B') = \frac{1}{3} \times \frac{2}{5} = \frac{2}{15}$$
+4. **Calculate probability that the problem is solved**:
+   - $P(\text{Solved}) = 1 - P(\text{neither solves}) = 1 - \frac{2}{15} = \frac{13}{15}$.
+5. **Answer**: The probability that the problem is solved is **$\frac{13}{15}$**.
+
+### Solution 8
+1. **Identify the individual events**:
+   - Let $A$ be the event of drawing a Spade. There are 13 spades in a deck: $P(A) = \frac{13}{52}$.
+   - Let $B$ be the event of drawing an Ace. There are 4 aces in a deck: $P(B) = \frac{4}{52}$.
+2. **Identify the overlap**:
+   - There is 1 Ace of Spades which is both a spade and an ace: $P(A \cap B) = \frac{1}{52}$.
+3. **Apply the Addition Theorem**:
+   - $P(A \cup B) = P(A) + P(B) - P(A \cap B) = \frac{13}{52} + \frac{4}{52} - \frac{1}{52} = \frac{16}{52} = \frac{4}{13}$.
+4. **Answer**: The probability is **$\frac{4}{13}$**.

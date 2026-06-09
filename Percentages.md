@@ -50,6 +50,21 @@ A man spends 75% of his income. His income increases by 20% and his expenditure 
 ### Problem 3
 The length of a rectangle is increased by 20% and its breadth is decreased by 10%. Find the net percentage change in the area of the rectangle.
 
+### Problem 4
+In an election between two candidates, one got 55% of the total valid votes, 20% of the votes were invalid. If the total number of votes was 7500, find the number of valid votes that the other candidate got.
+
+### Problem 5
+The population of a town increases at the rate of 10% per annum. If the present population is 20,000, find its population 2 years hence.
+
+### Problem 6
+Due to a 20% reduction in the price of sugar, a person is able to buy 5 kg more sugar for Rs. 600. Find the original price of sugar per kg.
+
+### Problem 7
+In an examination, 35% of the candidates failed in English and 40% failed in Mathematics. If 15% failed in both English and Mathematics, what percentage of candidates passed in both subjects?
+
+### Problem 8
+If $A$'s salary is 20% less than $B$'s salary, by what percentage is $B$'s salary more than $A$'s salary?
+
 ---
 
 ## 4. Step-by-Step Solutions
@@ -86,3 +101,64 @@ The length of a rectangle is increased by 20% and its breadth is decreased by 10
 3. **Interpret result**:
    - The positive sign indicates an increase.
 4. **Answer**: The area increases by **8%**.
+
+### Solution 4
+1. **Calculate invalid and valid votes**:
+   - Total votes $= 7500$.
+   - Invalid votes $= 20\%$ of $7500 = 0.20 \times 7500 = 1500$.
+   - Valid votes $= 7500 - 1500 = 6000$.
+2. **Calculate the other candidate's share of valid votes**:
+   - First candidate got $55\%$ of valid votes.
+   - The other candidate must have received the remaining valid votes:
+     $$\text{Other Candidate's Share} = 100\% - 55\% = 45\%$$
+3. **Find the number of votes for the other candidate**:
+   - Votes $= 45\%$ of $6000 = 0.45 \times 6000 = 2700$.
+4. **Answer**: The other candidate got **2700** valid votes.
+
+### Solution 5
+1. **Identify given parameters**:
+   - Present population $P = 20,000$.
+   - Rate of growth $R = 10\%$ per annum.
+   - Time $n = 2$ years.
+2. **Apply the population growth formula**:
+   $$P_n = P \left( 1 + \frac{R}{100} \right)^n$$
+   $$P_2 = 20,000 \left( 1 + \frac{10}{100} \right)^2 = 20,000 \times (1.1)^2$$
+   $$P_2 = 20,000 \times 1.21 = 24,200$$
+3. **Answer**: The population 2 years hence will be **24,200**.
+
+### Solution 6
+1. **Let the original price per kg be Rs. $X$**:
+   - Original quantity purchased for Rs. 600 $= \frac{600}{X}$ kg.
+2. **Determine the new price and quantity**:
+   - Reduction is $20\%$, so the new price is $0.80X$ per kg.
+   - New quantity purchased for Rs. 600 $= \frac{600}{0.80X} = \frac{750}{X}$ kg.
+3. **Set up the difference equation**:
+   - The difference in quantities is 5 kg:
+     $$\frac{750}{X} - \frac{600}{X} = 5 \implies \frac{150}{X} = 5$$
+     $$5X = 150 \implies X = 30$$
+4. **Answer**: The original price of sugar was **Rs. 30 per kg**.
+
+### Solution 7
+1. **Define the events**:
+   - Failed in English ($E$) $= 35\%$
+   - Failed in Mathematics ($M$) $= 40\%$
+   - Failed in both ($E \cap M$) $= 15\%$
+2. **Calculate total percentage of failed candidates**:
+   - Using Set Theory:
+     $$P(E \cup M) = P(E) + P(M) - P(E \cap M)$$
+     $$P(E \cup M) = 35\% + 40\% - 15\% = 60\%$$
+   - Thus, 60% of candidates failed in one or both subjects.
+3. **Determine the percentage of candidates who passed both**:
+   $$\text{Passed in Both} = 100\% - 60\% = 40\%$$
+4. **Answer**: The percentage of candidates who passed in both subjects is **40%**.
+
+### Solution 8
+1. **Establish a base value**:
+   - Let $B$'s salary be Rs. 100.
+2. **Determine $A$'s salary**:
+   - $A$'s salary is $20\%$ less than $B$'s:
+     $$A's \text{ salary} = 100 - 20 = 80$$
+3. **Calculate the percentage difference relative to $A$**:
+   - The difference is 20. We want to find what percentage of $A$'s salary this difference represents:
+     $$\text{Percentage More} = \frac{\text{Difference}}{A's\text{ salary}} \times 100 = \frac{20}{80} \times 100 = 25\%$$
+4. **Answer**: $B$'s salary is **25%** more than $A$'s salary.

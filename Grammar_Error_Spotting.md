@@ -44,6 +44,21 @@ Find the part of the sentence that contains a grammatical error. If there is no 
 ### Problem 3
 > (A) The patient died / (B) before the doctor / (C) arrived at the hospital. / (D) No Error
 
+### Problem 4
+> (A) Each of the students / (B) are required to submit / (C) their assignment by Friday. / (D) No Error
+
+### Problem 5
+> (A) She is one of those / (B) authors who writes / (C) compelling mystery novels. / (D) No Error
+
+### Problem 6
+> (A) Scarcely had the speaker / (B) finished his presentation / (C) than the audience started applauding. / (D) No Error
+
+### Problem 7
+> (A) The sales manager / (B) along with his team members / (C) are attending the annual conference. / (D) No Error
+
+### Problem 8
+> (A) Although he ran / (B) as fastly as he could, / (C) he missed the train. / (D) No Error
+
 ---
 
 ## 3. Step-by-Step Solutions
@@ -76,3 +91,37 @@ Find the part of the sentence that contains a grammatical error. If there is no 
    - The later event must be in the Simple Past tense: "arrived" (already correct).
    - Correct sentence: "The patient **had died** before the doctor arrived..."
 3. **Answer**: **A** (should be "The patient had died")
+
+### Solution 4
+1. **Analyze SVA and pronouns**:
+   - The subject starts with "Each of...", which is an indefinite pronoun and is always singular.
+   - The verb must be singular ("is" instead of "are").
+   - Correct sentence: "Each of the students **is** required to submit their assignment by Friday."
+2. **Answer**: **B** (should be "is required")
+
+### Solution 5
+1. **Analyze relative pronoun clause agreement**:
+   - The phrase "one of those authors who..." indicates that "who" refers to the plural noun "authors", not "one".
+   - Since the antecedent "authors" is plural, the relative pronoun "who" is treated as plural, demanding a plural verb ("write" instead of "writes").
+   - Correct sentence: "She is one of those authors who **write** compelling mystery novels."
+2. **Answer**: **B** (should be "write")
+
+### Solution 6
+1. **Analyze conjunction usage**:
+   - Correlative conjunctions like "Scarcely... when" or "Hardly... when" require the use of "when" or "before" to connect clauses, not "than". ("No sooner" is followed by "than").
+   - Correct sentence: "Scarcely had the speaker finished his presentation **when** the audience started applauding."
+2. **Answer**: **C** (should be "when" or "before" instead of "than")
+
+### Solution 7
+1. **Analyze SVA with parenthetical expressions**:
+   - When a singular subject ("The sales manager") is connected to another noun using phrases like "along with", "together with", "as well as", or "accompanied by", the verb remains singular because these phrases do not make the subject plural.
+   - The primary subject is "The sales manager" (singular).
+   - Therefore, the verb should be "is" instead of "are".
+   - Correct sentence: "The sales manager along with his team members **is** attending the annual conference."
+2. **Answer**: **C** (should be "is attending")
+
+### Solution 8
+1. **Analyze modifier/adverb usage**:
+   - "fast" can function as both an adjective and an adverb. The word "fastly" does not exist in standard English.
+   - Correct sentence: "Although he ran as **fast** as he could, he missed the train."
+2. **Answer**: **B** (should be "as fast as")

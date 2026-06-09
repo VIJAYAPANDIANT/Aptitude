@@ -43,6 +43,21 @@ Find the mean proportional between 9 and 64, and the third proportional to 12 an
 ### Problem 3
 The value of a diamond varies directly as the square of its weight. A diamond weighing 10 g is worth Rs. 100,000. If it breaks into two pieces whose weights are in the ratio $2 : 3$, find the loss incurred due to breaking.
 
+### Problem 4
+$A, B,$ and $C$ enter into a partnership by investing capitals in the ratio $5 : 6 : 8$. At the end of the year, their business profits are in the ratio $5 : 3 : 12$. Find the ratio of the time periods for which they invested their capitals.
+
+### Problem 5
+If $A : B = 2 : 3$, $B : C = 4 : 5$, and $C : D = 6 : 7$, find the ratio $A : B : C : D$.
+
+### Problem 6
+Two numbers are in the ratio $3 : 5$. If 9 is subtracted from each, the new numbers are in the ratio $12 : 23$. Find the smaller number.
+
+### Problem 7
+An amount of Rs. 735 is divided among A, B, and C such that if each of them receives Rs. 25 less, their shares would be in the ratio $1 : 3 : 2$. Find the actual share of C.
+
+### Problem 8
+The ratio of the incomes of A and B is $5 : 4$ and the ratio of their expenditures is $3 : 2$. If each saves Rs. 1600 at the end of the year, find the income of A.
+
 ---
 
 ## 4. Step-by-Step Solutions
@@ -91,3 +106,73 @@ The value of a diamond varies directly as the square of its weight. A diamond we
 5. **Calculate loss**:
    - Loss $= 100,000 - 52,000 = \text{Rs. } 48,000$.
 6. **Answer**: The loss incurred is **Rs. 48,000**.
+
+### Solution 4
+1. **Relate capital, time, and profit**:
+   - Profit ($P$) is proportional to Capital ($C$) $\times$ Time ($T$).
+   - Therefore, $T \propto \frac{P}{C}$.
+2. **Set up ratios**:
+   - $T_A : T_B : T_C = \frac{P_A}{C_A} : \frac{P_B}{C_B} : \frac{P_C}{C_C}$
+   - Substituting ratios:
+     $$T_A : T_B : T_C = \frac{5}{5} : \frac{3}{6} : \frac{12}{8} = 1 : \frac{1}{2} : \frac{3}{2}$$
+3. **Simplify to integers**:
+   - Multiply the entire ratio by 2:
+     $$T_A : T_B : T_C = 2 : 1 : 3$$
+4. **Answer**: The ratio of the time periods is **$2 : 1 : 3$**.
+
+### Solution 5
+1. **Combine ratios sequentially**:
+   - We have $A : B = 2 : 3$ and $B : C = 4 : 5$.
+   - Make $B$ common by finding LCM of 3 and 4 (which is 12):
+     - $A : B = (2 \times 4) : (3 \times 4) = 8 : 12$
+     - $B : C = (4 \times 3) : (5 \times 3) = 12 : 15$
+     - Thus, $A : B : C = 8 : 12 : 15$.
+2. **Combine with the third ratio**:
+   - We have $A : B : C = 8 : 12 : 15$ and $C : D = 6 : 7$.
+   - Make $C$ common by finding LCM of 15 and 6 (which is 30):
+     - Multiply $A : B : C$ by 2: $16 : 24 : 30$
+     - Multiply $C : D$ by 5: $30 : 35$
+   - Thus, $A : B : C : D = 16 : 24 : 30 : 35$.
+3. **Answer**: The combined ratio $A : B : C : D$ is **$16 : 24 : 30 : 35$**.
+
+### Solution 6
+1. **Define the variables**:
+   - Let the two numbers be $3x$ and $5x$.
+2. **Set up the subtraction equation**:
+   - Subtracting 9 from each gives the ratio $12:23$:
+     $$\frac{3x - 9}{5x - 9} = \frac{12}{23}$$
+3. **Cross-multiply and solve for $x$**:
+     $$23(3x - 9) = 12(5x - 9)$$
+     $$69x - 207 = 60x - 108$$
+     $$9x = 99 \implies x = 11$$
+4. **Determine the smaller number**:
+   - The smaller number is $3x = 3 \times 11 = 33$.
+5. **Answer**: The smaller number is **33**.
+
+### Solution 7
+1. **Adjust the total amount for the reductions**:
+   - Total original amount $= \text{Rs. } 735$.
+   - Total reduction for three people A, B, and C $= 3 \times \text{Rs. } 25 = \text{Rs. } 75$.
+   - New total amount $= 735 - 75 = \text{Rs. } 660$.
+2. **Divide the new amount using the ratio**:
+   - The reduced shares are in the ratio $1 : 3 : 2$.
+   - C's reduced share $= \frac{2}{1 + 3 + 2} \times 660 = \frac{2}{6} \times 660 = \text{Rs. } 220$.
+3. **Find C's actual share**:
+   - C's actual share $= \text{C's reduced share} + 25 = 220 + 25 = 245$.
+4. **Answer**: The actual share of C is **Rs. 245**.
+
+### Solution 8
+1. **Express incomes and savings**:
+   - Let A's income be $5x$ and B's income be $4x$.
+   - Savings of each is Rs. 1600.
+   - Therefore, A's expenditure $= 5x - 1600$ and B's expenditure $= 4x - 1600$.
+2. **Set up the expenditure ratio**:
+   - The ratio of expenditures is $3:2$:
+     $$\frac{5x - 1600}{4x - 1600} = \frac{3}{2}$$
+3. **Solve for $x$**:
+     $$2(5x - 1600) = 3(4x - 1600)$$
+     $$10x - 3200 = 12x - 4800$$
+     $$2x = 1600 \implies x = 800$$
+4. **Calculate A's income**:
+   - A's income $= 5x = 5 \times 800 = 4000$.
+5. **Answer**: A's income is **Rs. 4000**.

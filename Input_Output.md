@@ -42,6 +42,34 @@ A machine rearrangement system, when given an input line of numbers and words, r
 Step 6 is the final step. Apply this rule to find all steps for the following input:
 - **New Input**: `play 27 15 easy 64 high 42 out`
 
+### Problem 2 (Double Shift - Words & Numbers)
+A machine rearranges a given input of words and numbers following a specific rule.
+- **Rule**: In each step, the highest number is moved to the leftmost position, and the alphabetically first word is moved to the rightmost position of the unsorted group.
+- **Input**: `tree 45 12 green 83 lemon 67 orange 29 cup`
+How many steps are required to get the final output, and what is the final step?
+
+### Problem 3 (Word Length Sorting)
+A machine rearranges words based on the number of letters in each word in ascending order.
+- **Input**: `elephant cat monkey ox horse giraffe`
+How many steps are required to obtain the final output?
+
+### Problem 4 (Mathematical Operations)
+A machine takes an input of numbers and performs the following two-step rearrangement:
+- **Step 1**: Each number is replaced by the sum of its digits.
+- **Step 2**: The resulting numbers are arranged in descending order.
+- **Input**: `12 34 56 78 90 22`
+What are the step outputs for Step 1 and Step 2?
+
+### Problem 5 (Symmetrical Number Shift)
+A machine shifts the smallest remaining number to the left and the largest remaining number to the right in each step.
+- **Input**: `24 81 19 45 92 36`
+Write down the steps to achieve the final sorted (ascending) order.
+
+### Problem 6 (Vowel/Consonant Classification)
+A machine rearranges words such that words starting with vowels are arranged alphabetically on the left, and words starting with consonants are arranged alphabetically on the right.
+- **Input**: `orange cat apple dog ice frog umbrella goat`
+What is the final output?
+
 ---
 
 ## 4. Step-by-Step Solutions
@@ -85,3 +113,85 @@ Step 6 is the final step. Apply this rule to find all steps for the following in
 Notice that in Step 6, the remaining elements are `play 15`. `play` is the last word and `15` is the last number, and they are already in the correct order. They auto-fit. No more steps are needed.
 
 - **Answer**: The final step is **Step 6**: `easy 64 high 42 out 27 play 15`.
+
+### Solution 2
+1. **Identify the ordering objective**:
+   - Numbers sorted in descending order on the left: `83`, `67`, `45`, `29`, `12`.
+   - Words sorted alphabetically on the right: `cup`, `green`, `lemon`, `orange`, `tree`.
+2. **Trace the step-by-step rearrangement**:
+   - **Input**: `tree 45 12 green 83 lemon 67 orange 29 cup`
+   - **Step 1**: Move highest number `83` to left, first word `cup` to right:
+     `83 tree 45 12 green lemon 67 orange 29 cup`
+   - **Step 2**: Move next highest number `67` to 2nd position, next word `green` to 2nd position from right:
+     `83 67 tree 45 12 lemon orange 29 green cup`
+   - **Step 3**: Move next highest number `45` to 3rd position, next word `lemon` to 3rd position from right:
+     `83 67 45 tree 12 orange 29 lemon green cup`
+   - **Step 4**: Move next highest number `29` to 4th position, next word `orange` to 4th position from right:
+     `83 67 45 29 12 tree orange lemon green cup`
+3. **Verify completion**:
+   - In Step 4, the remaining elements `12` and `tree` automatically fall into their correct relative positions. No further steps are needed.
+4. **Answer**: **4 steps** are required. The final step is: `83 67 45 29 12 tree orange lemon green cup`.
+
+### Solution 3
+1. **Determine the word lengths**:
+   - `ox` (2 letters)
+   - `cat` (3 letters)
+   - `horse` (5 letters)
+   - `monkey` (6 letters)
+   - `giraffe` (7 letters)
+   - `elephant` (8 letters)
+2. **Trace the single shift steps**:
+   - **Input**: `elephant cat monkey ox horse giraffe`
+   - **Step 1**: Move `ox` (shortest) to 1st position:
+     `ox elephant cat monkey horse giraffe`
+   - **Step 2**: Move `cat` to 2nd position:
+     `ox cat elephant monkey horse giraffe`
+   - **Step 3**: Move `horse` to 3rd position:
+     `ox cat horse elephant monkey giraffe`
+   - **Step 4**: Move `monkey` to 4th position:
+     `ox cat horse monkey elephant giraffe`
+   - **Step 5**: Move `giraffe` to 5th position:
+     `ox cat horse monkey giraffe elephant`
+3. **Verify completion**:
+   - `elephant` automatically falls into the last position. The sequence is fully sorted.
+4. **Answer**: **5 steps** are required.
+
+### Solution 4
+1. **Perform Step 1 (Digit Sums)**:
+   - $12 \to 1+2 = 3$
+   - $34 \to 3+4 = 7$
+   - $56 \to 5+6 = 11$
+   - $78 \to 7+8 = 15$
+   - $90 \to 9+0 = 9$
+   - $22 \to 2+2 = 4$
+   - **Step 1 Output**: `3 7 11 15 9 4`
+2. **Perform Step 2 (Descending Order)**:
+   - Sort the Step 1 output in descending order: `15 11 9 7 4 3`
+3. **Answer**:
+   - **Step 1**: `3 7 11 15 9 4`
+   - **Step 2**: `15 11 9 7 4 3`
+
+### Solution 5
+1. **Trace the symmetrical double shifts**:
+   - **Input**: `24 81 19 45 92 36`
+   - **Step 1**: Move smallest `19` to left, largest `92` to right:
+     `19 24 81 45 36 92`
+   - **Step 2**: Move next smallest `24` to 2nd position, next largest `81` to 2nd position from right:
+     `19 24 45 36 81 92`
+   - **Step 3**: Move next smallest `36` to 3rd position, next largest `45` to 3rd position from right:
+     `19 24 36 45 81 92`
+2. **Answer**:
+   - **Step 1**: `19 24 81 45 36 92`
+   - **Step 2**: `19 24 45 36 81 92`
+   - **Step 3**: `19 24 36 45 81 92` (Final sorted output)
+
+### Solution 6
+1. **Group by first letter type**:
+   - Vowel words: `orange`, `apple`, `ice`, `umbrella`.
+   - Consonant words: `cat`, `dog`, `frog`, `goat`.
+2. **Sort each group alphabetically**:
+   - Vowel words (A-Z): `apple`, `ice`, `orange`, `umbrella`.
+   - Consonant words (A-Z): `cat`, `dog`, `frog`, `goat`.
+3. **Concatenate the groups**:
+   - `apple ice orange umbrella cat dog frog goat`
+4. **Answer**: `apple ice orange umbrella cat dog frog goat`.

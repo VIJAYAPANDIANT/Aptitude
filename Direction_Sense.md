@@ -59,6 +59,25 @@ A man walks 10 km North, turns Right and walks 6 km, then turns Left and walks 5
 ### Problem 2 (Shadow)
 One morning after sunrise, Suresh was standing facing a pole. The shadow of the pole fell exactly to his right. Which direction was Suresh facing?
 
+### Problem 3 (Distance & Direction)
+Amit walks 20 m North. Then he turns Right and walks 30 m. Then he turns Right and walks 35 m. Then he turns Left and walks 15 m. Then he turns Left and walks 15 m. How far and in which direction is he now with respect to his starting point?
+
+### Problem 4 (Degree Turns)
+A man is facing West. He turns $45^\circ$ in the clockwise direction and then another $180^\circ$ in the same direction, and then $270^\circ$ in the counter-clockwise direction. Which direction is he facing now?
+
+### Problem 5 (Shadow)
+One evening before sunset, Rekha and Hema were talking to each other face-to-face. If Hema's shadow was exactly to the right of Hema, which direction was Rekha facing?
+
+### Problem 6 (Coded Directions)
+If:
+- $A * B$ means "A is 4 m South of B"
+- $A \& B$ means "A is 12 m East of B"
+- $A \$ B$ means "A is 9 m North of B"
+For the expression $P \$ Q \& R * S$, what is the shortest distance between P and S, and in which direction is S with respect to P?
+
+### Problem 7 (Clock & Direction)
+A clock is placed such that at 12:00 noon, its minute hand points North-East. In which direction does the hour hand point at 1:30 PM?
+
 ---
 
 ## 4. Step-by-Step Solutions
@@ -88,3 +107,67 @@ One morning after sunrise, Suresh was standing facing a pole. The shadow of the 
    - Since the shadow falls to Suresh's right, his Right side must be pointing towards the **West**.
    - If West is to his Right, then his Left is to the East, his back is to the North, and he is facing **South**.
 3. **Answer**: Suresh was facing **South**.
+
+### Solution 3
+1. **Trace the path step-by-step**:
+   - Start at $(0, 0)$.
+   - Walk 20 m North: $(0, 20)$
+   - Turn Right (East) and walk 30 m: $(30, 20)$
+   - Turn Right (South) and walk 35 m: $(30, -15)$
+   - Turn Left (East) and walk 15 m: $(45, -15)$
+   - Turn Left (North) and walk 15 m: $(45, 0)$
+2. **Determine distance and direction**:
+   - The final coordinates are $(45, 0)$.
+   - The distance is $45$ m.
+   - The direction from the starting point $(0, 0)$ is due **East**.
+3. **Answer**: He is **45 m East** from his starting point.
+
+### Solution 4
+1. **Represent the initial direction**:
+   - Facing West.
+2. **Sum the turns**:
+   - Clockwise (CW) turns: $+45^\circ + 180^\circ = +225^\circ$.
+   - Counter-clockwise (CCW) turns: $-270^\circ$.
+   - Net turn: $+225^\circ - 270^\circ = -45^\circ$ (which is $45^\circ$ in the CCW direction).
+3. **Apply the net turn to the initial direction**:
+   - Starting facing West, turning $45^\circ$ CCW (towards South) points to **South-West**.
+4. **Answer**: The man is facing **South-West**.
+
+### Solution 5
+1. **Analyze the evening condition**:
+   - The sun is in the **West**, so shadows fall to the **East**.
+   - Hema's shadow falls to her **Right**, meaning East is to Hema's Right.
+2. **Determine Hema's direction**:
+   - If East is to her Right, Hema must be facing **North**.
+3. **Determine Rekha's direction**:
+   - Since Rekha and Hema are talking face-to-face, Rekha must be facing the opposite direction of Hema.
+   - Opposite of North is **South**.
+4. **Answer**: Rekha was facing **South**.
+
+### Solution 6
+1. **Coordinate mapping based on coded relations**:
+   - $P \$ Q \implies P$ is 9 m North of $Q$. Let $Q = (0, 0)$, then $P = (0, 9)$.
+   - $Q \& R \implies Q$ is 12 m East of $R$. Thus $R$ is 12 m West of $Q$, so $R = (-12, 0)$.
+   - $R * S \implies R$ is 4 m South of $S$. Thus $S$ is 4 m North of $R$, so $S = (-12, 4)$.
+2. **Find S with respect to P**:
+   - $P = (0, 9)$ and $S = (-12, 4)$.
+   - Horizontal difference $x = -12$ (West).
+   - Vertical difference $y = 4 - 9 = -5$ (South).
+   - Distance:
+     $$d = \sqrt{(-12)^2 + (-5)^2} = \sqrt{144 + 25} = \sqrt{169} = 13 \text{ m}$$
+   - Since $S$ is South and West of $P$, the direction is South-West.
+3. **Answer**: The shortest distance is **13 m** and the direction is **South-West**.
+
+### Solution 7
+1. **Determine the clock dial layout**:
+   - At 12:00, both hands point straight at the '12' mark.
+   - The problem states the minute hand (and thus the '12' mark) points **North-East**.
+2. **Find the position of the hour hand at 1:30 PM**:
+   - At 1:30 PM, the hour hand points exactly halfway between '1' and '2'.
+   - Each hour mark on a clock represents $30^\circ$ ($360^\circ / 12$).
+   - The position halfway between 1 and 2 is $1.5$ hours from 12, which represents:
+     $$1.5 \times 30^\circ = 45^\circ \text{ clockwise from 12}$$
+3. **Calculate the direction**:
+   - The '12' mark is at North-East.
+   - $45^\circ$ clockwise from North-East is **East**.
+4. **Answer**: The hour hand points **East** at 1:30 PM.

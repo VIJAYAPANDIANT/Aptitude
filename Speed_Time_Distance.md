@@ -52,6 +52,21 @@ A train 150 meters long crosses a bridge 250 meters long in 20 seconds. Find the
 ### Problem 3
 A boat can travel at a speed of 12 km/h in still water. If the speed of the stream is 4 km/h, it takes the boat 6 hours to go to a place and return. Find the distance to that place.
 
+### Problem 4
+A man walks at 4 km/h and reaches his office 5 minutes late. If he walks at 5 km/h, he reaches 10 minutes early. Find the distance from his house to his office.
+
+### Problem 5
+Two trains of lengths 120 m and 140 m are running in opposite directions on parallel tracks at speeds of 48 km/h and 30 km/h respectively. In what time will they cross each other?
+
+### Problem 6
+Excluding stoppages, the speed of a bus is 54 km/h, and including stoppages, it is 45 km/h. For how many minutes does the bus stop per hour?
+
+### Problem 7
+A thief is spotted by a policeman from a distance of 200 meters. The thief starts running and the policeman chases him. The thief and the policeman run at speeds of 10 km/h and 11 km/h respectively. What is the distance between them after 6 minutes?
+
+### Problem 8
+A boat covers a distance of 30 km downstream in 2 hours, and a distance of 30 km upstream in 6 hours. Find the speed of the stream.
+
 ---
 
 ## 4. Step-by-Step Solutions
@@ -91,3 +106,58 @@ A boat can travel at a speed of 12 km/h in still water. If the speed of the stre
      $$\frac{D + 2D}{16} = 6 \implies \frac{3D}{16} = 6$$
      $$3D = 96 \implies D = 32 \text{ km}$$
 4. **Answer**: The distance to the place is **32 km**.
+
+### Solution 4
+1. **Determine the difference in arrival times**:
+   - Time difference $= 5 \text{ minutes late} - (-10 \text{ minutes early}) = 15$ minutes.
+   - In hours: $\Delta T = \frac{15}{60} = \frac{1}{4}$ hour.
+2. **Set up the equation**:
+   - Let $D$ be the distance.
+     $$\frac{D}{4} - \frac{D}{5} = \frac{1}{4}$$
+3. **Solve for $D$**:
+   - Find common denominator (20):
+     $$\frac{5D - 4D}{20} = \frac{1}{4} \implies \frac{D}{20} = \frac{1}{4} \implies D = 5 \text{ km}$$
+4. **Answer**: The distance from his house to his office is **5 km**.
+
+### Solution 5
+1. **Calculate total distance to cross**:
+   - $\text{Total Distance} = \text{Length of Train 1} + \text{Length of Train 2} = 120 + 140 = 260$ meters.
+2. **Calculate relative speed**:
+   - Since they are traveling in opposite directions:
+     $$\text{Relative Speed} = 48 \text{ km/h} + 30 \text{ km/h} = 78 \text{ km/h}$$
+   - Convert to m/s:
+     $$78 \times \frac{5}{18} = \frac{65}{3} \text{ m/s}$$
+3. **Calculate crossing time**:
+   $$\text{Time} = \frac{\text{Distance}}{\text{Relative Speed}} = \frac{260}{65/3} = 260 \times \frac{3}{65} = 4 \times 3 = 12 \text{ seconds}$$
+4. **Answer**: The two trains will cross each other in **12 seconds**.
+
+### Solution 6
+1. **Find reduction in distance**:
+   - Without stoppages, the bus travels 54 km in an hour.
+   - With stoppages, it travels 45 km.
+   - Reduction in distance $= 54 - 45 = 9$ km.
+2. **Find time corresponding to the lost distance**:
+   - The time taken to cover 9 km at non-stop speed is the time the bus stopped:
+     $$\text{Stop Time} = \frac{9 \text{ km}}{54 \text{ km/h}} = \frac{1}{6} \text{ hour}$$
+   - In minutes: $\frac{1}{6} \times 60 = 10$ minutes.
+3. **Answer**: The bus stops for **10 minutes per hour**.
+
+### Solution 7
+1. **Determine relative speed**:
+   - Since both run in the same direction, relative speed $= 11 - 10 = 1$ km/h.
+   - In meters per minute:
+     $$\text{Relative Speed} = \frac{1000 \text{ m}}{60 \text{ min}} = \frac{50}{3} \text{ m/min}$$
+2. **Calculate distance closed in 6 minutes**:
+   - Distance closed $= \frac{50}{3} \text{ m/min} \times 6 \text{ min} = 100$ meters.
+3. **Calculate remaining distance**:
+   - Initial distance $= 200$ meters.
+   - Distance after 6 minutes $= 200 - 100 = 100$ meters.
+4. **Answer**: The distance between them after 6 minutes is **100 meters**.
+
+### Solution 8
+1. **Find upstream and downstream speeds**:
+   - Downstream Speed $d = \frac{30 \text{ km}}{2 \text{ hours}} = 15$ km/h.
+   - Upstream Speed $u_p = \frac{30 \text{ km}}{6 \text{ hours}} = 5$ km/h.
+2. **Find the speed of the stream ($v$)**:
+   $$v = \frac{d - u_p}{2} = \frac{15 - 5}{2} = 5 \text{ km/h}$$
+3. **Answer**: The speed of the stream is **5 km/h**.

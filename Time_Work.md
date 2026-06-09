@@ -48,6 +48,21 @@ A is thrice as efficient as B and is therefore able to finish a piece of work in
 ### Problem 3
 Pipe A can fill a tank in 10 hours and Pipe B can fill it in 15 hours. Due to a leak at the bottom of the tank, it took 2 hours more to fill the tank. In how many hours can the leak alone empty the full tank?
 
+### Problem 4
+12 men can complete a work in 8 days. 16 women can complete the same work in 12 days. 8 men and 8 women started working together and worked for 6 days. How many more men should be added to complete the remaining work in 1 day?
+
+### Problem 5
+A and B together can do a piece of work in 12 days. B and C together can do it in 15 days, and C and A together in 20 days. In how many days can A, B, and C together complete the work?
+
+### Problem 6
+A can do a work in 15 days. He works for 5 days and then leaves. The remaining work is finished by B in 20 days. In how many days can B alone complete the whole work?
+
+### Problem 7
+Two pipes A and B can fill a tank in 24 minutes and 32 minutes respectively. If both pipes are opened together, after how many minutes should pipe B be closed so that the tank is full in 18 minutes?
+
+### Problem 8
+A, B, and C can complete a work in 10, 12, and 15 days respectively. They started working together, but A left after 2 days and B left 3 days before the completion of the work. How long did the work last?
+
 ---
 
 ## 4. Step-by-Step Solutions
@@ -105,3 +120,82 @@ Pipe A can fill a tank in 10 hours and Pipe B can fill it in 15 hours. Due to a 
 4. **Calculate leak emptying time**:
    - Time to empty full tank $= \frac{\text{Total Capacity}}{L} = \frac{30}{1.25} = 24$ hours.
 5. **Answer**: The leak alone can empty the tank in **24 hours**.
+
+### Solution 4
+1. **Calculate individual day rates**:
+   - 1 Man's 1-day work $= \frac{1}{12 \times 8} = \frac{1}{96}$.
+   - 1 Woman's 1-day work $= \frac{1}{16 \times 12} = \frac{1}{192}$.
+2. **Use the LCM method for rates**:
+   - Let Total Work $= 192$ units.
+   - Efficiency of 1 Man $= 2$ units/day.
+   - Efficiency of 1 Woman $= 1$ unit/day.
+3. **Calculate work done in first 6 days**:
+   - Combined efficiency of 8 men and 8 women:
+     $$\text{Efficiency} = 8(2) + 8(1) = 24 \text{ units/day}$$
+   - Work completed in 6 days $= 24 \times 6 = 144$ units.
+4. **Calculate remaining work and additions**:
+   - Remaining work $= 192 - 144 = 48$ units.
+   - This 48 units must be finished in 1 day, meaning the target efficiency is 48 units/day.
+   - Current efficiency is 24 units/day. Additional efficiency needed $= 48 - 24 = 24$ units/day.
+   - Since 1 Man $= 2$ units/day, number of men to add $= \frac{24}{2} = 12$ men.
+5. **Answer**: **12 more men** should be added to complete the remaining work in 1 day.
+
+### Solution 5
+1. **Represent the daily work rates**:
+   - Let rates of A, B, and C be $a, b,$ and $c$ respectively.
+   - $a + b = \frac{1}{12}$
+   - $b + c = \frac{1}{15}$
+   - $c + a = \frac{1}{20}$
+2. **Find the combined rate of A, B, and C**:
+   - Add all equations:
+     $$2(a + b + c) = \frac{1}{12} + \frac{1}{15} + \frac{1}{20}$$
+   - Find common denominator (60):
+     $$2(a + b + c) = \frac{5 + 4 + 3}{60} = \frac{12}{60} = \frac{1}{5}$$
+     $$a + b + c = \frac{1}{10}$$
+3. **Determine the total days**:
+   - Time taken $= \frac{1}{a + b + c} = 10$ days.
+4. **Answer**: Working together, they can complete the work in **10 days**.
+
+### Solution 6
+1. **Find A's completed work portion**:
+   - A can complete the work in 15 days, so A's 1-day rate $= \frac{1}{15}$.
+   - Work done by A in 5 days $= 5 \times \frac{1}{15} = \frac{1}{3}$.
+2. **Find remaining work and B's rate**:
+   - Remaining work $= 1 - \frac{1}{3} = \frac{2}{3}$.
+   - B completes this $\frac{2}{3}$ of the work in 20 days.
+3. **Find B's total time**:
+   - B's total time to complete the entire work alone:
+     $$\text{Time} = 20 \times \frac{3}{2} = 30 \text{ days}$$
+4. **Answer**: B alone can complete the work in **30 days**.
+
+### Solution 7
+1. **Set up the capacity and efficiencies**:
+   - Let capacity of the tank $= \text{LCM}(24, 32) = 96$ units.
+   - Efficiency of Pipe A $= \frac{96}{24} = 4$ units/minute.
+   - Efficiency of Pipe B $= \frac{96}{32} = 3$ units/minute.
+2. **Define running durations**:
+   - The tank should be filled in 18 minutes. Since A is open the entire time, it runs for 18 minutes.
+   - Let Pipe B be open for $X$ minutes.
+3. **Form the equation**:
+   - Work done by A + Work done by B = Total capacity
+     $$18 \times 4 + X \times 3 = 96$$
+     $$72 + 3X = 96 \implies 3X = 24 \implies X = 8$$
+4. **Answer**: Pipe B must be closed after **8 minutes**.
+
+### Solution 8
+1. **Establish total work and individual rates**:
+   - Let Total Work $= \text{LCM}(10, 12, 15) = 60$ units.
+   - Efficiency of A $= 6$ units/day.
+   - Efficiency of B $= 5$ units/day.
+   - Efficiency of C $= 4$ units/day.
+2. **Formulate the work equation based on durations**:
+   - Let total days be $D$.
+   - A worked for 2 days.
+   - B worked for $(D - 3)$ days (since B left 3 days before completion).
+   - C worked for all $D$ days.
+3. **Solve for $D$**:
+   $$\text{Work by A} + \text{Work by B} + \text{Work by C} = 60$$
+   $$2(6) + (D - 3)5 + D(4) = 60$$
+   $$12 + 5D - 15 + 4D = 60$$
+   $$9D - 3 = 60 \implies 9D = 63 \implies D = 7$$
+4. **Answer**: The work was completed in **7 days**.

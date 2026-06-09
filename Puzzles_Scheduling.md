@@ -49,6 +49,48 @@ Six persons (P, Q, R, S, T, U) have seminars in different months of the same yea
 - S's seminar is not in January.
 Find the seminar month for each person.
 
+### Problem 3 (Box Stack Puzzle)
+Seven boxes A, B, C, D, E, F, and G are kept one above another in a stack.
+- Box C is kept immediately above box A.
+- Only two boxes are kept between box A and box B. Box B is kept below box A.
+- Only three boxes are kept between box D and box G. Box D is kept above box G.
+- Box E is kept immediately below box G.
+- Box F is not at the top of the stack.
+Find the order of the boxes from top to bottom.
+
+### Problem 4 (Day Scheduling)
+Seven people P, Q, R, S, T, U, and V attend lectures on seven different days of the week, starting from Monday to Sunday.
+- Q attends on Wednesday.
+- Only one person attends between Q and V.
+- S attends immediately before T, but not on Monday.
+- S attends on a day after Q.
+- Only two people attend between T and P.
+- R attends before U but after V.
+Find the day on which each person attends their lecture.
+
+### Problem 5 (Month & City Scheduling)
+Five friends A, B, C, D, and E travel to five different cities (Delhi, Mumbai, Kolkata, Chennai, Bangalore) in five different months (January, April, July, September, December) of the same year.
+- B goes to Mumbai in July.
+- A travels in a month immediately before E. E does not go to Bangalore.
+- The one who goes to Delhi travels in December.
+- C travels to Kolkata in April.
+- D travels to Bangalore.
+Find who travels to Chennai and in which month.
+
+### Problem 6 (Linear Placement with Subjects)
+Six professors P, Q, R, S, T, and U sit in a row facing North and teach different subjects: Physics, Chemistry, Maths, Biology, History, and English.
+- R teaches Maths and sits at one of the extreme ends of the row.
+- Only two people sit between R and P, who teaches Physics.
+- U teaches Chemistry and sits second to the right of P.
+- S teaches Biology and sits to the immediate left of Q, who teaches English.
+Find the subject taught by T and T's position from the left end.
+
+### Problem 7 (Month Scheduling - 30/31 Days)
+Three couples (A-B, C-D, E-F) go on vacation in three different months: April, July, and August of the same year.
+- A and B go in a month with 30 days.
+- C and D go in a month immediately after E and F.
+Find which couple goes on vacation in August.
+
 ---
 
 ## 4. Step-by-Step Solutions
@@ -125,3 +167,108 @@ Find the seminar month for each person.
    - **June**: P
    - **August**: U
    - **October**: S
+
+### Solution 3
+1. **Represent relative positions**:
+   - Clue 1: C is immediately above A $\to$ `C - A`.
+   - Clue 2: Two boxes between A and B, and B is below A $\to$ `C - A - [ ] - [ ] - B` (occupies 5 spots).
+   - Clue 3: Three boxes between D and G, and D is above G $\to$ `D - [ ] - [ ] - [ ] - G` (occupies 5 spots).
+   - Clue 4: E is immediately below G $\to$ `D - [ ] - [ ] - [ ] - G - E` (occupies 6 spots).
+2. **Combine the blocks in a 7-box stack**:
+   - If we place the 6-spot block `D - [ ] - [ ] - [ ] - G - E` starting at position 1 (top):
+     - Position 1: D, Position 5: G, Position 6: E.
+     - Try placing the 5-spot block `C - A - [ ] - [ ] - B`:
+       - If C is at 3 and A is at 4, then B must be at 7. This fits perfectly!
+   - Now the stack is:
+     - 1: D
+     - 2: (Empty)
+     - 3: C
+     - 4: A
+     - 5: G
+     - 6: E
+     - 7: B
+3. **Place the remaining box**:
+   - The remaining box F must go to the only empty slot at position 2.
+   - Check: F is not at the top. (Correct, D is at 1).
+4. **Answer**: The order from top to bottom is **D, F, C, A, G, E, B**.
+
+### Solution 4
+1. **Set up the days baseline**: Monday to Sunday.
+2. **Place direct clues**:
+   - Q is on Wednesday.
+   - Only one person between Q and V. So V is either on Monday or Friday.
+   - S is immediately before T (`S - T`), S is after Q, and S is not on Monday.
+   - R is before U but after V.
+3. **Branch into Cases**:
+   - **Case 1: V is on Monday**
+     - Since R is after V, R and U must be scheduled on days after Monday.
+     - Since S is after Q (Wed) and `S - T` are consecutive, S can be on Thursday, Friday, or Saturday.
+     - Let's test S on Thursday, T on Friday:
+       - Clue: Only two people between T (Fri) and P $\implies$ P must be on Tuesday.
+       - The remaining empty days are Saturday and Sunday.
+       - Clue: R is before U $\implies$ R is on Saturday, U is on Sunday.
+       - Check: R (Sat) is after V (Mon). (True)
+       - All conditions are met!
+   - **Case 2: V is on Friday**
+     - S must be after Q (Wed). If S is on Saturday, T is on Sunday.
+     - Two people between T (Sun) and P $\implies$ P is on Thursday.
+     - The remaining empty days are Monday, Tuesday, Thursday.
+     - Since R is after V (Fri), R must be on Saturday or Sunday (but both are occupied). Hence, Case 2 is eliminated.
+4. **Answer**:
+   - **Monday**: V
+   - **Tuesday**: P
+   - **Wednesday**: Q
+   - **Thursday**: S
+   - **Friday**: T
+   - **Saturday**: R
+   - **Sunday**: U
+
+### Solution 5
+1. **List months chronologically**: January, April, July, September, December.
+2. **Place direct clues**:
+   - B goes to Mumbai in July.
+   - C goes to Kolkata in April.
+   - December traveler goes to Delhi.
+3. **Determine A and E's months**:
+   - A travels in a month immediately before E.
+   - The empty months are January, September, and December.
+   - The only consecutive empty months left are September and December.
+   - So, A travels in September, and E travels in December.
+   - Since E travels in December, E goes to Delhi.
+4. **Determine D's details**:
+   - The remaining person D must travel in January.
+   - D goes to Bangalore.
+5. **Determine A's city**:
+   - The remaining city is Chennai, which must be visited by A in September.
+6. **Answer**: **A** travels to **Chennai** in **September**.
+
+### Solution 6
+1. **Set up the positions**: 1 to 6 (left to right).
+2. **Place R and P**:
+   - R teaches Maths and sits at one of the extreme ends (1 or 6).
+   - Case 1: R is at 1.
+     - Only two people sit between R (1) and P $\implies$ P is at 4.
+     - U sits second to the right of P $\implies$ U is at 6 (but 6 is vacant, so U is at 6).
+     - S sits to the immediate left of Q $\implies$ S and Q are adjacent. Since 1, 4, 6 are occupied, empty spots are 2, 3, 5. So S must be at 2 and Q at 3.
+     - The remaining spot 5 is occupied by T.
+3. **Match teachers with subjects**:
+   - Position 1: R (Maths)
+   - Position 2: S (Biology)
+   - Position 3: Q (English)
+   - Position 4: P (Physics)
+   - Position 5: T (History)
+   - Position 6: U (Chemistry)
+4. **Answer**: T teaches **History** and sits at the **5th position** from the left end.
+
+### Solution 7
+1. **Analyze month lengths**:
+   - April: 30 days
+   - July: 31 days
+   - August: 31 days
+2. **Place A and B**:
+   - A and B go in a month with 30 days $\implies$ April.
+3. **Place remaining couples**:
+   - C and D go immediately after E and F.
+   - The remaining months are July and August. August is immediately after July.
+   - Thus, E and F go in July, and C and D go in August.
+4. **Answer**: **C and D** go on vacation in August.

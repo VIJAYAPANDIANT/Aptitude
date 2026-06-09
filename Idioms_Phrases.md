@@ -52,6 +52,46 @@ B) call off
 C) bring up
 D) turn down
 
+### Problem 4 (Idioms)
+Choose the option that best expresses the meaning of the highlighted idiom:
+> The engineer was asked to **go back to the drawing board** after the prototype failed the initial safety inspections.
+A) Resign from the project immediately.
+B) Start planning a new design from the very beginning because the previous one failed.
+C) Try to fix the small errors in the current prototype.
+D) Draw a layout of the workspace.
+
+### Problem 5 (One-Word Substitution)
+Find the single word that can substitute the given phrase:
+> **A person who speaks multiple languages fluently.**
+A) Polyglot
+B) Monolingual
+C) Eloquent
+D) Rhetorician
+
+### Problem 6 (Phrasal Verbs)
+Fill in the blank with the correct phrasal verb:
+> The detective promised to __________ the anomalies in the financial statements.
+A) look after
+B) look into
+C) look up
+D) look down on
+
+### Problem 7 (Idioms)
+Choose the option that best expresses the meaning of the highlighted idiom:
+> During the negotiations, Sarah managed to **kill two birds with one stone** by securing a lower price and a faster delivery schedule.
+A) Commit a serious blunder.
+B) Accomplish two tasks simultaneously with a single action.
+C) Solve a problem using an outdated method.
+D) Compromise on both quality and quantity.
+
+### Problem 8 (One-Word Substitution)
+Find the single word that can substitute the given phrase:
+> **An office or position for which no salary is paid.**
+A) Sinecure
+B) Honorary
+C) Gratuitous
+D) Amateur
+
 ---
 
 ## 3. Step-by-Step Solutions
@@ -82,3 +122,47 @@ D) turn down
 2. **Select the correct verb**:
    - The sentence refers to delaying the launch, so "**put off**" is the correct fit.
 3. **Answer**: **A**
+
+### Solution 4
+1. **Define the idiom**:
+   - To **go back to the drawing board** means to start over with a new plan or idea because the previous attempt failed completely.
+2. **Evaluate the options**:
+   - Option B ("Start planning a new design from the very beginning because the previous one failed") matches this definition exactly.
+3. **Answer**: **B**
+
+### Solution 5
+1. **Define the options**:
+   - **Polyglot**: A person who knows, writes, or speaks many languages (fluent in multiple languages).
+   - **Monolingual**: Speaking or using only one language.
+   - **Eloquent**: Fluent or persuasive in speaking or writing.
+   - **Rhetorician**: An expert in formal rhetoric.
+2. **Match with the definition**:
+   - The phrase describes a **Polyglot**.
+3. **Answer**: **A**
+
+### Solution 6
+1. **Define the phrasal verbs**:
+   - **Look after**: To take care of someone or something.
+   - **Look into**: To investigate or examine (fits "the anomalies in the financial statements").
+   - **Look up**: To search for information, or to improve.
+   - **Look down on**: To regard with contempt or feel superior to.
+2. **Select the correct verb**:
+   - The detective wants to investigate the anomalies, so "**look into**" is the correct fit.
+3. **Answer**: **B**
+
+### Solution 7
+1. **Define the idiom**:
+   - To **kill two birds with one stone** means to achieve two objectives with a single effort or action.
+2. **Evaluate the options**:
+   - Option B ("Accomplish two tasks simultaneously with a single action") matches this definition.
+3. **Answer**: **B**
+
+### Solution 8
+1. **Define the options**:
+   - **Sinecure**: A position requiring little or no work but giving the holder status or financial benefit.
+   - **Honorary**: Conferred as an honor, without the usual requirements, duties, or payment (e.g., an honorary position or role).
+   - **Gratuitous**: Given or done free of charge, or uncalled for.
+   - **Amateur**: Engaging or engaged in an activity as a pastime rather than professionally.
+2. **Match with the definition**:
+   - A position with no salary paid is described as **Honorary**.
+3. **Answer**: **B**

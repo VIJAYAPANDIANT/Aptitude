@@ -50,6 +50,21 @@ A committee of 5 members is to be formed from 6 men and 4 women. In how many way
 ### Problem 3
 In how many ways can 6 people be seated around a circular table?
 
+### Problem 4
+In how many ways can a group of 5 men and 2 women be made out of a total of 7 men and 3 women?
+
+### Problem 5
+How many 4-digit numbers can be formed using the digits $1, 2, 3, 4, 5, 6, 7$ (without repetition) such that the numbers are divisible by 5?
+
+### Problem 6
+In how many different ways can the letters of the word "CORPORATION" be arranged so that the vowels always come together?
+
+### Problem 7
+A box contains 2 white balls, 3 black balls, and 4 red balls. In how many ways can 3 balls be drawn from the box if at least one black ball is to be included in the draw?
+
+### Problem 8
+In how many ways can 5 keys be arranged in a circular key ring?
+
 ---
 
 ## 4. Step-by-Step Solutions
@@ -95,3 +110,69 @@ In how many ways can 6 people be seated around a circular table?
 2. **Calculate the factorial**:
    - $5! = 5 \times 4 \times 3 \times 2 \times 1 = 120$.
 3. **Answer**: There are **120** ways.
+
+### Solution 4
+1. **Identify parameters**:
+   - Total men $= 7$, choose 5: $7C_5$.
+   - Total women $= 3$, choose 2: $3C_2$.
+2. **Calculate combinations**:
+   - $7C_5 = 7C_2 = \frac{7 \times 6}{2 \times 1} = 21$.
+   - $3C_2 = 3C_1 = 3$.
+3. **Apply the multiplication principle**:
+   - Total ways $= 7C_5 \times 3C_2 = 21 \times 3 = 63$.
+4. **Answer**: The group can be made in **63** ways.
+
+### Solution 5
+1. **Identify the constraint for divisibility by 5**:
+   - A number is divisible by 5 if its last digit is 5 or 0.
+   - Since the digits given are $1, 2, 3, 4, 5, 6, 7$, the units place must be filled by the digit **5** (1 way).
+2. **Fill the remaining places**:
+   - We need to form a 4-digit number.
+   - The units place is filled. We have 3 more positions to fill (thousands, hundreds, tens).
+   - Remaining digits available $= 6$ (excluding 5).
+   - Number of ways to arrange 3 digits out of 6 is $6P_3$:
+     $$6P_3 = 6 \times 5 \times 4 = 120 \text{ ways}$$
+3. **Calculate total ways**:
+   - Total ways $= 120 \times 1 = 120$.
+4. **Answer**: There are **120** such numbers.
+
+### Solution 6
+1. **Analyze the letters of "CORPORATION"**:
+   - Total letters $= 11$.
+   - Vowels $= 5$ (O, O, A, I, O). Note that O is repeated 3 times.
+   - Consonants $= 6$ (C, R, P, R, T, N). Note that R is repeated 2 times.
+2. **Apply the grouping trick**:
+   - Group all 5 vowels together: `(OOAIO)`.
+   - Treat `(OOAIO)` as 1 unit.
+   - Total units to arrange $= 6 \text{ consonants} + 1 \text{ vowel group} = 7$ units.
+3. **Arrange the 7 units**:
+   - The consonant R is repeated 2 times.
+   - Number of ways to arrange these 7 units $= \frac{7!}{2!} = \frac{5040}{2} = 2520$.
+4. **Arrange the internal elements of the vowel group**:
+   - The group `(OOAIO)` has 5 letters where O is repeated 3 times.
+   - Number of ways to arrange the vowels among themselves $= \frac{5!}{3!} = \frac{120}{6} = 20$.
+5. **Calculate total arrangements**:
+   - Total arrangements $= 2520 \times 20 = 50,400$.
+6. **Answer**: The letters can be arranged in **50,400** ways.
+
+### Solution 7
+1. **Calculate total ways to draw 3 balls without constraints**:
+   - Total balls $= 2 + 3 + 4 = 9$ balls.
+   - Drawing 3 balls out of 9:
+     $$9C_3 = \frac{9 \times 8 \times 7}{3 \times 2 \times 1} = 84 \text{ ways}$$
+2. **Calculate ways to draw 3 balls with NO black balls**:
+   - Total non-black balls $= 2 \text{ (white)} + 4 \text{ (red)} = 6$ balls.
+   - Drawing 3 balls from these 6:
+     $$6C_3 = \frac{6 \times 5 \times 4}{3 \times 2 \times 1} = 20 \text{ ways}$$
+3. **Calculate ways with at least one black ball**:
+   - $\text{Ways with at least 1 black} = \text{Total ways} - \text{Ways with no black}$
+   - $\text{Ways with at least 1 black} = 84 - 20 = 64$ ways.
+4. **Answer**: The draw can be done in **64** ways.
+
+### Solution 8
+1. **Identify circular permutation conditions**:
+   - Number of objects (keys) $n = 5$.
+   - In a key ring, clockwise and counterclockwise arrangements are not distinguishable because the key ring can be flipped over.
+2. **Apply formula**:
+   - $\text{Arrangements} = \frac{(n - 1)!}{2} = \frac{(5 - 1)!}{2} = \frac{4!}{2} = \frac{24}{2} = 12$.
+3. **Answer**: The keys can be arranged in **12** ways.

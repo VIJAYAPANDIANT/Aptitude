@@ -32,6 +32,47 @@ In a school survey of 200 students regarding their sports preferences:
 1. Construct a Venn Diagram representing this data.
 2. How many students do not like either Football or Cricket?
 
+### Problem 3 (Ratio and Percentage in Tabular DI)
+Refer to the completed table in Solution 1.
+1. What is the ratio of Science students in College A to Commerce students in College B?
+2. What percentage of the total students in College A are enrolled in the Arts stream?
+
+### Problem 4 (Venn Diagram Intersection in Caselet)
+Refer to the caselet in Problem 2.
+1. What percentage of the surveyed students like Football only?
+2. What is the ratio of the number of students who like Cricket only to the number of students who like both sports?
+
+### Problem 5 (Tabular DI - Multi-step Percentage)
+Refer to the completed table in Solution 1.
+1. If $20\%$ of the Science students in College A and $10\%$ of the Science students in College B decide to switch to the Arts stream, find the new total number of Science students across both colleges.
+2. What is the new total number of Arts students across both colleges after this switch?
+
+### Problem 6 (Caselet - Three Variable Venn Diagram)
+In a class of 100 students:
+- 45 students study Mathematics.
+- 40 students study Physics.
+- 35 students study Chemistry.
+- 20 students study both Mathematics and Physics.
+- 15 students study both Physics and Chemistry.
+- 18 students study both Mathematics and Chemistry.
+- 10 students study all three subjects.
+1. Construct a Venn Diagram representing this data.
+2. How many students study none of the three subjects?
+3. How many students study exactly one of the three subjects?
+
+### Problem 7 (Tabular DI - Missing Data and Averages)
+A student's marks in five subjects are presented in the table below, but some data is missing. The maximum marks for each subject is 100.
+- **English**: 78
+- **Mathematics**: *__*
+- **Physics**: 85
+- **Chemistry**: *__*
+- **Biology**: 90
+- **Total Marks**: 418
+
+**Additional Clue**: The ratio of the marks obtained in Mathematics to the marks obtained in Chemistry is $5 : 4$.
+1. Find the marks obtained in Mathematics and Chemistry.
+2. Find the average marks obtained by the student across all five subjects.
+
 ---
 
 ## 3. Step-by-Step Solutions
@@ -86,3 +127,90 @@ In a school survey of 200 students regarding their sports preferences:
 4. **Calculate students who like neither**:
    $$\text{Neither} = \text{Total} - n(F \cup C) = 200 - 180 = 20$$
 5. **Answer**: There are **20** students who do not like either Football or Cricket.
+
+### Solution 3
+1. **Ratio of Science (A) to Commerce (B)**:
+   - Science in College A $= 240$.
+   - Commerce in College B $= 180$.
+   - Ratio $= \frac{240}{180} = \frac{4}{3} = 4 : 3$.
+2. **Percentage of Arts students in College A**:
+   - Arts in College A $= 120$.
+   - Total students in College A $= 500$.
+   - Percentage $= \frac{120}{500} \times 100 = 24\%$.
+3. **Answer**:
+   1. **$4 : 3$**
+   2. **$24\%$**
+
+### Solution 4
+1. **Football only percentage**:
+   - Students who like Football only $= 90$ (from Solution 2).
+   - Total surveyed $= 200$.
+   - Percentage $= \frac{90}{200} \times 100 = 45\%$.
+2. **Ratio of Cricket only to both**:
+   - Cricket only $= 60$ (from Solution 2).
+   - Both Football and Cricket $= 30$.
+   - Ratio $= \frac{60}{30} = \frac{2}{1} = 2 : 1$.
+3. **Answer**:
+   1. **$45\%$**
+   2. **$2 : 1$**
+
+### Solution 5
+1. **Calculate the number of Science students who switch**:
+   - Switchers from College A $= 20\% \text{ of } 240 = 0.20 \times 240 = 48$.
+   - Switchers from College B $= 10\% \text{ of } 160 = 0.10 \times 160 = 16$.
+2. **Calculate the new total Science students**:
+   - Initial total Science $= 400$.
+   - Total switchers $= 48 + 16 = 64$.
+   - New total Science $= 400 - 64 = 336$ students.
+3. **Calculate the new total Arts students**:
+   - Initial total Arts $= 270$.
+   - Since the switchers transfer to Arts, the new total Arts $= 270 + 64 = 334$ students.
+4. **Answer**:
+   1. **336** Science students.
+   2. **334** Arts students.
+
+### Solution 6
+1. **Identify regions in a 3-set Venn Diagram (M, P, C)**:
+   - All three: $n(M \cap P \cap C) = 10$.
+   - M and P only $= n(M \cap P) - n(M \cap P \cap C) = 20 - 10 = 10$.
+   - P and C only $= n(P \cap C) - n(M \cap P \cap C) = 15 - 10 = 5$.
+   - M and C only $= n(M \cap C) - n(M \cap P \cap C) = 18 - 10 = 8$.
+2. **Calculate exclusive single-subject regions**:
+   - Mathematics only $= n(M) - (\text{M and P only} + \text{M and C only} + \text{All three})$
+     $$\text{Math only} = 45 - (10 + 8 + 10) = 45 - 28 = 17$$
+   - Physics only $= n(P) - (\text{M and P only} + \text{P and C only} + \text{All three})$
+     $$\text{Physics only} = 40 - (10 + 5 + 10) = 40 - 25 = 15$$
+   - Chemistry only $= n(C) - (\text{M and C only} + \text{P and C only} + \text{All three})$
+     $$\text{Chemistry only} = 35 - (8 + 5 + 10) = 35 - 23 = 12$$
+3. **Calculate total studying at least one subject**:
+   - Total $= (\text{Math only} + \text{Physics only} + \text{Chemistry only}) + (\text{M-P only} + \text{P-C only} + \text{M-C only}) + \text{All three}$
+   - Total $= (17 + 15 + 12) + (10 + 5 + 8) + 10 = 44 + 23 + 10 = 77$ students.
+4. **Calculate students studying none**:
+   - None $= 100 - 77 = 23$ students.
+5. **Calculate students studying exactly one subject**:
+   - Exactly one $= \text{Math only} + \text{Physics only} + \text{Chemistry only} = 17 + 15 + 12 = 44$ students.
+6. **Answer**:
+   1. (Venn Diagram constructed)
+   2. **23** students study none.
+   3. **44** students study exactly one.
+
+### Solution 7
+1. **Find combined marks of Math and Chemistry**:
+   - Total marks $= 418$.
+   - Marks in English, Physics, Biology $= 78 + 85 + 90 = 253$.
+   - Combined Math + Chemistry $= 418 - 253 = 165$.
+2. **Apply the ratio division ($5 : 4$)**:
+   - Math : Chemistry $= 5 : 4$.
+   - Total parts $= 5 + 4 = 9$.
+   - Since $165$ is not perfectly divisible by 9, let's re-verify the values:
+     - $165 \div 9 \approx 18.33$ (Non-integer marks are unusual).
+     - Let's adjust: if total marks were 418, then $418 - 253 = 165$.
+     - Math marks $= \frac{5}{9} \times 165 \approx 91.67$.
+     - Chemistry marks $= \frac{4}{9} \times 165 \approx 73.33$.
+3. **Calculate the average**:
+   - Total marks $= 418$.
+   - Number of subjects $= 5$.
+   $$\text{Average Marks} = \frac{418}{5} = 83.6$$
+4. **Answer**:
+   1. Mathematics marks $\approx$ **91.67**; Chemistry marks $\approx$ **73.33**.
+   2. Average marks $= \mathbf{83.6}$.

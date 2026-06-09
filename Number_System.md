@@ -58,6 +58,21 @@ Find the sum of all natural numbers between 100 and 300 which are exactly divisi
 ### Problem 3
 Find the total number of factors of 360 (excluding 1 and the number itself).
 
+### Problem 4
+A number when divided by 899 leaves a remainder 63. What will be the remainder when the same number is divided by 29?
+
+### Problem 5
+Find the remainder when $2^{31}$ is divided by 5.
+
+### Problem 6
+Find the number of zeroes at the end of the product $1 \times 2 \times 3 \times \dots \times 100$ (or $100!$).
+
+### Problem 7
+Find the sum of all terms of the infinite geometric series: $1 + \frac{1}{3} + \frac{1}{9} + \frac{1}{27} + \dots$
+
+### Problem 8
+The sum of a two-digit number and the number obtained by reversing its digits is 121. What is the sum of the digits of the number?
+
 ---
 
 ## 4. Step-by-Step Solutions
@@ -97,3 +112,66 @@ Find the total number of factors of 360 (excluding 1 and the number itself).
 3. **Exclude 1 and the number itself**:
    $$\text{Required Factors} = 24 - 2 = 22$$
 4. **Answer**: The number of factors is **22**.
+
+### Solution 4
+1. **Represent the number**:
+   - Let the number be $N = 899k + 63$, where $k$ is an integer.
+2. **Analyze divisibility by 29**:
+   - Check if 899 is divisible by 29: $899 \div 29 = 31$.
+   - Since 899 is a multiple of 29, the term $899k$ leaves a remainder of 0 when divided by 29.
+3. **Find the remainder of the constant term**:
+   - Divide 63 by 29:
+     $$63 = 29 \times 2 + 5$$
+   - The remainder is 5.
+4. **Answer**: The remainder is **5**.
+
+### Solution 5
+1. **Analyze unit/remainder cycles**:
+   - We need to find $2^{31} \pmod 5$.
+   - Calculate powers of 2 modulo 5:
+     - $2^1 \equiv 2 \pmod 5$
+     - $2^2 \equiv 4 \pmod 5$
+     - $2^3 \equiv 8 \equiv 3 \pmod 5$
+     - $2^4 \equiv 16 \equiv 1 \pmod 5$
+   - The cycle of remainders is $[2, 4, 3, 1]$ of length 4.
+2. **Divide exponent by cycle length**:
+     $$31 = 4 \times 7 + 3$$
+   - The remainder is 3.
+3. **Determine the result**:
+   - $2^{31} \equiv 2^3 \equiv 3 \pmod 5$.
+4. **Answer**: The remainder is **3**.
+
+### Solution 6
+1. **Identify the source of zeroes**:
+   - Zeroes at the end of a factorial product are formed by the factors of 10, which are $2 \times 5$.
+   - In any factorial, the prime factor 2 occurs more frequently than 5. Thus, the number of zeroes is determined by the number of times 5 divides $100!$.
+2. **Apply Legendre's Formula**:
+   $$\text{Number of factors of 5} = \lfloor \frac{100}{5} \rfloor + \lfloor \frac{100}{25} \rfloor + \lfloor \frac{100}{125} \rfloor + \dots$$
+   $$\text{Number of factors of 5} = 20 + 4 + 0 = 24$$
+3. **Answer**: The number of trailing zeroes is **24**.
+
+### Solution 7
+1. **Identify type of series**:
+   - The series is $1 + \frac{1}{3} + \frac{1}{9} + \frac{1}{27} + \dots$
+   - This is an infinite Geometric Progression (GP) where:
+     - First term $a = 1$
+     - Common ratio $r = \frac{1}{3}$
+2. **Check convergence**:
+   - Since $|r| = \frac{1}{3} < 1$, the series converges.
+3. **Apply the sum formula**:
+   $$S_{\infty} = \frac{a}{1 - r}$$
+   $$S_{\infty} = \frac{1}{1 - 1/3} = \frac{1}{2/3} = \frac{3}{2} = 1.5$$
+4. **Answer**: The sum of the series is **1.5** (or $\frac{3}{2}$).
+
+### Solution 8
+1. **Represent the two-digit number**:
+   - Let the tens digit be $x$ and the units digit be $y$.
+   - The value of the number is $10x + y$.
+2. **Set up the reversed number**:
+   - Reversing the digits gives the number $10y + x$.
+3. **Form the equation**:
+   - The sum of the numbers is 121:
+     $$(10x + y) + (10y + x) = 121$$
+     $$11x + 11y = 121$$
+     $$11(x + y) = 121 \implies x + y = 11$$
+4. **Answer**: The sum of the digits is **11**.

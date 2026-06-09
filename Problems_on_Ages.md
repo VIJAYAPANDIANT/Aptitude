@@ -40,6 +40,21 @@ The sum of the present ages of a mother and her daughter is 50 years. Five years
 ### Problem 3
 A man is 24 years older than his son. In two years, his age will be twice the age of his son. Find the present age of the son.
 
+### Problem 4
+The ratio of the present ages of two brothers is $1 : 2$ and 5 years back the ratio was $1 : 3$. What will be the ratio of their ages after 5 years?
+
+### Problem 5
+A father told his son, "I was as old as you are at the present at the time of your birth." If the father's age is 38 years now, the son's age five years back was:
+
+### Problem 6
+Ayisha's age is $\frac{1}{6}$ of her father's age. Ayisha's father's age will be twice of Vimal's age after 10 years. If Vimal's eighth birthday was celebrated two years ago, then what is Ayisha's present age?
+
+### Problem 7
+The average age of a man and his two twin sons is 30 years. The ratio of the age of the man to one of his sons is $5 : 2$. What is the age of the man?
+
+### Problem 8
+A person's present age is two-fifths of the age of his mother. After 8 years, he will be one-half of the age of his mother. How old is the mother at present?
+
 ---
 
 ## 4. Step-by-Step Solutions
@@ -84,10 +99,77 @@ A man is 24 years older than his son. In two years, his age will be twice the ag
    - Let Son's present age $= s$ years.
    - Father's present age $= s + 24$ years.
 2. **Form the equation for 2 years hence**:
-   - Son's age in 2 years $= s + 2
+   - Son's age in 2 years $= s + 2$.
    - Father's age in 2 years $= (s + 24) + 2 = s + 26$.
    - In 2 years, Father is twice as old as Son:
      $$s + 26 = 2(s + 2)$$
      $$s + 26 = 2s + 4$$
      $$s = 22$$
 3. **Answer**: The son's present age is **22 years**.
+
+### Solution 4
+1. **Set up the variables**:
+   - Let the present ages of the two brothers be $x$ and $2x$ years.
+2. **Formulate equation for 5 years ago**:
+   - Ages 5 years ago were $x - 5$ and $2x - 5$.
+   - The ratio was $1 : 3$:
+     $$\frac{x - 5}{2x - 5} = \frac{1}{3}$$
+     $$3(x - 5) = 2x - 5 \implies 3x - 15 = 2x - 5 \implies x = 10$$
+3. **Determine their present ages**:
+   - Present ages are 10 years and 20 years.
+4. **Determine the ratio after 5 years**:
+   - Ages after 5 years: $10 + 5 = 15$ years and $20 + 5 = 25$ years.
+   - Ratio $= 15 : 25 = 3 : 5$.
+5. **Answer**: The ratio of their ages after 5 years will be **$3 : 5$**.
+
+### Solution 5
+1. **Understand the relation**:
+   - Let the son's present age be $x$ years.
+   - The father was as old as the son is now at the time of the son's birth.
+   - At the time of the son's birth (which was $x$ years ago), the father's age was $x$.
+   - Therefore, the father's present age is $x + x = 2x$ years.
+2. **Find the son's present age**:
+   - Father's present age $= 38$ years $\implies 2x = 38 \implies x = 19$ years.
+3. **Find the son's age 5 years ago**:
+   - Son's age 5 years ago $= 19 - 5 = 14$ years.
+4. **Answer**: The son's age five years back was **14 years**.
+
+### Solution 6
+1. **Find Vimal's present age**:
+   - Vimal's 8th birthday was 2 years ago $\implies$ Vimal's present age $= 8 + 2 = 10$ years.
+2. **Calculate Vimal's age in 10 years**:
+   - Vimal's age after 10 years $= 10 + 10 = 20$ years.
+3. **Calculate Father's age**:
+   - Ayisha's father's age in 10 years $= 2 \times 20 = 40$ years.
+   - Father's present age $= 40 - 10 = 30$ years.
+4. **Calculate Ayisha's present age**:
+   - Ayisha's present age $= \frac{1}{6} \times \text{Father's present age} = \frac{1}{6} \times 30 = 5$ years.
+5. **Answer**: Ayisha's present age is **5 years**.
+
+### Solution 7
+1. **Set up the variables**:
+   - Let the age of the twin sons be $2x$ each (since they are twins, their ages are equal).
+   - Let the age of the father be $5x$.
+2. **Formulate equation using average age**:
+   - Average age of the 3 persons (Father + 2 twin sons) $= 30$ years.
+   - Sum of their ages $= 30 \times 3 = 90$ years.
+   - Therefore:
+     $$5x + 2x + 2x = 90$$
+     $$9x = 90 \implies x = 10$$
+3. **Calculate father's age**:
+   - Father's age $= 5x = 5 \times 10 = 50$ years.
+4. **Answer**: The age of the man (father) is **50 years**.
+
+### Solution 8
+1. **Set up the variables**:
+   - Let mother's present age $= m$ years.
+   - Person's present age $= \frac{2}{5}m$ years.
+2. **Formulate equation for 8 years hence**:
+   - After 8 years, person's age $= \frac{2}{5}m + 8$.
+   - After 8 years, mother's age $= m + 8$.
+   - The person will be one-half of the mother's age:
+     $$\frac{2}{5}m + 8 = \frac{1}{2}(m + 8)$$
+     $$\frac{2}{5}m + 8 = \frac{1}{2}m + 4$$
+     $$\frac{1}{2}m - \frac{2}{5}m = 8 - 4$$
+     $$\frac{5m - 4m}{10} = 4 \implies \frac{m}{10} = 4 \implies m = 40$$
+3. **Answer**: The mother's present age is **40 years**.

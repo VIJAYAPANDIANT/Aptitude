@@ -46,6 +46,21 @@ What percentage of their total monthly budget is saved?
 ### Problem 3 (Ratio Breakdown)
 If the money spent on Education is split between School Fees and Books in the ratio $5 : 3$, how much money is spent on Books?
 
+### Problem 4 (Sector Angle Calculation)
+If the family decides to reduce their expenses on Rent by $20\%$ and transfer that amount to Savings, what will be the new sector angle for Savings?
+
+### Problem 5 (Difference in Expenditures)
+Find the absolute difference (in Rs.) between the family's expenditure on Rent and their expenditure on Savings.
+
+### Problem 6 (Combined Percentage)
+What percentage of the total budget is spent on Rent and Education combined?
+
+### Problem 7 (Comparison of Sectors)
+By what percentage is the expenditure on Food greater than the expenditure on Education?
+
+### Problem 8 (New Total Budget)
+If the total monthly budget is increased to **Rs. 75,000** while keeping the sector angles of all components unchanged, what will be the new amount (in Rs.) spent on the "Others" category?
+
 ---
 
 ## 4. Step-by-Step Solutions
@@ -78,3 +93,44 @@ If the money spent on Education is split between School Fees and Books in the ra
      $$\text{Expense on Books} = \frac{3}{8} \times \text{Education Expense}$$
      $$\text{Expense on Books} = \frac{3}{8} \times 12,000 = 3 \times 1,500 = 4,500$$
 3. **Answer**: **Rs. 4,500** is spent on Books.
+
+### Solution 4
+1. **Find current Rent and Savings angles**:
+   - Rent $= 90^\circ$, Savings $= 54^\circ$.
+2. **Calculate reduction in Rent**:
+   - $20\%$ of Rent angle $= 20\% \text{ of } 90^\circ = 0.20 \times 90^\circ = 18^\circ$.
+3. **Add the transferred amount to Savings**:
+   - New Savings angle $= \text{Old Savings angle} + 18^\circ = 54^\circ + 18^\circ = 72^\circ$.
+4. **Answer**: The new sector angle for Savings will be **$72^\circ$**.
+
+### Solution 5
+1. **Find the difference in degrees**:
+   - Rent angle $= 90^\circ$, Savings angle $= 54^\circ$.
+   - Difference $= 90^\circ - 54^\circ = 36^\circ$.
+2. **Convert the difference to a value**:
+   $$\text{Value Difference} = \frac{36}{360} \times 60,000 = \frac{1}{10} \times 60,000 = 6,000$$
+3. **Answer**: The absolute difference is **Rs. 6,000**.
+
+### Solution 6
+1. **Find combined degrees for Rent and Education**:
+   - Rent angle $= 90^\circ$, Education angle $= 72^\circ$.
+   - Combined angle $= 90^\circ + 72^\circ = 162^\circ$.
+2. **Convert to percentage**:
+   $$\text{Combined Percentage} = \frac{162}{3.6} = 45\%$$
+   - *(Alternative: $\frac{162}{360} \times 100 = \frac{9}{20} \times 100 = 45\%$)*
+3. **Answer**: **$45\%$** of the budget is spent on Rent and Education combined.
+
+### Solution 7
+1. **Compare sector angles**:
+   - Food angle $= 108^\circ$, Education angle $= 72^\circ$.
+   - The values are directly proportional to their angles.
+2. **Calculate percentage increase**:
+   $$\text{Percentage Greater} = \frac{108 - 72}{72} \times 100 = \frac{36}{72} \times 100 = 50\%$$
+3. **Answer**: Food expenditure is **$50\%$** greater than Education expenditure.
+
+### Solution 8
+1. **Identify the "Others" angle**:
+   - Others sector angle $= 36^\circ$.
+2. **Calculate value with the new total budget ($T = \text{Rs. } 75,000$)**:
+   $$\text{New Others Expense} = \frac{36}{360} \times 75,000 = \frac{1}{10} \times 75,000 = 7,500$$
+3. **Answer**: The new amount spent on "Others" is **Rs. 7,500**.

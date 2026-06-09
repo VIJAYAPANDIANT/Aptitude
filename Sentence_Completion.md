@@ -46,6 +46,41 @@ B) flawed
 C) balanced
 D) equitable
 
+### Problem 3 (Single Blank)
+The author's prose is so ________ that even complex philosophical concepts are made accessible to the layperson.
+A) abstruse
+B) pellucid
+C) recondite
+D) labyrinthine
+
+### Problem 4 (Double Blank)
+Although the initial reviews of the film were highly ________, subsequent critiques were far more ________, reflecting a growing consensus that the movie was a masterpiece.
+A) laudatory ... critical
+B) lukewarm ... enthusiastic
+C) disparaging ... hostile
+D) favorable ... indifferent
+
+### Problem 5 (Single Blank)
+The diplomat's ________ response to the controversial question managed to calm the reporters without committing his government to any specific course of action.
+A) partisan
+B) equivocal
+C) belligerent
+D) precipitate
+
+### Problem 6 (Double Blank)
+The CEO's ________ policy of cutting research funds was criticized for being ________, as it yielded short-term savings but compromised the company's long-term competitive edge.
+A) prudent ... visionary
+B) short-sighted ... counterproductive
+C) spendthrift ... parsimonious
+D) dynamic ... stagnant
+
+### Problem 7 (Single Blank)
+Despite the team's best efforts to keep the merger plans under wraps, details of the negotiations ________ to the press, sparking a frenzy among investors.
+A) stagnated
+B) leaked
+C) coalesced
+D) receded
+
 ---
 
 ## 3. Step-by-Step Solutions
@@ -82,3 +117,59 @@ D) equitable
    - The system is causing the problems, so the system must be bad or broken.
    - **flawed** (having weaknesses or imperfections) is the only negative adjective that fits.
    - **Answer**: **B (flawed)**
+
+### Solution 3
+1. **Analyze the context and clues**:
+   - "even complex philosophical concepts are made accessible to the layperson"
+   - This indicates that the prose is extremely clear and easy to understand.
+2. **Evaluate the options**:
+   - **A) abstruse** means difficult to understand; obscure.
+   - **B) pellucid** means translucently clear; easily understood. This perfectly matches the clue.
+   - **C) recondite** means obscure or little known.
+   - **D) labyrinthine** means complicated, tortuous, or maze-like.
+3. **Answer**: **B**
+
+### Solution 4
+1. **Analyze the transition signals**:
+   - The sentence begins with "Although", signaling a contrast between the "initial reviews" and the "subsequent critiques".
+   - The ending phrase, "reflecting a growing consensus that the movie was a masterpiece", shows that the subsequent critiques must be highly positive.
+   - Therefore, the first blank should be less positive or negative, and the second blank must be positive.
+2. **Evaluate the options**:
+   - **A) laudatory (positive) ... critical (negative)**: Opposite of what is needed.
+   - **B) lukewarm (mildly negative/indifferent) ... enthusiastic (highly positive)**: Fits the contrast and the final positive consensus perfectly.
+   - **C) disparaging (negative) ... hostile (negative)**: No contrast.
+   - **D) favorable (positive) ... indifferent (neutral/negative)**: Opposite of what is needed.
+3. **Answer**: **B**
+
+### Solution 5
+1. **Analyze the clues**:
+   - The response "managed to calm the reporters" (positive/neutral outcome) but did so "without committing his government to any specific course of action".
+   - This means the response was open to interpretation, ambiguous, or non-committal.
+2. **Evaluate the options**:
+   - **A) partisan** means strongly supporting one side/party.
+   - **B) equivocal** means open to more than one interpretation; ambiguous or non-committal. This fits the context.
+   - **C) belligerent** means hostile and aggressive.
+   - **D) precipitate** means done or acting suddenly or without careful consideration.
+3. **Answer**: **B**
+
+### Solution 6
+1. **Analyze the clues**:
+   - The policy involved "cutting research funds".
+   - It is criticized for yielding "short-term savings but compromised the company's long-term competitive edge".
+   - This implies the policy was not thinking about the future (short-sighted) and ended up causing harm in the long run (counterproductive).
+2. **Evaluate the options**:
+   - **B) short-sighted (lacking foresight) ... counterproductive (having the opposite of the desired effect)** matches the logical context.
+   - **A, C, and D** do not make sense in combination with the critique.
+3. **Answer**: **B**
+
+### Solution 7
+1. **Analyze the clues**:
+   - The sentence states "Despite the team's best efforts to keep the merger plans under wraps" (meaning secret).
+   - "details of the negotiations [blank] to the press".
+   - When secret information gets out to the public or media, we say it "leaked".
+2. **Evaluate the options**:
+   - **A) stagnated** means stopped flowing or moving.
+   - **B) leaked** means accidentally or intentionally became known (correct).
+   - **C) coalesced** means came together to form one mass or whole.
+   - **D) receded** means moved back or further away.
+3. **Answer**: **B**
