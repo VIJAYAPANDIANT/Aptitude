@@ -65,6 +65,12 @@ A box contains 2 white balls, 3 black balls, and 4 red balls. In how many ways c
 ### Problem 8
 In how many ways can 5 keys be arranged in a circular key ring?
 
+### Problem 9
+In how many ways can a team of 11 cricket players be chosen from 15 players, if one particular player is always included and another particular player is always excluded?
+
+### Problem 10
+Find the number of ways in which 4 boys and 4 girls can be seated in a row alternately.
+
 ---
 
 ## 4. Step-by-Step Solutions
@@ -176,3 +182,25 @@ In how many ways can 5 keys be arranged in a circular key ring?
 2. **Apply formula**:
    - $\text{Arrangements} = \frac{(n - 1)!}{2} = \frac{(5 - 1)!}{2} = \frac{4!}{2} = \frac{24}{2} = 12$.
 3. **Answer**: The keys can be arranged in **12** ways.
+
+### Solution 9
+1. **Analyze the constraints**:
+   - Total players $= 15$, choose 11.
+   - 1 particular player is always included $\implies$ we must choose him, leaving 10 players to select.
+   - 1 particular player is always excluded $\implies$ we cannot choose him, leaving $15 - 1 \text{ (included)} - 1 \text{ (excluded)} = 13$ players available.
+2. **Calculate combinations**:
+   - Number of ways $= 13C_{10} = 13C_3 = \frac{13 \times 12 \times 11}{3 \times 2 \times 1} = 286$ ways.
+3. **Answer**: The team can be chosen in **286** ways.
+
+### Solution 10
+1. **Analyze the alternate seating constraint**:
+   - There are 4 boys (B) and 4 girls (G).
+   - There are two possible patterns: B G B G B G B G or G B G B G B G B.
+2. **Calculate arrangements for each pattern**:
+   - For B G B G B G B G: Boys can be arranged in $4! = 24$ ways; Girls can be arranged in $4! = 24$ ways.
+   - Total for Pattern 1 $= 24 \times 24 = 576$ ways.
+   - For G B G B G B G B: Boys can be arranged in $4! = 24$ ways; Girls can be arranged in $4! = 24$ ways.
+   - Total for Pattern 2 $= 24 \times 24 = 576$ ways.
+3. **Sum the combinations**:
+   - Total ways $= 576 + 576 = 1152$ ways.
+4. **Answer**: The boys and girls can be seated alternately in **1152** ways.

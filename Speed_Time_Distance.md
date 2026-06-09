@@ -67,6 +67,12 @@ A thief is spotted by a policeman from a distance of 200 meters. The thief start
 ### Problem 8
 A boat covers a distance of 30 km downstream in 2 hours, and a distance of 30 km upstream in 6 hours. Find the speed of the stream.
 
+### Problem 9
+A train running at the speed of 60 km/h crosses a 200 m long platform in 27 seconds. What is the length of the train?
+
+### Problem 10
+A man travels from A to B at a speed of 40 km/h and returns from B to A at a speed of 60 km/h. Find his average speed for the entire journey.
+
 ---
 
 ## 4. Step-by-Step Solutions
@@ -161,3 +167,24 @@ A boat covers a distance of 30 km downstream in 2 hours, and a distance of 30 km
 2. **Find the speed of the stream ($v$)**:
    $$v = \frac{d - u_p}{2} = \frac{15 - 5}{2} = 5 \text{ km/h}$$
 3. **Answer**: The speed of the stream is **5 km/h**.
+
+### Solution 9
+1. **Convert speed to meters per second (m/s)**:
+   - Speed $= 60 \text{ km/h} = 60 \times \frac{5}{18} = \frac{50}{3} \text{ m/s}$.
+2. **Calculate total distance covered during crossing**:
+   - $\text{Total Distance} = \text{Speed} \times \text{Time}$
+     $$\text{Total Distance} = \frac{50}{3} \text{ m/s} \times 27 \text{ s} = 50 \times 9 = 450 \text{ meters}$$
+3. **Find the length of the train**:
+   - $\text{Total Distance} = \text{Length of Train} + \text{Length of Platform}$
+   - $450 = \text{Length of Train} + 200$
+   - $\text{Length of Train} = 450 - 200 = 250$ meters.
+4. **Answer**: The length of the train is **250 meters**.
+
+### Solution 10
+1. **Identify average speed formula for equal distances**:
+   - When equal distances are covered at speeds $x$ and $y$, the average speed is:
+     $$\text{Average Speed} = \frac{2xy}{x + y}$$
+2. **Substitute given values**:
+   - $x = 40$ km/h, $y = 60$ km/h.
+     $$\text{Average Speed} = \frac{2 \times 40 \times 60}{40 + 60} = \frac{4800}{100} = 48 \text{ km/h}$$
+3. **Answer**: His average speed for the entire journey is **48 km/h**.

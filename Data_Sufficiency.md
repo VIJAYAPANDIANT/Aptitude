@@ -74,6 +74,16 @@ What is the code for the word "bright" in a code language?
 - **Statement (1)**: "sky is bright" is written as "pi la ko" and "sun is hot" is written as "ko ze mu".
 - **Statement (2)**: "bright sun shines" is written as "pi mu ra" and "shines like star" is written as "ra de ga".
 
+### Problem 8 (Geometry / Mensuration)
+What is the area of the rectangle ABCD?
+- **Statement (1)**: The diagonal of the rectangle is 10 cm.
+- **Statement (2)**: The perimeter of the rectangle is 28 cm.
+
+### Problem 9 (Order & Ranking)
+On which day of the week did Anil go to the movies?
+- **Statement (1)**: Anil's mother remembers that Anil went to the movies after Tuesday but before Saturday.
+- **Statement (2)**: Anil's brother remembers that Anil went to the movies after Thursday but before Sunday.
+
 ---
 
 ## 4. Step-by-Step Solutions
@@ -200,5 +210,45 @@ What is the code for the word "bright" in a code language?
    - From (2), "bright" is either "pi" or "mu".
    - The intersection of both sets of possible codes is "pi".
    - Thus, "bright" is coded as "pi".
+   - **Combined statements are sufficient**.
+4. **Answer**: **Option C** (Both statements together are sufficient).
+
+### Solution 8
+1. **Evaluate Statement (1) alone**:
+   - Let the length of the rectangle be $l$ and the width be $w$.
+   - Diagonal $d = \sqrt{l^2 + w^2} = 10 \implies l^2 + w^2 = 100$.
+   - There are infinitely many positive pairs $(l, w)$ that satisfy this equation, giving different areas ($l \times w$).
+   - **Statement (1) is NOT sufficient**.
+2. **Evaluate Statement (2) alone**:
+   - Perimeter $= 2(l + w) = 28 \implies l + w = 14$.
+   - Again, there are infinitely many pairs $(l, w)$ that sum to 14, yielding different areas.
+   - **Statement (2) is NOT sufficient**.
+3. **Combine Statements (1) and (2)**:
+   - We have:
+     1. $l + w = 14$
+     2. $l^2 + w^2 = 100$
+   - Using the algebraic identity $(l + w)^2 = l^2 + w^2 + 2lw$:
+     $$14^2 = 100 + 2lw$$
+     $$196 = 100 + 2lw \implies 2lw = 96 \implies lw = 48$$
+   - Since Area $= lw$, the area is uniquely determined as $48\text{ cm}^2$.
+   - **Combined statements are sufficient**.
+4. **Answer**: **Option C** (Both statements together are sufficient).
+
+### Solution 9
+1. **Evaluate Statement (1) alone**:
+   - Anil went to the movies after Tuesday but before Saturday.
+   - Possible days: Wednesday, Thursday, or Friday.
+   - No unique day is determined.
+   - **Statement (1) is NOT sufficient**.
+2. **Evaluate Statement (2) alone**:
+   - Anil went to the movies after Thursday but before Sunday.
+   - Possible days: Friday or Saturday.
+   - No unique day is determined.
+   - **Statement (2) is NOT sufficient**.
+3. **Combine Statements (1) and (2)**:
+   - From Statement (1), the days are {Wednesday, Thursday, Friday}.
+   - From Statement (2), the days are {Friday, Saturday}.
+   - The only common day between both statements is Friday.
+   - This determines a unique day (Friday).
    - **Combined statements are sufficient**.
 4. **Answer**: **Option C** (Both statements together are sufficient).

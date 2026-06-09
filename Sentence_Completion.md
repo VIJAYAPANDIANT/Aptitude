@@ -81,6 +81,20 @@ B) leaked
 C) coalesced
 D) receded
 
+### Problem 8 (Single Blank)
+The speaker's ________ lecture style, characterized by a monotone delivery and a lack of visual aids, soon lulled the audience into a state of collective drowsiness.
+A) engaging
+B) soporific
+C) dynamic
+D) stimulating
+
+### Problem 9 (Double Blank)
+The research paper was criticized for its ________ data collection methods, which ________ the validity of the final conclusions.
+A) rigorous ... compromised
+B) haphazard ... undermined
+C) meticulous ... bolstered
+D) erratic ... verified
+
 ---
 
 ## 3. Step-by-Step Solutions
@@ -172,4 +186,26 @@ D) receded
    - **B) leaked** means accidentally or intentionally became known (correct).
    - **C) coalesced** means came together to form one mass or whole.
    - **D) receded** means moved back or further away.
+3. **Answer**: **B**
+
+### Solution 8
+1. **Analyze the clues**:
+   - The lecture style is characterized by "a monotone delivery and a lack of visual aids".
+   - The result is that it "lulled the audience into a state of collective drowsiness" (i.e. induced sleep).
+2. **Evaluate the options**:
+   - **A) engaging** means charming or attractive.
+   - **B) soporific** means tending to induce drowsiness or sleep. This fits the clue perfectly.
+   - **C) dynamic** means constant change, activity, or progress.
+   - **D) stimulating** means encouraging interest or activity.
+3. **Answer**: **B**
+
+### Solution 9
+1. **Analyze the clues**:
+   - The paper was "criticized", suggesting a negative aspect of the methods or conclusions.
+   - If the data collection was poor, it would weaken or hurt the validity of the conclusions.
+2. **Evaluate the options**:
+   - **A) rigorous (positive) ... compromised (negative)**: Rigorous methods would not compromise validity.
+   - **B) haphazard (negative) ... undermined (negative)**: Haphazard methods would undermine (weaken) the validity of the conclusions. Both match the logical flow and negative tone.
+   - **C) meticulous (positive) ... bolstered (positive)**: Meticulous methods would bolster validity, which contradicts the critique.
+   - **D) erratic (negative) ... verified (positive)**: Erratic methods would not verify validity.
 3. **Answer**: **B**

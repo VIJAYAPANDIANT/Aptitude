@@ -92,6 +92,22 @@ B) Honorary
 C) Gratuitous
 D) Amateur
 
+### Problem 9 (Idioms)
+Choose the option that best expresses the meaning of the highlighted idiom:
+> Since the source of the rumor was not entirely reliable, the researchers advised the team to **take the report with a grain of salt**.
+A) To reject the findings outright without reading them.
+B) To accept the findings completely as absolute truth.
+C) To view the information with skepticism and not take it literally.
+D) To verify the report by repeating the experiment.
+
+### Problem 10 (One-Word Substitution)
+Find the single word that can substitute the given phrase:
+> **A person who dislikes and avoids human society.**
+A) Misanthrope
+B) Philanthropist
+C) Ascetic
+D) Hermit
+
 ---
 
 ## 3. Step-by-Step Solutions
@@ -166,3 +182,18 @@ D) Amateur
 2. **Match with the definition**:
    - A position with no salary paid is described as **Honorary**.
 3. **Answer**: **B**
+
+### Solution 9
+1. **Define the idiom**:
+   - To **take with a grain of salt** (or a pinch of salt) means to view something with skepticism or not to interpret it as completely literal or accurate.
+2. **Evaluate the options**:
+   - Option C ("To view the information with skepticism and not take it literally") matches this definition.
+3. **Answer**: **C**
+
+### Solution 10
+1. **Define the options**:
+   - **Misanthrope**: A person who dislikes, distrusts, or avoids human society (perfect fit).
+   - **Philanthropist**: A person who seeks to promote the welfare of others (opposite).
+   - **Ascetic**: A person who practices severe self-discipline and abstention, typically for religious reasons.
+   - **Hermit**: A person living in solitude, but not necessarily out of dislike or distrust of humanity.
+2. **Answer**: **A**

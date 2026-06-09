@@ -59,6 +59,12 @@ Find the part of the sentence that contains a grammatical error. If there is no 
 ### Problem 8
 > (A) Although he ran / (B) as fastly as he could, / (C) he missed the train. / (D) No Error
 
+### Problem 9
+> (A) The conversation / (B) between you and I / (C) must remain confidential. / (D) No Error
+
+### Problem 10
+> (A) She likes / (B) reading, writing, / (C) and to swim in the pool. / (D) No Error
+
 ---
 
 ## 3. Step-by-Step Solutions
@@ -125,3 +131,18 @@ Find the part of the sentence that contains a grammatical error. If there is no 
    - "fast" can function as both an adjective and an adverb. The word "fastly" does not exist in standard English.
    - Correct sentence: "Although he ran as **fast** as he could, he missed the train."
 2. **Answer**: **B** (should be "as fast as")
+
+### Solution 9
+1. **Analyze prepositional pronoun case**:
+   - The preposition "between" requires pronouns in the objective case.
+   - "I" is a nominative (subject) pronoun. The objective case is "me".
+   - Correct sentence: "The conversation between you and **me** must remain confidential."
+2. **Answer**: **B** (should be "between you and me")
+
+### Solution 10
+1. **Analyze parallel structure**:
+   - Items in a list connected by coordinates must be in parallel form.
+   - "reading" (gerund) and "writing" (gerund) are paired with "to swim" (infinitive).
+   - To maintain parallelism, "to swim" should be converted to the gerund "swimming".
+   - Correct sentence: "She likes reading, writing, and **swimming** in the pool."
+2. **Answer**: **C** (should be "and swimming")

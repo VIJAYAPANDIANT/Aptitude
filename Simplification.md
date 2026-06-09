@@ -73,6 +73,14 @@ $$\frac{(2.3)^3 - 0.027}{(2.3)^2 + 0.69 + 0.09}$$
 Find the value of $x$ if:
 $$\sqrt{2^x} = 64$$
 
+### Problem 9
+Simplify the expression:
+$$\frac{1}{2} + \frac{1}{2} \div \frac{1}{2} \times \frac{1}{2} - \frac{1}{2}$$
+
+### Problem 10
+Find the value of $x$ if:
+$$\frac{x}{1 + \frac{1}{1 - \frac{1}{2}}} = 3$$
+
 ---
 
 ## 4. Step-by-Step Solutions
@@ -185,3 +193,28 @@ $$\sqrt{2^x} = 64$$
 3. **Equate the exponents**:
    - $2^{x/2} = 2^6 \implies \frac{x}{2} = 6 \implies x = 12$.
 4. **Answer**: The value of $x$ is **12**.
+
+### Solution 9
+1. **Apply VBODMAS rules**:
+   - Expression: $\frac{1}{2} + \frac{1}{2} \div \frac{1}{2} \times \frac{1}{2} - \frac{1}{2}$.
+2. **Perform Division**:
+   - $\frac{1}{2} \div \frac{1}{2} = 1$.
+   - The expression becomes: $\frac{1}{2} + 1 \times \frac{1}{2} - \frac{1}{2}$.
+3. **Perform Multiplication**:
+   - $1 \times \frac{1}{2} = \frac{1}{2}$.
+   - The expression becomes: $\frac{1}{2} + \frac{1}{2} - \frac{1}{2}$.
+4. **Perform Addition and Subtraction**:
+   - $\frac{1}{2} + \frac{1}{2} = 1$.
+   - $1 - \frac{1}{2} = \frac{1}{2}$.
+5. **Answer**: The simplified value is **$\frac{1}{2}$**.
+
+### Solution 10
+1. **Simplify the nested fraction in the denominator**:
+   - Innermost part: $1 - \frac{1}{2} = \frac{1}{2}$.
+   - Next level: $\frac{1}{1 - 1/2} = \frac{1}{1/2} = 2$.
+   - Denominator: $1 + 2 = 3$.
+2. **Set up the simplified equation**:
+   - The expression becomes: $\frac{x}{3} = 3$.
+3. **Solve for $x$**:
+   - $x = 3 \times 3 = 9$.
+4. **Answer**: The value of $x$ is **9**.

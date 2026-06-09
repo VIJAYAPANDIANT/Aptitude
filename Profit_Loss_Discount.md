@@ -70,6 +70,12 @@ A man sells two articles for Rs. 990 each, gaining 10% on one and losing 10% on 
 ### Problem 8
 A shopkeeper offers a discount of 10% on the marked price of a laptop and still makes a profit of 20%. If the cost price of the laptop is Rs. 30,000, find its marked price.
 
+### Problem 9
+A manufacturer sells a product to a wholesaler at a profit of 10%. The wholesaler sells it to a retailer at a profit of 20%. The retailer sells it to a customer at a profit of 15% for Rs. 15,180. Find the cost price of the product for the manufacturer.
+
+### Problem 10
+A man bought some apples at 5 for Rs. 4 and sold them at 4 for Rs. 5. Find his gain or loss percentage.
+
 ---
 
 ## 4. Step-by-Step Solutions
@@ -159,3 +165,31 @@ A shopkeeper offers a discount of 10% on the marked price of a laptop and still 
 3. **Solve for $MP$**:
      $$MP = 30,000 \times \frac{4}{3} = 40,000$$
 4. **Answer**: The marked price is **Rs. 40,000**.
+
+### Solution 9
+1. **Understand successive profit multipliers**:
+   - Let the cost price for the manufacturer be $CP$.
+   - Manufacturer profit to wholesaler $= 10\%$, so selling price is $CP \times 1.10$.
+   - Wholesaler profit to retailer $= 20\%$, so selling price is $CP \times 1.10 \times 1.20$.
+   - Retailer profit to customer $= 15\%$, so selling price is $CP \times 1.10 \times 1.20 \times 1.15$.
+2. **Set up the equation**:
+   - Given customer price $= \text{Rs. } 15,180$.
+     $$CP \times 1.10 \times 1.20 \times 1.15 = 15,180$$
+3. **Solve for CP**:
+   - Compute the multiplier: $1.10 \times 1.20 \times 1.15 = 1.32 \times 1.15 = 1.518$.
+     $$1.518 \times CP = 15,180 \implies CP = \frac{15,180}{1.518} = 10,000$$
+4. **Answer**: The cost price for the manufacturer is **Rs. 10,000**.
+
+### Solution 10
+1. **Find cost price and selling price for a common quantity**:
+   - Common quantity of apples is LCM of 5 and 4, which is 20 apples.
+2. **Calculate Cost Price of 20 apples**:
+   - Cost of 5 apples $=$ Rs. 4.
+   - Cost of 20 apples $= 4 \times 4 = \text{Rs. } 16$.
+3. **Calculate Selling Price of 20 apples**:
+   - Selling price of 4 apples $=$ Rs. 5.
+   - Selling price of 20 apples $= 5 \times 5 = \text{Rs. } 25$.
+4. **Determine profit percentage**:
+   - Profit $= 25 - 16 = \text{Rs. } 9$.
+   - Profit Percentage $= \frac{9}{16} \times 100 = 56.25\%$.
+5. **Answer**: His gain percentage is **56.25%**.

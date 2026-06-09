@@ -87,6 +87,22 @@ B) Verbose
 C) Lethargic
 D) Somber
 
+### Problem 9 (Analogy)
+Choose the pair that best expresses a relationship similar to that of the original pair:
+**CACOPHONY : SOUND**
+A) Glare : Light
+B) Melody : Song
+C) Aroma : Smell
+D) Tempest : Wind
+
+### Problem 10 (Synonym)
+Choose the word closest in meaning to the capitalized word:
+**PALLIATE**
+A) Aggravate
+B) Mitigate
+C) Investigate
+D) Procrastinate
+
 ---
 
 ## 3. Step-by-Step Solutions
@@ -171,4 +187,25 @@ D) Somber
    - **Verbose** means using or expressed in more words than are needed (Antonym).
    - **Lethargic** means sluggish and apathetic.
    - **Somber** means dark or dull in color or tone; gloomy.
+3. **Answer**: **B**
+
+### Solution 9
+1. **Analyze the relationship in the original pair**:
+   - **Cacophony : Sound**
+   - Cacophony is a harsh, discordant, and unpleasant mixture of sounds.
+2. **Evaluate the options**:
+   - **Glare : Light** $\to$ Glare is a harsh, dazzling, and unpleasant intensity of light. This perfectly mirrors the "harsh/unpleasant version of a sensory input" relationship.
+   - **Melody : Song** $\to$ Melody is a pleasing sequence of notes.
+   - **Aroma : Smell** $\to$ Aroma is a pleasant, distinctive smell (opposite polarity: pleasant vs. unpleasant).
+   - **Tempest : Wind** $\to$ A tempest is a violent storm, not simply a harsh version of wind itself.
+3. **Answer**: **A**
+
+### Solution 10
+1. **Define the target word**:
+   - **Palliate** means to make (a disease or symptom) less severe or unpleasant without removing the cause; to alleviate or mitigate.
+2. **Evaluate the options**:
+   - **Aggravate** means to make worse (Antonym).
+   - **Mitigate** means to make less severe, serious, or painful (Synonym).
+   - **Investigate** means to carry out a systematic or formal inquiry.
+   - **Procrastinate** means to delay or postpone action.
 3. **Answer**: **B**

@@ -73,6 +73,12 @@ Find the sum of all terms of the infinite geometric series: $1 + \frac{1}{3} + \
 ### Problem 8
 The sum of a two-digit number and the number obtained by reversing its digits is 121. What is the sum of the digits of the number?
 
+### Problem 9
+Find the number of positive integers $n$ less than or equal to 100 such that $n^2 - 1$ is divisible by 8.
+
+### Problem 10
+What is the remainder when $7^{100}$ is divided by 100?
+
 ---
 
 ## 4. Step-by-Step Solutions
@@ -175,3 +181,31 @@ The sum of a two-digit number and the number obtained by reversing its digits is
      $$11x + 11y = 121$$
      $$11(x + y) = 121 \implies x + y = 11$$
 4. **Answer**: The sum of the digits is **11**.
+
+### Solution 9
+1. **Analyze divisibility of $n^2 - 1$ by 8**:
+   - $n^2 - 1 = (n-1)(n+1)$.
+   - For $(n-1)(n+1)$ to be divisible by 8, $n$ must be odd. If $n$ is even, $n^2$ is even, so $n^2-1$ is odd, which is not divisible by 8.
+   - Let $n = 2k+1$ for some integer $k$.
+   - Then $n^2 - 1 = (2k+1)^2 - 1 = 4k^2 + 4k = 4k(k+1)$.
+   - Since either $k$ or $k+1$ must be even, $k(k+1)$ is always divisible by 2.
+   - Thus, $4k(k+1)$ is always divisible by $4 \times 2 = 8$.
+   - Hence, $n^2 - 1$ is divisible by 8 for all odd positive integers $n$.
+2. **Count the number of odd integers up to 100**:
+   - The odd positive integers less than or equal to 100 are $1, 3, 5, \dots, 99$.
+   - The number of terms is $\frac{99 - 1}{2} + 1 = 50$.
+3. **Answer**: There are **50** such integers.
+
+### Solution 10
+1. **Find $7^{100} \pmod{100}$**:
+   - Compute successive powers of 7 modulo 100:
+     - $7^1 \equiv 7 \pmod{100}$
+     - $7^2 \equiv 49 \pmod{100}$
+     - $7^3 \equiv 49 \times 7 = 343 \equiv 43 \pmod{100}$
+     - $7^4 \equiv 43 \times 7 = 301 \equiv 1 \pmod{100}$
+   - Since $7^4 \equiv 1 \pmod{100}$, the pattern repeats every 4 powers.
+2. **Apply to the exponent**:
+   - Divide the exponent 100 by the cycle length 4:
+     - $100 = 4 \times 25$ (remainder is 0).
+   - Therefore, $7^{100} = (7^4)^{25} \equiv 1^{25} \equiv 1 \pmod{100}$.
+3. **Answer**: The remainder is **1**.

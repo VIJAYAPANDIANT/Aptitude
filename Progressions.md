@@ -70,6 +70,12 @@ Insert three arithmetic means between 3 and 19.
 ### Problem 8
 Find the sum of the first 10 terms of the geometric series: $2, 6, 18, 54, \dots$
 
+### Problem 9
+If the sum of the first $n$ terms of an AP is given by $S_n = 3n^2 + 5n$, find the $10^{\text{th}}$ term of this AP.
+
+### Problem 10
+Find the sum of the infinite geometric progression: $1 + \frac{1}{2} + \frac{1}{4} + \frac{1}{8} + \dots$
+
 ---
 
 ## 4. Step-by-Step Solutions
@@ -175,3 +181,22 @@ Find the sum of the first 10 terms of the geometric series: $2, 6, 18, 54, \dots
    - $3^{10} = 59049$.
    - $S_{10} = 59049 - 1 = 59048$.
 4. **Answer**: The sum of the first 10 terms is **59,048**.
+
+### Solution 9
+1. **Find the relation between sum and terms**:
+   - The $n^{\text{th}}$ term $t_n$ is given by $t_n = S_n - S_{n-1}$.
+2. **Calculate $S_{10}$ and $S_9$**:
+   - $S_{10} = 3(10)^2 + 5(10) = 300 + 50 = 350$.
+   - $S_9 = 3(9)^2 + 5(9) = 243 + 45 = 288$.
+3. **Calculate the $10^{\text{th}}$ term**:
+   - $t_{10} = S_{10} - S_9 = 350 - 288 = 62$.
+4. **Answer**: The $10^{\text{th}}$ term of the AP is **62**.
+
+### Solution 10
+1. **Identify the parameters of the GP**:
+   - First term $a = 1$.
+   - Common ratio $r = \frac{1}{2}$.
+2. **Apply the sum formula for infinite GP**:
+   - Since $|r| = \frac{1}{2} < 1$, we use:
+     $$S_{\infty} = \frac{a}{1 - r} = \frac{1}{1 - 1/2} = \frac{1}{1/2} = 2$$
+3. **Answer**: The sum of the infinite GP is **2**.

@@ -114,6 +114,30 @@ Decide which of the conclusions follow logically from the statements.
 
 Decide which of the conclusions follow logically from the statements.
 
+### Problem 8
+**Statements**:
+- Some circles are squares.
+- Some squares are triangles.
+- No triangle is a hexagon.
+
+**Conclusions**:
+1. Some squares are not hexagons.
+2. All circles being hexagons is a possibility.
+
+Decide which of the conclusions follow logically from the statements.
+
+### Problem 9
+**Statements**:
+- All trees are plants.
+- All plants are shrubs.
+- No shrub is a weed.
+
+**Conclusions**:
+1. No weed is a plant.
+2. Some shrubs are trees.
+
+Decide which of the conclusions follow logically from the statements.
+
 ---
 
 ## 4. Step-by-Step Solutions
@@ -206,3 +230,27 @@ Decide which of the conclusions follow logically from the statements.
    - **Conclusion 2**: "Some forks are spoons"
      - Since all spoons are inside `Fork`, the area occupied by spoons belongs to forks as well. Hence, some forks are definitely spoons. (True)
 3. **Answer**: **Both Conclusion 1 and Conclusion 2 follow**.
+
+### Solution 8
+1. **Draw the Venn Diagram**:
+   - "Some circles are squares" $\to$ `Circle` overlaps with `Square`.
+   - "Some squares are triangles" $\to$ `Square` overlaps with `Triangle`.
+   - "No triangle is a hexagon" $\to$ `Triangle` and `Hexagon` circles are disjoint.
+2. **Evaluate Conclusion 1: "Some squares are not hexagons"**:
+   - Since some squares are triangles, and no triangle can be a hexagon, the squares that are inside the `Triangle` circle can never overlap with `Hexagon`.
+   - Therefore, there is definitely a part of `Square` that is not `Hexagon`. This is definitely true.
+3. **Evaluate Conclusion 2: "All circles being hexagons is a possibility"**:
+   - There are no direct negative relations between `Circle` and `Hexagon`.
+   - We can draw a diagram where the entire `Circle` is inside `Hexagon` while maintaining the overlap between `Circle` and `Square`, and without letting `Hexagon` overlap with `Triangle`. Thus, this is a valid possibility.
+4. **Answer**: **Both Conclusion 1 and Conclusion 2 follow**.
+
+### Solution 9
+1. **Draw the Venn Diagram**:
+   - "All trees are plants" $\to$ Circle `Tree` is inside `Plant`.
+   - "All plants are shrubs" $\to$ Circle `Plant` (and thus `Tree`) is inside `Shrub`.
+   - "No shrub is a weed" $\to$ `Shrub` and `Weed` are completely separate disjoint circles.
+2. **Evaluate Conclusion 1: "No weed is a plant"**:
+   - Since the entire `Plant` circle lies inside `Shrub`, and no part of `Shrub` can overlap with `Weed`, it is impossible for `Plant` to overlap with `Weed`. Thus, no weed is a plant. This is definitely true.
+3. **Evaluate Conclusion 2: "Some shrubs are trees"**:
+   - Since all trees are inside `Shrub`, the region occupied by `Tree` is also a part of `Shrub`. Thus, some shrubs are definitely trees. This is definitely true.
+4. **Answer**: **Both Conclusion 1 and Conclusion 2 follow**.

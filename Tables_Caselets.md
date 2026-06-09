@@ -73,6 +73,17 @@ A student's marks in five subjects are presented in the table below, but some da
 1. Find the marks obtained in Mathematics and Chemistry.
 2. Find the average marks obtained by the student across all five subjects.
 
+### Problem 8 (Mixed DI - Ratio and Percentage)
+In College B, the ratio of male to female students in Science, Commerce, and Arts is $3:2$, $5:4$, and $2:3$ respectively.
+1. Find the total number of female students in College B.
+2. What percentage of the total students in College B are female?
+
+### Problem 9 (Caselet - Overlapping Sets)
+Out of 120 employees in an office, 70 drink Tea, 55 drink Coffee, and 45 drink Juice. Furthermore, 30 drink both Tea and Coffee, 25 drink both Coffee and Juice, 20 drink both Tea and Juice. If 10 employees drink all three beverages:
+1. Construct a Venn Diagram representing this data.
+2. How many employees do not drink any of the three beverages?
+3. How many employees drink exactly two of the three beverages?
+
 ---
 
 ## 3. Step-by-Step Solutions
@@ -214,3 +225,42 @@ A student's marks in five subjects are presented in the table below, but some da
 4. **Answer**:
    1. Mathematics marks $\approx$ **91.67**; Chemistry marks $\approx$ **73.33**.
    2. Average marks $= \mathbf{83.6}$.
+
+### Solution 8
+1. **Calculate female students in each stream for College B**:
+   - **Science**: Total $= 160$. Ratio Male:Female $= 3:2$.
+     $$\text{Female Science} = \frac{2}{5} \times 160 = 64$$
+   - **Commerce**: Total $= 180$. Ratio Male:Female $= 5:4$.
+     $$\text{Female Commerce} = \frac{4}{9} \times 180 = 80$$
+   - **Arts**: Total $= 150$. Ratio Male:Female $= 2:3$.
+     $$\text{Female Arts} = \frac{3}{5} \times 150 = 90$$
+2. **Sum the female students**:
+   - Total female $= 64 + 80 + 90 = 234$ students.
+3. **Calculate percentage**:
+   - Total students in College B $= 490$.
+   - Percentage $= \frac{234}{490} \times 100 \approx 47.76\%$.
+4. **Answer**:
+   1. Total female students is **234**.
+   2. Female percentage is **$47.76\%$**.
+
+### Solution 9
+1. **Analyze Venn Diagram regions**:
+   - Total employees $N = 120$.
+   - Let $T, C, J$ be the sets of employees who drink Tea, Coffee, and Juice.
+   - All three: $n(T \cap C \cap J) = 10$.
+   - Tea and Coffee only $= 30 - 10 = 20$.
+   - Coffee and Juice only $= 25 - 10 = 15$.
+   - Tea and Juice only $= 20 - 10 = 10$.
+2. **Calculate exclusive single-beverage regions**:
+   - Tea only $= 70 - (20 + 10 + 10) = 30$.
+   - Coffee only $= 55 - (20 + 15 + 10) = 10$.
+   - Juice only $= 45 - (10 + 15 + 10) = 10$.
+3. **Calculate total drinking at least one beverage**:
+   - Total $= (30 + 10 + 10) + (20 + 15 + 10) + 10 = 105$.
+4. **Solve the questions**:
+   - None $= 120 - 105 = 15$.
+   - Exactly two $= \text{Tea-Coffee only} + \text{Coffee-Juice only} + \text{Tea-Juice only} = 20 + 15 + 10 = 45$.
+5. **Answer**:
+   1. (Venn Diagram constructed)
+   2. **15** employees drink none of the beverages.
+   3. **45** employees drink exactly two of the three beverages.

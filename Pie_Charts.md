@@ -61,6 +61,12 @@ By what percentage is the expenditure on Food greater than the expenditure on Ed
 ### Problem 8 (New Total Budget)
 If the total monthly budget is increased to **Rs. 75,000** while keeping the sector angles of all components unchanged, what will be the new amount (in Rs.) spent on the "Others" category?
 
+### Problem 9 (Ratio of Expenditures)
+What is the ratio of the family's expenditure on Food to their combined expenditure on Savings and Others?
+
+### Problem 10 (Percentage Comparison)
+By what percentage is the expenditure on Food greater than the combined expenditure on Savings and Others?
+
 ---
 
 ## 4. Step-by-Step Solutions
@@ -134,3 +140,23 @@ If the total monthly budget is increased to **Rs. 75,000** while keeping the sec
 2. **Calculate value with the new total budget ($T = \text{Rs. } 75,000$)**:
    $$\text{New Others Expense} = \frac{36}{360} \times 75,000 = \frac{1}{10} \times 75,000 = 7,500$$
 3. **Answer**: The new amount spent on "Others" is **Rs. 7,500**.
+
+### Solution 9
+1. **Identify the sector angles**:
+   - Food angle $= 108^\circ$.
+   - Savings angle $= 54^\circ$.
+   - Others angle $= 36^\circ$.
+2. **Calculate combined angle for Savings and Others**:
+   - Combined angle $= 54^\circ + 36^\circ = 90^\circ$.
+3. **Determine the ratio**:
+   $$\text{Ratio} = \frac{108^\circ}{90^\circ} = \frac{6}{5}$$
+   - Therefore, the ratio is $6 : 5$.
+4. **Answer**: The ratio is **$6 : 5$**.
+
+### Solution 10
+1. **Identify the sector angles**:
+   - Food angle $= 108^\circ$.
+   - Combined Savings and Others angle $= 90^\circ$ (from Solution 9).
+2. **Apply the percentage comparison formula**:
+   $$\text{Percentage Greater} = \frac{108^\circ - 90^\circ}{90^\circ} \times 100 = \frac{18}{90} \times 100 = 20\%$$
+3. **Answer**: The expenditure on Food is **$20\%$** greater.

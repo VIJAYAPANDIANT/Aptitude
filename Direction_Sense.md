@@ -78,6 +78,14 @@ For the expression $P \$ Q \& R * S$, what is the shortest distance between P an
 ### Problem 7 (Clock & Direction)
 A clock is placed such that at 12:00 noon, its minute hand points North-East. In which direction does the hour hand point at 1:30 PM?
 
+### Problem 8 (Distance & Direction)
+A person starts walking from Point A towards the East. After walking 8 meters, they turn Right and walk 5 meters to reach Point B. From B, they turn Left and walk 4 meters to reach Point C. Finally, they turn Left and walk 10 meters to reach Point D.
+1. What is the shortest distance between Point A and Point D?
+2. In which direction is Point D with respect to Point A?
+
+### Problem 9 (Shadow & Directions)
+One morning, right after sunrise, two friends Sameer and Amal were standing facing each other at a crossing. If Sameer's shadow was exactly to the left of Amal, which direction was Sameer facing?
+
 ---
 
 ## 4. Step-by-Step Solutions
@@ -171,3 +179,32 @@ A clock is placed such that at 12:00 noon, its minute hand points North-East. In
    - The '12' mark is at North-East.
    - $45^\circ$ clockwise from North-East is **East**.
 4. **Answer**: The hour hand points **East** at 1:30 PM.
+
+### Solution 8
+1. **Trace the path on a coordinate plane (A at (0, 0))**:
+   - Start at Point A: $(0, 0)$
+   - Walk East 8 m to $(8, 0)$
+   - Turn Right (South) and walk 5 m to Point B: $(8, -5)$
+   - Turn Left (East) and walk 4 m to Point C: $(12, -5)$
+   - Turn Left (North) and walk 10 m to Point D: $(12, 5)$
+2. **Calculate the shortest distance (A to D)**:
+   - Horizontal distance $x = 12 - 0 = 12$ m.
+   - Vertical distance $y = 5 - 0 = 5$ m.
+   - Shortest distance:
+     $$d = \sqrt{12^2 + 5^2} = \sqrt{144 + 25} = \sqrt{169} = 13\text{ m}$$
+3. **Determine the direction of D with respect to A**:
+   - Since D is at $(12, 5)$, it lies in the North-East quadrant relative to $(0, 0)$.
+4. **Answer**: The shortest distance is **13 m**, and Point D is in the **North-East** direction from Point A.
+
+### Solution 9
+1. **Determine the direction of the shadow**:
+   - Since it is morning, the Sun is in the East, which means all shadows fall towards the West.
+   - Therefore, Sameer's shadow falls to the West.
+2. **Determine Amal's direction**:
+   - The problem states Sameer's shadow was exactly to the left of Amal.
+   - Since the shadow falls to the West, Amal's Left must point West.
+   - Facing North, a person's Left is West. Thus, Amal is facing North.
+3. **Determine Sameer's direction**:
+   - Since Sameer and Amal are standing face-to-face, Sameer must be facing the opposite direction of Amal.
+   - The opposite of North is South.
+4. **Answer**: Sameer was facing **South**.

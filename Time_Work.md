@@ -63,6 +63,12 @@ Two pipes A and B can fill a tank in 24 minutes and 32 minutes respectively. If 
 ### Problem 8
 A, B, and C can complete a work in 10, 12, and 15 days respectively. They started working together, but A left after 2 days and B left 3 days before the completion of the work. How long did the work last?
 
+### Problem 9
+If 12 men or 18 women can reap a field in 14 days, in how many days can 8 men and 16 women reap the same field?
+
+### Problem 10
+Pipe A can fill a tank in 12 minutes and Pipe B in 18 minutes. Pipe C can empty the full tank in 15 minutes. If all three pipes are opened together in the empty tank, how much time will they take to fill the tank?
+
 ---
 
 ## 4. Step-by-Step Solutions
@@ -199,3 +205,28 @@ A, B, and C can complete a work in 10, 12, and 15 days respectively. They starte
    $$12 + 5D - 15 + 4D = 60$$
    $$9D - 3 = 60 \implies 9D = 63 \implies D = 7$$
 4. **Answer**: The work was completed in **7 days**.
+
+### Solution 9
+1. **Find individual rates**:
+   - Work done by 12 men in 1 day $= \frac{1}{14}$. So, 1 man's 1-day work $= \frac{1}{12 \times 14} = \frac{1}{168}$.
+   - Work done by 18 women in 1 day $= \frac{1}{14}$. So, 1 woman's 1-day work $= \frac{1}{18 \times 14} = \frac{1}{252}$.
+2. **Calculate work done by 8 men and 16 women in 1 day**:
+     $$\text{1-day work} = 8 \left(\frac{1}{168}\right) + 16 \left(\frac{1}{252}\right) = \frac{8}{168} + \frac{16}{252} = \frac{1}{21} + \frac{4}{63}$$
+   - Find common denominator (63):
+     $$\text{1-day work} = \frac{3}{63} + \frac{4}{63} = \frac{7}{63} = \frac{1}{9}$$
+3. **Calculate total time**:
+   - The time taken to complete the work is the reciprocal of the 1-day work:
+     $$\text{Time} = 9 \text{ days}$$
+4. **Answer**: The field can be reaped in **9 days**.
+
+### Solution 10
+1. **Find capacities and efficiencies**:
+   - Let capacity of the tank be LCM of 12, 18, and 15, which is 180 units.
+   - Efficiency of Pipe A $= \frac{180}{12} = +15$ units/minute.
+   - Efficiency of Pipe B $= \frac{180}{18} = +10$ units/minute.
+   - Efficiency of Pipe C $= \frac{180}{15} = -12$ units/minute (negative since it empties).
+2. **Calculate net efficiency when all are open**:
+   - $\text{Net Efficiency} = 15 + 10 - 12 = 13$ units/minute.
+3. **Calculate time to fill**:
+   - $\text{Time} = \frac{180}{13} = 13\frac{11}{13}$ minutes.
+4. **Answer**: The tank will be filled in **$13\frac{11}{13}$ minutes**.

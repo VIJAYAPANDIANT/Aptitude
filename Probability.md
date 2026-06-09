@@ -61,6 +61,12 @@ The probability that A can solve a problem is $\frac{2}{3}$ and that B can solve
 ### Problem 8
 A card is drawn from a pack of 52 cards. What is the probability that the card drawn is a spade or an ace?
 
+### Problem 9
+A card is drawn from a pack of 52 cards. What is the probability that the card drawn is a face card (Jack, Queen, or King)?
+
+### Problem 10
+Two friends A and B apply for a job. The probability of A's selection is $\frac{1}{4}$ and that of B's selection is $\frac{1}{3}$. Find the probability that at least one of them will be selected.
+
 ---
 
 ## 4. Step-by-Step Solutions
@@ -82,7 +88,7 @@ A card is drawn from a pack of 52 cards. What is the probability that the card d
    - Total cards $n(S) = 52$.
    - Let $A$ be the event of drawing a Red Card.
    - Let $B$ be the event of drawing a King.
-2. **Calculate individual probabilities**:
+ 2. **Calculate individual probabilities**:
    - There are 26 Red Cards: $P(A) = \frac{26}{52}$.
    - There are 4 Kings: $P(B) = \frac{4}{52}$.
    - There are 2 Red Kings (King of Hearts and King of Diamonds): $P(A \cap B) = \frac{2}{52}$.
@@ -160,3 +166,24 @@ A card is drawn from a pack of 52 cards. What is the probability that the card d
 3. **Apply the Addition Theorem**:
    - $P(A \cup B) = P(A) + P(B) - P(A \cap B) = \frac{13}{52} + \frac{4}{52} - \frac{1}{52} = \frac{16}{52} = \frac{4}{13}$.
 4. **Answer**: The probability is **$\frac{4}{13}$**.
+
+### Solution 9
+1. **Identify parameters**:
+   - Total outcomes $n(S) = 52$.
+   - Favorable outcomes $n(E)$ are face cards.
+2. **Calculate number of face cards**:
+   - Each of the 4 suits has 3 face cards (Jack, Queen, King).
+   - Total face cards $n(E) = 4 \times 3 = 12$.
+3. **Calculate Probability**:
+   - $P(E) = \frac{n(E)}{n(S)} = \frac{12}{52} = \frac{3}{13}$.
+4. **Answer**: The probability is **$\frac{3}{13}$**.
+
+### Solution 10
+1. **Find selection and non-selection probabilities**:
+   - $P(A) = \frac{1}{4} \implies P(A') = 1 - \frac{1}{4} = \frac{3}{4}$.
+   - $P(B) = \frac{1}{3} \implies P(B') = 1 - \frac{1}{3} = \frac{2}{3}$.
+2. **Calculate probability that neither is selected**:
+   - $P(A' \cap B') = P(A') \times P(B') = \frac{3}{4} \times \frac{2}{3} = \frac{1}{2}$.
+3. **Calculate probability that at least one is selected**:
+   - $P(\text{at least one}) = 1 - P(A' \cap B') = 1 - \frac{1}{2} = \frac{1}{2}$.
+4. **Answer**: The probability that at least one of them will be selected is **$\frac{1}{2}$**.

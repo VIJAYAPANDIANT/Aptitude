@@ -80,6 +80,25 @@ Eight friends A, B, C, D, E, F, G, and H sit in a straight line. Some face North
 - H faces North.
 Who sits to the immediate left of B?
 
+### Problem 8 (Circular - Facing Center)
+Eight people J, K, L, M, N, O, P, and Q are sitting around a circular table facing the center.
+- J sits second to the left of P.
+- Only two people sit between P and Q.
+- K sits to the immediate left of Q.
+- L sits second to the right of K.
+- M sits third to the left of L.
+- O is not an immediate neighbor of P.
+Who sits to the immediate left of N?
+
+### Problem 9 (Linear Row - Facing South)
+Seven people A, B, C, D, E, F, and G are sitting in a row facing South.
+- C sits third to the right of G.
+- B sits to the immediate left of C.
+- Only two people sit between B and D.
+- E sits third to the left of F.
+- A is not an immediate neighbor of D.
+Who sits at the extreme left end of the row?
+
 ---
 
 ## 4. Step-by-Step Solutions
@@ -272,3 +291,58 @@ Who sits to the immediate left of B?
 7. **Identify who sits to the immediate left of B**:
    - B is at 6 facing South. Immediate left of B is to the right (position 7), which is occupied by D.
 8. **Answer**: **D** sits to the immediate left of B.
+
+### Solution 8
+1. **Represent the circular arrangement**:
+   - Assign seats 1 to 8 in a clockwise direction.
+   - Let P be at Seat 1.
+2. **Place J**:
+   - J sits second to the left of P. Since they face the center, left is clockwise, so J is at Seat 7.
+3. **Place Q and K**:
+   - Only two people sit between P (1) and Q. This means Q is either at Seat 4 or Seat 6.
+   - K sits to the immediate left of Q (clockwise direction).
+   - If Q is at Seat 4, K is at Seat 3.
+   - If Q is at Seat 6, K is at Seat 5.
+4. **Place L and M**:
+   - L sits second to the right of K (counter-clockwise direction).
+   - If K is at Seat 3, L is at Seat 5.
+   - If K is at Seat 5, L is at Seat 7 (but Seat 7 is occupied by J). Thus, Q must be at Seat 4, K at Seat 3, and L at Seat 5.
+   - M sits third to the left of L (clockwise direction): 5 -> 4 -> 3 -> 2. So M is at Seat 2.
+5. **Place O and N**:
+   - O is not an immediate neighbor of P (Seat 1). The remaining empty seats are Seat 6 and Seat 8.
+   - Since Seat 8 is adjacent to Seat 1, O cannot be at Seat 8. So O is at Seat 6.
+   - The remaining Seat 8 is occupied by N.
+6. **Final Clockwise Arrangement**:
+   - 1: P, 2: M, 3: K, 4: Q, 5: L, 6: O, 7: J, 8: N.
+7. **Find the immediate left of N**:
+   - N is at Seat 8. Facing the center, the immediate left of N is clockwise, which is Seat 7 (occupied by J).
+8. **Answer**: **J** sits to the immediate left of N.
+
+### Solution 9
+1. **Understand Row Directions**:
+   - Seven seats numbered 1 (extreme right from their view, our left) to 7 (extreme left from their view, our right).
+   - Since they face South, their "Right" is towards Seat 1 and their "Left" is towards Seat 7.
+2. **Place C and G**:
+   - C sits third to the right of G. This means C's position = G's position - 3.
+   - Possible pairs: (1, 4), (2, 5), (3, 6), (4, 7).
+3. **Place B**:
+   - B sits to the immediate left of C. In this South-facing row, left is towards higher seat numbers. So B is at C's position + 1.
+   - Possible sets (C, B, G): (1, 2, 4), (2, 3, 5), (3, 4, 6), (4, 5, 7).
+4. **Place D**:
+   - Only two people sit between B and D. So D is at B's position + 3 or B's position - 3.
+   - Let's analyze the sets:
+     - For (1, 2, 4): D must be at 5 (since 2 + 3 = 5).
+     - For (2, 3, 5): D must be at 6 (3 + 3 = 6).
+     - For (3, 4, 6): D can be at 1 or 7.
+     - For (4, 5, 7): D must be at 2 (5 - 3 = 2).
+5. **Place E and F**:
+   - E sits third to the left of F, which means E's position = F's position + 3.
+   - Let's test the set (C, B, G) = (1, 2, 4) with D at 5. The empty seats are 3, 6, 7.
+   - We need E = F + 3. With empty seats 3, 6, 7, this fits perfectly with F at 3 and E at 6.
+   - The remaining seat 7 must be occupied by A.
+6. **Verify the constraints**:
+   - A (7) is not an immediate neighbor of D (5). This is true.
+   - Final seating order (Seats 1 to 7): C (1), B (2), F (3), G (4), D (5), E (6), A (7).
+7. **Find the extreme left end**:
+   - The extreme left end of the row (facing South) is Seat 7, occupied by A.
+8. **Answer**: **A** sits at the extreme left end of the row.

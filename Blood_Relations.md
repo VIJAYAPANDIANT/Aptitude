@@ -79,6 +79,22 @@ How is P related to M?
 ### Problem 7 (Narrative)
 Pointing to a woman, Rajan said, "She is the daughter of the only sister of my father." How is that woman related to Rajan?
 
+### Problem 8 (Coded Relations)
+If:
+- $A + B$ means "A is the mother of B"
+- $A - B$ means "A is the brother of B"
+- $A \times B$ means "A is the husband of B"
+- $A \div B$ means "A is the son of B"
+In the expression $P - Q \div R \times S + T$, how is P related to T?
+
+### Problem 9 (Family Tree Puzzle)
+In a family of seven people A, B, C, D, E, F, and G, there are three generations and two married couples.
+- A is the brother of B, who is the mother of C.
+- D is the husband of C.
+- E is the father of F and father-in-law of D.
+- G is the maternal grandmother of F.
+How is A related to F?
+
 ---
 
 ## 4. Step-by-Step Solutions
@@ -167,3 +183,27 @@ Pointing to a woman, Rajan said, "She is the daughter of the only sister of my f
 2. **Determine the relation**:
    - The daughter of one's aunt or uncle is their cousin.
 3. **Answer**: The woman is Rajan's **Cousin**.
+
+### Solution 8
+1. **Decode the expression term-by-term**:
+   - $P - Q \implies P$ is the brother of $Q$ (P is Male).
+   - $Q \div R \implies Q$ is the son of $R$ (Q is Male). Since P and Q are brothers, P is also the son of R.
+   - $R \times S \implies R$ is the husband of $S$ (R is Male, S is Female). S is the mother of P and Q.
+   - $S + T \implies S$ is the mother of $T$.
+2. **Trace the relationship**:
+   - Since S is the mother of P, Q, and T, all three are siblings.
+   - P is Male, so P is the brother of T.
+3. **Answer**: P is the **Brother** of T.
+
+### Solution 9
+1. **Draw the generations and relations step-by-step**:
+   - "A is the brother of B, who is the mother of C" $\implies$ A (Male) and B (Female) are siblings. C is in the next generation.
+   - "D is the husband of C" $\implies$ D (Male) and C (Female) are married.
+   - "E is the father of F and father-in-law of D" $\implies$ D's father-in-law is C's father. So E is C's father. Since B is C's mother, E and B are a married couple.
+   - Since E is also the father of F, F is C's sibling (child of B and E).
+   - "G is the maternal grandmother of F" $\implies$ G is B's mother.
+2. **Trace the relationship between A and F**:
+   - B is the mother of F.
+   - A is B's brother.
+   - Therefore, A is the brother of F's mother, which makes A the maternal uncle of F.
+3. **Answer**: A is the **Maternal Uncle** of F.

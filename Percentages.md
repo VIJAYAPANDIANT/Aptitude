@@ -65,6 +65,12 @@ In an examination, 35% of the candidates failed in English and 40% failed in Mat
 ### Problem 8
 If $A$'s salary is 20% less than $B$'s salary, by what percentage is $B$'s salary more than $A$'s salary?
 
+### Problem 9
+The value of a machine depreciates at the rate of 10% every year. If its present value is Rs. 1,62,000, what was its value 2 years ago?
+
+### Problem 10
+Fresh fruit contains 68% water and dry fruit contains 20% water. How much dry fruit can be obtained from 100 kg of fresh fruits?
+
 ---
 
 ## 4. Step-by-Step Solutions
@@ -162,3 +168,30 @@ If $A$'s salary is 20% less than $B$'s salary, by what percentage is $B$'s salar
    - The difference is 20. We want to find what percentage of $A$'s salary this difference represents:
      $$\text{Percentage More} = \frac{\text{Difference}}{A's\text{ salary}} \times 100 = \frac{20}{80} \times 100 = 25\%$$
 4. **Answer**: $B$'s salary is **25%** more than $A$'s salary.
+
+### Solution 9
+1. **Identify parameters**:
+   - Present value $P = 1,62,000$.
+   - Rate of depreciation $R = 10\%$ per annum.
+   - Time $n = 2$ years.
+2. **Apply depreciation formula**:
+   - Let the value 2 years ago be $V$.
+     $$P = V \left( 1 - \frac{R}{100} \right)^n$$
+     $$1,62,000 = V \left( 1 - \frac{10}{100} \right)^2 = V \left( 0.9 \right)^2 = 0.81V$$
+3. **Solve for $V$**:
+     $$V = \frac{1,62,000}{0.81} = 2,00,000$$
+4. **Answer**: The value of the machine 2 years ago was **Rs. 2,00,000**.
+
+### Solution 10
+1. **Identify the constant part**:
+   - The weight of pulp remains unchanged during drying.
+2. **Calculate pulp in fresh fruit**:
+   - Water content in fresh fruit is 68%, so pulp content is $100\% - 68\% = 32\%$.
+   - Weight of pulp in 100 kg of fresh fruit $= 32\%$ of $100\text{ kg} = 32$ kg.
+3. **Equate to dry fruit pulp content**:
+   - Water content in dry fruit is 20%, so pulp content is $100\% - 20\% = 80\%$.
+   - Let the weight of dry fruit obtained be $D$ kg.
+   - Since the pulp weight is unchanged:
+     $$80\% \text{ of } D = 32\text{ kg}$$
+     $$0.80 \times D = 32 \implies D = \frac{32}{0.80} = 40\text{ kg}$$
+4. **Answer**: **40 kg** of dry fruit can be obtained.

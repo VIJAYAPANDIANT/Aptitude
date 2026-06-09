@@ -67,6 +67,12 @@ In what ratio must water be mixed with milk to gain $16\frac{2}{3}\%$ by selling
 ### Problem 8
 A merchant has 1000 kg of sugar, part of which he sells at 8% profit and the rest at 18% profit. He gains 14% on the whole. Find the quantity sold at 18% profit.
 
+### Problem 9
+A library has an average of 510 visitors on Sundays and 240 on other days. Find the average number of visitors per day in a month of 30 days beginning with a Sunday.
+
+### Problem 10
+A vessel contains 40 liters of milk. 4 liters of milk is taken out and replaced by water. This process is repeated one more time. Find the ratio of milk to water in the final mixture.
+
 ---
 
 ## 4. Step-by-Step Solutions
@@ -169,3 +175,27 @@ A merchant has 1000 kg of sugar, part of which he sells at 8% profit and the res
    - Total sugar $= 1000$ kg.
    - Quantity at 18% profit $= 1000 \times \frac{3}{2+3} = 1000 \times \frac{3}{5} = 600$ kg.
 3. **Answer**: The quantity sold at 18% profit is **600 kg**.
+
+### Solution 9
+1. **Identify the number of Sundays and other days**:
+   - The month of 30 days starts with a Sunday.
+   - The Sundays fall on dates: 1st, 8th, 15th, 22nd, 29th (5 Sundays).
+   - Remaining days $= 30 - 5 = 25$ days.
+2. **Calculate total visitors**:
+   - Visitors on Sundays $= 5 \times 510 = 2550$.
+   - Visitors on other days $= 25 \times 240 = 6000$.
+   - Total visitors $= 2550 + 6000 = 8550$.
+3. **Calculate the average**:
+   - Average per day $= \frac{8550}{30} = 285$.
+4. **Answer**: The average number of visitors per day is **285**.
+
+### Solution 10
+1. **Apply the repeated dilution formula**:
+   - Initial milk quantity $x = 40$ liters.
+   - Replaced quantity in each operation $y = 4$ liters.
+   - Operations $n = 2$.
+   - Pure milk remaining $= x \left( 1 - \frac{y}{x} \right)^n = 40 \left( 1 - \frac{4}{40} \right)^2 = 40 \left( \frac{9}{10} \right)^2 = 40 \times 0.81 = 32.4$ liters.
+2. **Find water quantity and ratio**:
+   - Water quantity $= 40 - 32.4 = 7.6$ liters.
+   - Ratio of milk to water $= 32.4 : 7.6 = 324 : 76 = 81 : 19$.
+3. **Answer**: The ratio of milk to water in the final mixture is **$81 : 19$**.

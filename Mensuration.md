@@ -53,6 +53,12 @@ A cylindrical tank of base radius 7 m and height 10 m is filled with water. If t
 ### Problem 8
 A sector of a circle of radius 12 cm has an angle of $120^\circ$. Find the length of the arc of this sector.
 
+### Problem 9
+A rectangular plot measures 40 m by 30 m. A path of uniform width 2 m is built around the outside of the plot. Find the area of the path.
+
+### Problem 10
+The radius of the base and the height of a right circular cone are in the ratio $5 : 12$. If its volume is $314 \text{ cm}^3$, find the slant height of the cone. (Use $\pi = 3.14$)
+
 ---
 
 ## 4. Step-by-Step Solutions
@@ -151,3 +157,28 @@ A sector of a circle of radius 12 cm has an angle of $120^\circ$. Find the lengt
    - $L = \frac{120}{360} \times 2 \times \pi \times 12 = \frac{1}{3} \times 24\pi = 8\pi$ cm.
    - Using $\pi \approx 3.1416$: $L \approx 8 \times 3.1416 = 25.13$ cm.
 3. **Answer**: The length of the arc is **$8\pi$ cm** (approx. **25.13 cm**).
+
+### Solution 9
+1. **Find the area of the rectangular plot**:
+   - Area of plot $= 40 \times 30 = 1200 \text{ m}^2$.
+2. **Find the dimensions and area of the plot including the path**:
+   - Length including path $= 40 + 2 \times 2 = 44$ m.
+   - Width including path $= 30 + 2 \times 2 = 34$ m.
+   - Area including path $= 44 \times 34 = 1496 \text{ m}^2$.
+3. **Calculate the area of the path**:
+   - Area of path $= \text{Area including path} - \text{Area of plot} = 1496 - 1200 = 296 \text{ m}^2$.
+4. **Answer**: The area of the path is **296 $\text{m}^2$**.
+
+### Solution 10
+1. **Express radius and height in terms of a variable**:
+   - Let base radius $r = 5x$ and height $h = 12x$.
+2. **Formulate the volume equation**:
+   - Volume of cone $= \frac{1}{3}\pi r^2 h = 314$.
+   - $\frac{1}{3} \times 3.14 \times (5x)^2 \times (12x) = 314$.
+   - $\frac{1}{3} \times 3.14 \times 25x^2 \times 12x = 314$.
+   - $3.14 \times 25x^2 \times 4x = 314$.
+   - $314 x^3 = 314 \implies x^3 = 1 \implies x = 1$.
+3. **Calculate base radius, height and slant height**:
+   - Radius $r = 5$ cm, height $h = 12$ cm.
+   - Slant height $l = \sqrt{r^2 + h^2} = \sqrt{5^2 + 12^2} = \sqrt{25 + 144} = \sqrt{169} = 13$ cm.
+4. **Answer**: The slant height of the cone is **13 cm**.

@@ -91,6 +91,26 @@ Three couples (A-B, C-D, E-F) go on vacation in three different months: April, J
 - C and D go in a month immediately after E and F.
 Find which couple goes on vacation in August.
 
+### Problem 8 (Floor Puzzle)
+Six people A, B, C, D, E, and F live on six different floors of a building (floor 1 is the bottom floor, and floor 6 is the top floor).
+- A lives on an even-numbered floor.
+- Only two people live between A and B.
+- B does not live on the bottom floor.
+- C lives on floor number 4.
+- C lives immediately above D.
+- E lives on a floor above F.
+Find the floor on which each person lives.
+
+### Problem 9 (Day Scheduling)
+Seven people P, Q, R, S, T, U, and V attend lectures on seven different days of the week, starting from Monday to Sunday.
+- Q attends on Tuesday.
+- V attends on Sunday.
+- Three people attend between Q and U.
+- P attends immediately after R.
+- S attends on a day before T.
+- T attends on Friday.
+Find the day on which each person attends their lecture.
+
 ---
 
 ## 4. Step-by-Step Solutions
@@ -272,3 +292,56 @@ Find which couple goes on vacation in August.
    - The remaining months are July and August. August is immediately after July.
    - Thus, E and F go in July, and C and D go in August.
 4. **Answer**: **C and D** go on vacation in August.
+
+### Solution 8
+1. **Set up the floors baseline**: Floors 6 down to 1.
+2. **Analyze A and B's positions**:
+   - A lives on an even-numbered floor (2, 4, or 6).
+   - Only two people live between A and B.
+   - B does not live on floor 1.
+     - If A is on floor 4: B must be on floor 1 (but B cannot be on floor 1). So A is not on floor 4.
+     - If A is on floor 6: B must be on floor 3.
+     - If A is on floor 2: B must be on floor 5.
+3. **Place C and D**:
+   - C lives on floor number 4.
+   - C lives immediately above D, so D is on floor 3.
+   - Since floor 3 is occupied by D, A cannot be on floor 6 (which would have forced B onto floor 3).
+   - Therefore, A must be on floor 2, and B must be on floor 5.
+4. **Place E and F**:
+   - The remaining empty floors are floor 6 and floor 1.
+   - E lives on a floor above F, so E must be on floor 6, and F must be on floor 1.
+5. **Final Floor Arrangement**:
+   - Floor 6: E
+   - Floor 5: B
+   - Floor 4: C
+   - Floor 3: D
+   - Floor 2: A
+   - Floor 1: F
+6. **Answer**: From floors 6 to 1, the order is **E, B, C, D, A, F**.
+
+### Solution 9
+1. **Set up the days baseline**: Monday to Sunday (1 to 7).
+2. **Place direct clues**:
+   - Q is on Tuesday (2).
+   - V is on Sunday (7).
+   - T is on Friday (5).
+3. **Place U**:
+   - Three people attend between Q (2) and U.
+   - Counting days: 3, 4, 5 are the three days between, so U must be on Saturday (6).
+4. **Place R and P**:
+   - P attends immediately after R (`R - P`).
+   - The remaining empty days are Monday (1), Wednesday (3), and Thursday (4).
+   - The only consecutive empty days are Wednesday (3) and Thursday (4).
+   - Thus, R is on Wednesday (3), and P is on Thursday (4).
+5. **Place S**:
+   - The only remaining day is Monday (1), which must be occupied by S.
+   - Check: S (Monday) attends on a day before T (Friday). This is correct.
+6. **Final Schedule**:
+   - Monday: S
+   - Tuesday: Q
+   - Wednesday: R
+   - Thursday: P
+   - Friday: T
+   - Saturday: U
+   - Sunday: V
+7. **Answer**: The lecture schedule is **S (Mon), Q (Tue), R (Wed), P (Thu), T (Fri), U (Sat), V (Sun)**.

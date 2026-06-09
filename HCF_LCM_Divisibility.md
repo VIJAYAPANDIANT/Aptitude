@@ -66,6 +66,12 @@ If a number $34X68Y$ is divisible by 90, find the values of $X$ and $Y$.
 ### Problem 8
 The HCF and LCM of two numbers are 12 and 720 respectively. If one of the numbers is 144, find the other number.
 
+### Problem 9
+Find the greatest number of 4 digits which is exactly divisible by 15, 25, 40, and 75.
+
+### Problem 10
+Find the least number which when divided by 20, 25, 35, and 40 leaves remainders 14, 19, 29, and 34 respectively.
+
 ---
 
 ## 4. Step-by-Step Solutions
@@ -173,3 +179,41 @@ The HCF and LCM of two numbers are 12 and 720 respectively. If one of the number
 3. **Solve for $N$**:
      $$N = \frac{12 \times 720}{144} = \frac{720}{12} = 60$$
 4. **Answer**: The other number is **60**.
+
+### Solution 9
+1. **Find LCM of divisors**:
+   - The divisors are 15, 25, 40, and 75.
+   - Prime factorization:
+     - $15 = 3 \times 5$
+     - $25 = 5^2$
+     - $40 = 2^3 \times 5$
+     - $75 = 3 \times 5^2$
+   - $\text{LCM} = 2^3 \times 3 \times 5^2 = 8 \times 3 \times 25 = 600$.
+2. **Find the greatest 4-digit multiple of the LCM**:
+   - The greatest 4-digit number is 9999.
+   - Divide 9999 by 600:
+     - $9999 \div 600 = 16$ with a remainder of 399.
+   - Subtract the remainder from 9999:
+     - $\text{Required Number} = 9999 - 399 = 9600$.
+3. **Answer**: The greatest 4-digit number is **9600**.
+
+### Solution 10
+1. **Analyze the pattern of remainders**:
+   - Divisors ($x, y, z, w$): 20, 25, 35, 40.
+   - Remainders ($a, b, c, d$): 14, 19, 29, 34.
+   - The difference between each divisor and its remainder is constant:
+     - $20 - 14 = 6$
+     - $25 - 19 = 6$
+     - $35 - 29 = 6$
+     - $40 - 34 = 6$
+   - The common difference $k = 6$.
+2. **Find LCM of the divisors**:
+   - $\text{LCM}(20, 25, 35, 40)$
+     - $20 = 2^2 \times 5$
+     - $25 = 5^2$
+     - $35 = 5 \times 7$
+     - $40 = 2^3 \times 5$
+     - $\text{LCM} = 2^3 \times 5^2 \times 7 = 8 \times 25 \times 7 = 1400$.
+3. **Calculate the final number**:
+   - $\text{Required Number} = \text{LCM} - k = 1400 - 6 = 1394$.
+4. **Answer**: The least number is **1394**.

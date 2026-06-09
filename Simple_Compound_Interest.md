@@ -70,6 +70,12 @@ A sum of Rs. 12,000 is deposited at simple interest of 10% per annum. Another su
 ### Problem 8
 A sum of money triples itself in 10 years at simple interest. Find the rate of interest per annum.
 
+### Problem 9
+A sum of money invested at compound interest doubles itself in 15 years. In how many years will it become 8 times of itself?
+
+### Problem 10
+Find the difference between simple interest and compound interest on Rs. 8,000 for 3 years at 5% per annum.
+
 ---
 
 ## 4. Step-by-Step Solutions
@@ -178,3 +184,26 @@ A sum of money triples itself in 10 years at simple interest. Find the rate of i
      $$2P = \frac{P \times R \times 10}{100}$$
      $$2 = \frac{R}{10} \implies R = 20\%$$
 3. **Answer**: The rate of interest is **20% per annum**.
+
+### Solution 9
+1. **Analyze compound interest growth**:
+   - A sum $P$ becomes $2P$ in 15 years.
+   - Under compound interest, if a sum becomes $x$ times itself in $T$ years, it becomes $x^n$ times itself in $n \times T$ years.
+2. **Apply to the problem**:
+   - We want the sum to become 8 times of itself.
+   - Express 8 as a power of 2: $8 = 2^3$. Here, $x = 2$ and $n = 3$.
+   - Time required $= 3 \times 15 = 45$ years.
+3. **Answer**: The sum will become 8 times of itself in **45 years**.
+
+### Solution 10
+1. **Apply the 3-year CI-SI difference formula**:
+   - The formula for the difference ($D$) between CI and SI for 3 years is:
+     $$D = P \left( \frac{R}{100} \right)^2 \left( 3 + \frac{R}{100} \right)$$
+2. **Substitute given values**:
+   - $P = 8,000$, $R = 5\%$.
+     $$D = 8,000 \left( \frac{5}{100} \right)^2 \left( 3 + \frac{5}{100} \right)$$
+     $$D = 8,000 \left( \frac{1}{20} \right)^2 \left( 3 + \frac{1}{20} \right)$$
+     $$D = 8,000 \left( \frac{1}{400} \right) \left( \frac{61}{20} \right)$$
+3. **Calculate the value**:
+     $$D = 20 \times \frac{61}{20} = 61$$
+4. **Answer**: The difference is **Rs. 61**.

@@ -102,6 +102,26 @@ B) To explain how chemosynthesis supports life in extreme environments and its s
 C) To compare the physiology of giant tube worms with species found in shallow waters.
 D) To prove that intelligent life exists in the subterranean oceans of Jupiter's moons.
 
+### Passage 7
+> In the field of cognitive neuroscience, the role of sleep in memory consolidation has transitioned from a hypothesis to a well-established biological imperative. During slow-wave sleep, the brain undergoes a process of active system consolidation, wherein unstable memory traces initially encoded in the hippocampus are systematically transferred to the neocortex for long-term storage. This neural dialogue not only stabilizes declarative memories but also reorganizes them, facilitating the extraction of generalized rules and creative insights. Conversely, chronic sleep deprivation disrupts this delicate transfer mechanism, confining memories to the fragile hippocampus where they are highly susceptible to interference and eventual decay. Consequently, sleep is not merely a passive state of rest, but a critical, active phase of cognitive architecture optimization.
+
+### Question 9 (Inference)
+According to Passage 7, what is a direct consequence of chronic sleep deprivation?
+A) The neocortex begins to actively erase long-term memories.
+B) Newly formed memories remain vulnerable to disruption and loss.
+C) The brain permanently loses its capacity for slow-wave sleep.
+D) Creative insights are generated exclusively in the hippocampus.
+
+### Passage 8
+> The degradation of global topsoil is one of the most silent yet catastrophic threats to food security in the Anthropocene. Centuries of industrial agriculture—characterized by intensive tillage, monocropping, and heavy synthetic chemical application—have depleted the organic matter that binds soil particles together. This structural degradation renders soil highly vulnerable to wind and water erosion, essentially turning fertile land into unproductive dust. Regenerative agriculture offers a path to restoration by focusing on rebuilding soil organic carbon. By utilizing cover crops, minimizing soil disturbance, and integrating livestock, regenerative practices foster a diverse soil microbiome. This biological network restores natural nutrient cycling and enhances water-holding capacity, proving that saving agriculture requires us to treat soil as a living organism rather than a static medium for chemicals.
+
+### Question 10 (Main Idea)
+Which of the following best expresses the main idea of Passage 8?
+A) Monocropping and chemical fertilizers are the only viable methods to feed a growing population.
+B) Rebuilding soil organic carbon through regenerative agriculture is necessary to combat topsoil degradation.
+C) Modern livestock integration is the single most important factor in preventing wind erosion.
+D) The Anthropocene is defined primarily by the rapid decline of global food security systems.
+
 ---
 
 ## 3. Step-by-Step Solutions
@@ -170,4 +190,21 @@ D) To prove that intelligent life exists in the subterranean oceans of Jupiter's
   - Outlines the scientific implications: changing our understanding of biology and expanding the search for life on moons like Europa.
   - **B** is the most accurate summary of the passage's primary purpose.
   - **A** is out of scope (no mention of mining). **C** is too narrow. **D** is too extreme (it suggests it expands the search, not that it proves intelligent life exists).
+- **Answer**: **B**
+
+### Solution 7 (Passage 7)
+- **Locate reference in the text**:
+  - "...confining memories to the fragile hippocampus where they are highly susceptible to interference and eventual decay."
+- **Analyze the options**:
+  - If memories are confined to the fragile hippocampus, they remain unstable and are susceptible to interference and decay, meaning they are vulnerable to disruption and loss.
+  - **B** is correct.
+  - **A, C, and D** are unsupported by the text or contradict the details provided.
+- **Answer**: **B**
+
+### Solution 8 (Passage 8)
+- **Analyze the options**:
+  - **A contradicts the text**: The text criticizes industrial agriculture.
+  - **B is correct**: The passage explains the problem (topsoil degradation due to industrial agriculture) and the solution (regenerative agriculture to rebuild soil organic carbon and restore life to the soil).
+  - **C is too narrow**: While livestock integration is mentioned, it is one of several practices, not the single most important factor.
+  - **D is too broad and alarmist**: The passage focuses specifically on topsoil and soil health, not defining the Anthropocene as a whole.
 - **Answer**: **B**

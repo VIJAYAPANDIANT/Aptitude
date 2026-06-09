@@ -58,6 +58,12 @@ An amount of Rs. 735 is divided among A, B, and C such that if each of them rece
 ### Problem 8
 The ratio of the incomes of A and B is $5 : 4$ and the ratio of their expenditures is $3 : 2$. If each saves Rs. 1600 at the end of the year, find the income of A.
 
+### Problem 9
+The ratio of the incomes of two persons is $9:7$ and the ratio of their expenditures is $4:3$. If each of them saves Rs. 200 per month, find their monthly incomes.
+
+### Problem 10
+A bag contains 50p, 25p, and 10p coins in the ratio $5:9:4$ amounting to Rs. 206. Find the number of coins of each type.
+
 ---
 
 ## 4. Step-by-Step Solutions
@@ -176,3 +182,39 @@ The ratio of the incomes of A and B is $5 : 4$ and the ratio of their expenditur
 4. **Calculate A's income**:
    - A's income $= 5x = 5 \times 800 = 4000$.
 5. **Answer**: A's income is **Rs. 4000**.
+
+### Solution 9
+1. **Set up variables**:
+   - Let the monthly incomes of the two persons be $9x$ and $7x$ respectively.
+   - Let their expenditures be $4y$ and $3y$ respectively.
+2. **Formulate equations using Savings = Income - Expenditure**:
+   - For the first person: $9x - 4y = 200 \quad \text{--- (1)}$
+   - For the second person: $7x - 3y = 200 \quad \text{--- (2)}$
+3. **Solve the system of equations**:
+   - Multiply equation (1) by 3:
+     $$27x - 12y = 600 \quad \text{--- (3)}$$
+   - Multiply equation (2) by 4:
+     $$28x - 12y = 800 \quad \text{--- (4)}$$
+   - Subtract equation (3) from (4):
+     $$x = 200$$
+4. **Calculate their monthly incomes**:
+   - First person's income $= 9x = 9 \times 200 = \text{Rs. } 1800$.
+   - Second person's income $= 7x = 7 \times 200 = \text{Rs. } 1400$.
+5. **Answer**: The monthly incomes are **Rs. 1800 and Rs. 1400**.
+
+### Solution 10
+1. **Represent the number of coins**:
+   - Let the number of 50p, 25p, and 10p coins be $5x, 9x,$ and $4x$ respectively.
+2. **Express the total value in Rupees**:
+   - Value of 50p coins $= 5x \times 0.50 = 2.5x$ Rupees.
+   - Value of 25p coins $= 9x \times 0.25 = 2.25x$ Rupees.
+   - Value of 10p coins $= 4x \times 0.10 = 0.4x$ Rupees.
+   - Total value $= 2.5x + 2.25x + 0.4x = 5.15x$ Rupees.
+3. **Equate and solve for $x$**:
+   - Given total value $= \text{Rs. } 206$.
+     $$5.15x = 206 \implies x = \frac{206}{5.15} = 40$$
+4. **Determine the number of each type of coin**:
+   - Number of 50p coins $= 5 \times 40 = 200$.
+   - Number of 25p coins $= 9 \times 40 = 360$.
+   - Number of 10p coins $= 4 \times 40 = 160$.
+5. **Answer**: The number of 50p, 25p, and 10p coins is **200, 360, and 160** respectively.

@@ -62,6 +62,18 @@ In a queue of 40 people, Manoj is 25th from the front and Kiran is 20th from the
 ### Problem 8 (Mid-point Position)
 In a row of 35 boys, Rahul is 15th from the right end and Amit is 11th from the left end. How many boys are sitting between them, and what is the position of the person sitting exactly in the middle of them from the left end?
 
+### Problem 9 (Interchange with Between Count)
+In a row of girls facing North, Reena is 10th from the left and Pinky is 21st from the right. If they interchange their positions, Reena becomes 15th from the left.
+1. How many girls are there in the row?
+2. What is Pinky's new position from the right?
+
+### Problem 10 (Comparison and Ranks)
+Six students P, Q, R, S, T, and U scored different ranks in a class test.
+- P's rank is higher than Q's but lower than R's.
+- S's rank is higher than T's but lower than U's.
+- R's rank is lower than T's.
+Who scored the highest rank and who scored the lowest rank?
+
 ---
 
 ## 3. Step-by-Step Solutions
@@ -166,3 +178,31 @@ In a row of 35 boys, Rahul is 15th from the right end and Amit is 11th from the 
    - The position exactly in the middle of 11 and 21 is:
      $$\text{Middle Position} = \frac{11 + 21}{2} = 16\text{th from left}$$
 4. **Answer**: There are **9** boys sitting between them, and the person sitting exactly in the middle is **16th** from the left end.
+
+### Solution 9
+1. **Identify parameters**:
+   - Reena's initial left rank $L = 10$.
+   - Pinky's initial right rank $R = 21$.
+   - Reena's new left rank after interchange $L_{\text{new}} = 15$.
+2. **Calculate Total number of girls**:
+   - After the interchange, Reena is sitting at Pinky's old spot, which is 21st from the right.
+   - Using the formula $T = L_{\text{new}} + R - 1$:
+     $$T = 15 + 21 - 1 = 35$$
+3. **Calculate Pinky's new position from the right**:
+   - Pinky moves to Reena's old spot, which is 10th from the left.
+   - Using the formula $R_{\text{new}} = T - L + 1$:
+     $$R_{\text{new}} = 35 - 10 + 1 = 26$$
+     *(Alternatively, $R_{\text{new}} = R + (L_{\text{new}} - L) = 21 + (15 - 10) = 26$.)*
+4. **Answer**: There are **35** girls in the row, and Pinky's new position is **26th** from the right.
+
+### Solution 10
+1. **Represent the rank relations (using '>' to mean 'higher/better rank than')**:
+   - "P's rank is higher than Q's but lower than R's" $\implies R > P > Q$.
+   - "S's rank is higher than T's but lower than U's" $\implies U > S > T$.
+   - "R's rank is lower than T's" $\implies T > R$.
+2. **Combine the relations**:
+   - Since $U > S > T$, $T > R$, and $R > P > Q$, we can link the chains together:
+     $$U > S > T > R > P > Q$$
+3. **Identify highest and lowest**:
+   - Highest rank is $U$, and lowest rank is $Q$.
+4. **Answer**: **U** scored the highest rank, and **Q** scored the lowest rank.

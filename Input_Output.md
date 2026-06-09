@@ -70,6 +70,16 @@ A machine rearranges words such that words starting with vowels are arranged alp
 - **Input**: `orange cat apple dog ice frog umbrella goat`
 What is the final output?
 
+### Problem 7 (Step-by-Step Word Shift)
+A machine rearranges a sequence of words in alphabetical order from left to right, processing one word per step.
+- **Input**: `yawn camel tiger abuse zebra`
+How many steps are required to obtain the final output, and what is the sequence of steps?
+
+### Problem 8 (Alternating Word-Number Shifts)
+A machine rearranges numbers and words alternately. In each step, the smallest remaining number is placed on the left, followed by the alphabetically first remaining word in the next step, and so on.
+- **Input**: `umbrella 41 water 12 fire 85 juice 33`
+What is the step-by-step output to achieve the final arrangement?
+
 ---
 
 ## 4. Step-by-Step Solutions
@@ -195,3 +205,46 @@ Notice that in Step 6, the remaining elements are `play 15`. `play` is the last 
 3. **Concatenate the groups**:
    - `apple ice orange umbrella cat dog frog goat`
 4. **Answer**: `apple ice orange umbrella cat dog frog goat`.
+
+### Solution 7
+1. **Analyze the input and goal**:
+   - Input: `yawn camel tiger abuse zebra`
+   - Goal: Arrange words in alphabetical order: `abuse` $\to$ `camel` $\to$ `tiger` $\to$ `yawn` $\to$ `zebra`.
+2. **Trace the steps**:
+   - **Input**: `yawn camel tiger abuse zebra`
+   - **Step 1**: Move the alphabetically first word `abuse` to the leftmost position:
+     `abuse yawn camel tiger zebra`
+   - **Step 2**: Move the next alphabetical word `camel` to the second position:
+     `abuse camel yawn tiger zebra`
+   - **Step 3**: Move the next alphabetical word `tiger` to the third position:
+     `abuse camel tiger yawn zebra`
+3. **Verify completion**:
+   - In Step 3, the remaining words `yawn` and `zebra` automatically fall into their correct positions. They auto-fit.
+4. **Answer**: **3 steps** are required. The step sequence is:
+   - **Step 1**: `abuse yawn camel tiger zebra`
+   - **Step 2**: `abuse camel yawn tiger zebra`
+   - **Step 3**: `abuse camel tiger yawn zebra`
+
+### Solution 8
+1. **Identify the ordering objective**:
+   - Smallest to largest numbers: `12`, `33`, `41`, `85`.
+   - Alphabetical words: `fire`, `juice`, `umbrella`, `water`.
+   - Order: `Number(1st) Word(1st) Number(2nd) Word(2nd) Number(3rd) Word(3rd) Number(4th) Word(4th)`.
+2. **Trace the step-by-step rearrangement**:
+   - **Input**: `umbrella 41 water 12 fire 85 juice 33`
+   - **Step 1**: Move the smallest number `12` to the leftmost position:
+     `12 umbrella 41 water fire 85 juice 33`
+   - **Step 2**: Move the first alphabetical word `fire` to the second position:
+     `12 fire umbrella 41 water 85 juice 33`
+   - **Step 3**: Move the next smallest number `33` to the third position:
+     `12 fire 33 umbrella 41 water 85 juice`
+   - **Step 4**: Move the next word `juice` to the fourth position:
+     `12 fire 33 juice umbrella 41 water 85`
+   - **Step 5**: Move the next smallest number `41` to the fifth position:
+     `12 fire 33 juice 41 umbrella water 85`
+   - **Step 6**: The next word in order is `umbrella`, which is already in the sixth position (auto-fit). We proceed to the next number `85` and move it to the seventh position:
+     `12 fire 33 juice 41 umbrella 85 water`
+3. **Verify completion**:
+   - In Step 6, the remaining word `water` automatically falls into the eighth position. The arrangement is complete.
+4. **Answer**: The process takes **6 steps** with the following final output:
+   `12 fire 33 juice 41 umbrella 85 water`

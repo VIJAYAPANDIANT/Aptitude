@@ -77,6 +77,21 @@ Look for pairs of sentences that must follow each other:
 - **C**: This rapid detection helps minimize financial losses for both the bank and the cardholder.
 - **D**: These AI systems operate in real-time, scanning millions of data points within milliseconds.
 
+### Problem 8 (4 Sentences)
+**Rearrange the following sentences (A, B, C, D) to form a coherent paragraph:**
+- **A**: By mimicking biological systems, these engineers create lightweight structures that are stronger than traditional materials.
+- **B**: This interdisciplinary approach is accelerating innovations in robotics, aerospace, and medical devices.
+- **C**: Biomimicry is an emerging field where scientists and engineers look to nature to solve complex human design challenges.
+- **D**: For example, studying the structural efficiency of honeycombs has led to revolutionary designs in airplane wings.
+
+### Problem 9 (5 Sentences)
+**Rearrange the following sentences (A, B, C, D, E) to form a coherent paragraph:**
+- **A**: This transition requires significant initial capital investments and structural reforms in grid management.
+- **B**: The global shift toward renewable energy sources is accelerating as climate concerns intensify.
+- **C**: Consequently, fossil fuels still dominate the energy mix in many developing nations despite their environmental toll.
+- **D**: However, integrating intermittent sources like wind and solar into existing electrical grids poses a major technical challenge.
+- **E**: Many countries are therefore forced to balance immediate affordability against long-term ecological goals.
+
 ---
 
 ## 3. Step-by-Step Solutions
@@ -216,3 +231,41 @@ Look for pairs of sentences that must follow each other:
    - C states the benefit of the analysis and flagging: "This rapid detection helps minimize financial losses...".
    - **Sequence = B – D – A – C**.
 5. **Answer**: The correct sequence is **BDAC**.
+
+### Solution 8
+1. **Find the Opening Sentence**:
+   - A: "these engineers..." (pronoun/article reference).
+   - B: "This interdisciplinary approach..." (reference).
+   - D: "For example..." (example).
+   - C: Introduces the concept of "Biomimicry" and mentions "scientists and engineers". This is a perfect opening sentence.
+   - **Opening Sentence = C**.
+2. **Find the next link**:
+   - A refers to "these engineers" (referring to "engineers" in C). So A follows C.
+   - **Pair = C – A**.
+3. **Find the example link**:
+   - D provides a specific example ("honeycombs") of how nature solves design challenges.
+   - **Sequence so far = C – A – D**.
+4. **Identify the conclusion**:
+   - B wraps up by summarizing: "This interdisciplinary approach [combining biology and engineering] is accelerating..."
+   - **Sequence = C – A – D – B**.
+5. **Answer**: The correct sequence is **CADB**.
+
+### Solution 9
+1. **Find the Opening Sentence**:
+   - A: "This transition..." (needs reference).
+   - C: "Consequently..." (cannot open).
+   - D: "However..." (cannot open).
+   - E: "therefore..." (cannot open).
+   - B: "The global shift toward renewable energy..." Introduces the topic independently.
+   - **Opening Sentence = B**.
+2. **Introduce the hurdle**:
+   - D introduces the technical challenge of integrating wind and solar.
+   - **Pair = B – D**.
+3. **Elaborate on requirements**:
+   - A states: "This transition [reforming the grid to resolve D] requires significant initial capital...".
+   - **Sequence so far = B – D – A**.
+4. **Link the consequence for developing nations**:
+   - C shows the result of high capital and technical hurdles: "Consequently, fossil fuels still dominate...".
+   - E concludes with the dilemma faced by countries: "therefore forced to balance...".
+   - **Sequence = B – D – A – C – E**.
+5. **Answer**: The correct sequence is **BDACE**.

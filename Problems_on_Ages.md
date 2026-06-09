@@ -55,6 +55,12 @@ The average age of a man and his two twin sons is 30 years. The ratio of the age
 ### Problem 8
 A person's present age is two-fifths of the age of his mother. After 8 years, he will be one-half of the age of his mother. How old is the mother at present?
 
+### Problem 9
+The ratio of the ages of Priya and Ritu is $3 : 4$. Four years ago, the ratio of their ages was $5 : 7$. Find their present ages.
+
+### Problem 10
+Ten years ago, a man was seven times as old as his son. Two years hence, twice his age will be equal to five times his son's age. What is the present age of the son?
+
 ---
 
 ## 4. Step-by-Step Solutions
@@ -173,3 +179,33 @@ A person's present age is two-fifths of the age of his mother. After 8 years, he
      $$\frac{1}{2}m - \frac{2}{5}m = 8 - 4$$
      $$\frac{5m - 4m}{10} = 4 \implies \frac{m}{10} = 4 \implies m = 40$$
 3. **Answer**: The mother's present age is **40 years**.
+
+### Solution 9
+1. **Set up the variables**:
+   - Let the present ages of Priya and Ritu be $3x$ and $4x$ years respectively.
+2. **Formulate equation for 4 years ago**:
+   - Ages 4 years ago were $3x - 4$ and $4x - 4$.
+   - The ratio was $5 : 7$:
+     $$\frac{3x - 4}{4x - 4} = \frac{5}{7}$$
+     $$7(3x - 4) = 5(4x - 4)$$
+     $$21x - 28 = 20x - 20 \implies x = 8$$
+3. **Calculate present ages**:
+   - Priya's present age $= 3 \times 8 = 24$ years.
+   - Ritu's present age $= 4 \times 8 = 32$ years.
+4. **Answer**: Priya is **24 years** old, and Ritu is **32 years** old.
+
+### Solution 10
+1. **Set up the variables based on past relation**:
+   - Ten years ago, let the son's age be $x$ years.
+   - Ten years ago, the father's age was $7x$ years.
+2. **Determine present and future ages**:
+   - Present ages: Son $= x + 10$, Father $= 7x + 10$.
+   - Ages 2 years hence: Son $= x + 12$, Father $= 7x + 12$.
+3. **Formulate the equation for 2 years hence**:
+   - Twice the father's age is equal to 5 times the son's age:
+     $$2(7x + 12) = 5(x + 12)$$
+     $$14x + 24 = 5x + 60$$
+     $$9x = 36 \implies x = 4$$
+4. **Calculate son's present age**:
+   - Son's present age $= x + 10 = 4 + 10 = 14$ years.
+5. **Answer**: The son's present age is **14 years**.

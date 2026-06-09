@@ -58,6 +58,12 @@ If Sales in 2026 are expected to grow by $25\%$ over the Sales in 2025, what wil
 ### Problem 8 (Profit-to-Sales Comparison)
 For how many years was the Net Profit more than $13\%$ of the Sales in that year?
 
+### Problem 9 (Profit Growth Comparison)
+By what percentage did the Net Profit grow in 2025 compared to the Net Profit in 2024?
+
+### Problem 10 (Sales-to-Profit Comparison)
+What was the total Sales of all the years in which the Net Profit was less than 20 Rs. Crores?
+
 ---
 
 ## 4. Step-by-Step Solutions
@@ -139,3 +145,24 @@ For how many years was the Net Profit more than $13\%$ of the Sales in that year
 2. **Count the qualifying years**:
    - Years with profit margin $> 13\%$ are 2023 and 2025 (total 2 years).
 3. **Answer**: There were **2** years.
+
+### Solution 9
+1. **Identify the values**:
+   - Net Profit in 2024 (Initial) $= 20$ Rs. Crores.
+   - Net Profit in 2025 (Final) $= 30$ Rs. Crores.
+2. **Apply the percentage growth formula**:
+   $$\text{Percentage Growth} = \frac{30 - 20}{20} \times 100 = \frac{10}{20} \times 100 = 50\%$$
+3. **Answer**: The Net Profit grew by **$50\%$**.
+
+### Solution 10
+1. **Identify the years where Net Profit was less than 20 Rs. Crores**:
+   - 2021: Net Profit $= 15$ Rs. Crores (Less than 20)
+   - 2022: Net Profit $= 18$ Rs. Crores (Less than 20)
+   - 2023: Net Profit $= 25$ Rs. Crores (Not less than 20)
+   - 2024: Net Profit $= 20$ Rs. Crores (Not less than 20)
+   - 2025: Net Profit $= 30$ Rs. Crores (Not less than 20)
+2. **Sum the Sales of these qualifying years**:
+   - Sales in 2021 $= 120$ Rs. Crores
+   - Sales in 2022 $= 150$ Rs. Crores
+   - Total Sales $= 120 + 150 = 270$ Rs. Crores
+3. **Answer**: The total Sales was **$270$ Rs. Crores**.

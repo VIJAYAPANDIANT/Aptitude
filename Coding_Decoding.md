@@ -78,6 +78,17 @@ Which code represents the word "eternal"?
 ### Problem 8 (Continuous Shifts)
 If `GOLD` is written as `IQNF`, how will `WIND` be written in that same code language?
 
+### Problem 9 (Mixed Letter & Number Coding)
+If `DANGER` is coded as `8-2-28-14-10-36`, how will `SAFETY` be coded in that same code language?
+
+### Problem 10 (Substitution Coding)
+In a certain code language:
+- "study hard get success" is written as "ka la ma ta"
+- "success is very important" is written as "ta na pa ra"
+- "hard work is important" is written as "ka sa na pa"
+- "study work get rewards" is written as "la ma sa da"
+What is the code for the word "rewards"?
+
 ---
 
 ## 4. Step-by-Step Solutions
@@ -209,3 +220,45 @@ If `GOLD` is written as `IQNF`, how will `WIND` be written in that same code lan
    - N $+ 2 = $ P
    - D $+ 2 = $ F
 3. **Answer**: `YKPF`.
+
+### Solution 9
+1. **Analyze the pattern in `DANGER` $\to$ `8-2-28-14-10-36`**:
+   - Write down the forward ranks of the letters in `DANGER`:
+     - D = 4, A = 1, N = 14, G = 7, E = 5, R = 18.
+   - Multiply each forward rank by 2:
+     - D: $4 \times 2 = 8$
+     - A: $1 \times 2 = 2$
+     - N: $14 \times 2 = 28$
+     - G: $7 \times 2 = 14$
+     - E: $5 \times 2 = 10$
+     - R: $18 \times 2 = 36$
+   - Combine with hyphens: `8-2-28-14-10-36`.
+2. **Apply the pattern to `SAFETY`**:
+   - Write down the forward ranks:
+     - S = 19, A = 1, F = 6, E = 5, T = 20, Y = 25.
+   - Multiply each rank by 2:
+     - S: $19 \times 2 = 38$
+     - A: $1 \times 2 = 2$
+     - F: $6 \times 2 = 12$
+     - E: $5 \times 2 = 10$
+     - T: $20 \times 2 = 40$
+     - Y: $25 \times 2 = 50$
+3. **Assemble the code**:
+   - `38-2-12-10-40-50`
+4. **Answer**: `38-2-12-10-40-50`.
+
+### Solution 10
+1. **Compare sentences to isolate words and their codes**:
+   - Compare "study hard get success" ("ka la ma ta") and "hard work is important" ("ka sa na pa").
+     - Common word: "hard". Common code: "ka". Thus, **hard = ka**.
+   - Compare "study hard get success" ("ka la ma ta") and "success is very important" ("ta na pa ra").
+     - Common word: "success". Common code: "ta". Thus, **success = ta**.
+   - Compare "hard work is important" ("ka sa na pa") and "study work get rewards" ("la ma sa da").
+     - Common word: "work". Common code: "sa". Thus, **work = sa**.
+2. **Determine "rewards" from the fourth sentence**:
+   - Sentence 4: "study work get rewards" $\to$ "la ma sa da".
+   - We know **work = sa**.
+   - Comparing Sentence 1 "study hard get success" ("ka la ma ta") and Sentence 4 "study work get rewards" ("la ma sa da"), the common words are "study" and "get", and their common codes are "la" and "ma".
+   - Therefore, {"study", "get"} corresponds to {"la", "ma"}.
+   - The remaining word in Sentence 4 is "rewards" and the remaining code is "da".
+3. **Answer**: The code for "rewards" is **da**.

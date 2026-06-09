@@ -80,6 +80,12 @@ How many times do the hands of a clock stand at right angles to each other in a 
 ### Problem 8
 What is the number of odd days in 400 years?
 
+### Problem 9
+How many times in a day (24 hours) do the hands of a clock point in opposite directions (are collinear but not coinciding)?
+
+### Problem 10
+What was the day of the week on 26th January 1950?
+
 ---
 
 ## 4. Step-by-Step Solutions
@@ -138,7 +144,7 @@ What is the number of odd days in 400 years?
    - Hands coincide when the angle $\theta = 0$.
    - The time is between 4 and 5, so $H = 4$. Let the minute be $M$.
 2. **Apply the Clock Angle formula**:
-   - $\theta = \left| 30H - \frac{11}{2}M \right| \implies 0 = 30(4) - \frac{11}{2}M$
+   - $\theta = \left| 30(4) - \frac{11}{2}M \right| \implies 0 = 30(4) - \frac{11}{2}M$
    - $\frac{11}{2}M = 120 \implies M = \frac{240}{11} = 21\frac{9}{11}$ minutes.
 3. **Answer**: The hands will coincide at **$21\frac{9}{11}$ minutes past 4**.
 
@@ -192,3 +198,32 @@ What is the number of odd days in 400 years?
    - Odd days $= 4 \times 5 + 1 = 21$ days.
    - $21 \div 7 = 3$ weeks with remainder $0$ odd days.
 3. **Answer**: The number of odd days in 400 years is **0**.
+
+### Solution 9
+1. **Analyze opposite direction occurrences**:
+   - The hands point in opposite directions ($180^\circ$ angle) once every hour, except between 5 and 7 where they align only at exactly 6:00.
+   - Thus, they point in opposite directions 11 times in 12 hours.
+2. **Calculate for 24 hours**:
+   - Total occurrences $= 11 \times 2 = 22$ times.
+3. **Answer**: The hands point in opposite directions **22 times** in a day.
+
+### Solution 10
+1. **Break down the years**:
+   - Up to 26th January 1950.
+   - Period completed: 1949 years + 26 days of January 1950.
+2. **Calculate odd days for 1949 years**:
+   - $1600 \text{ years} = 0$ odd days.
+   - $300 \text{ years} = 1$ odd day.
+   - 49 years contains:
+     - $49 \div 4 = 12$ leap years.
+     - $49 - 12 = 37$ ordinary years.
+     - Odd days in 49 years $= (12 \times 2) + (37 \times 1) = 24 + 37 = 61$ days.
+     - $61 \div 7 = 8$ weeks + $5$ odd days.
+   - Total odd days for 1949 years $= 0 + 1 + 5 = 6$ odd days.
+3. **Calculate odd days for January 1950**:
+   - 26 days in January $= 26 \div 7 = 3$ weeks + $5$ odd days.
+4. **Total cumulative odd days**:
+   - Total $= 6 + 5 = 11 \implies 11 \div 7 = 1$ week + $4$ odd days.
+5. **Map to Weekday**:
+   - 4 corresponds to **Thursday**.
+6. **Answer**: 26th January 1950 was a **Thursday**.
