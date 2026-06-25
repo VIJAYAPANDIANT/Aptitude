@@ -4,8 +4,12 @@
 [![Solved Questions](https://img.shields.io/badge/Solved%20Questions-340-blue.svg)](#)
 [![Modules](https://img.shields.io/badge/Modules-4%20Core%20Areas-orange.svg)](#)
 [![Topics](https://img.shields.io/badge/Topics-34%20Chapters-purple.svg)](#)
+[![100 Aptitude Tricks](https://img.shields.io/badge/100%20Aptitude%20Tricks-PDF-red.svg)](https://drive.google.com/file/d/1a3dBzdESXAnWEauLoUoDEOgVcQGDjKzt/view?usp=sharing)
 
 A comprehensive, production-grade study resource and practice suite covering **Quantitative Aptitude**, **Logical Reasoning**, **Data Interpretation**, and **Verbal Ability**. This repository is designed as a self-paced learning portal containing core concepts, math/grammar formulas, practice problems, and step-by-step solutions for competitive exams (CAT, GRE, GMAT, placements, banking, and civil services).
+
+> [!TIP]
+> 🧠 **Looking for speed-math shortcuts?** Access the **[100 Aptitude Tricks & Shortcuts PDF](https://drive.google.com/file/d/1a3dBzdESXAnWEauLoUoDEOgVcQGDjKzt/view?usp=sharing)** directly on Google Drive to accelerate your preparation with quick formulas and high-yield methods!
 
 ---
 
